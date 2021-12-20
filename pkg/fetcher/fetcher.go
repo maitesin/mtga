@@ -11,6 +11,7 @@ type Card struct {
 	Image      string
 	ManaCost   string
 	Reprint    bool
+	Price      string
 	ReleasedAt time.Time
 }
 
