@@ -23,7 +23,7 @@ type prices struct {
 
 type card struct {
 	Name       string    `json:"name"`
-	Language   string    `json:"language"`
+	Language   string    `json:"lang"`
 	Scryfall   string    `json:"scryfall_uri"`
 	SetName    string    `json:"set_name"`
 	Rarity     string    `json:"rarity"`
@@ -59,7 +59,8 @@ func NewFetcher(opts ...Opt) *Fetcher {
 	return f
 }
 
-func (f *Fetcher) Fetch(number int, set string, _ ...fetcher.Opt) (fetcher.Card, error) {
+func (f *Fetcher) Fetch(number int, set string, opts ...fetcher.Opt) (fetcher.Card, error) {
+	foil := containsFoil(opts...)
 	response, err := f.client.Get(fmt.Sprintf("%s/cards/%s/%d/", scryfallUrl, set, number))
 	if err != nil {
 		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
@@ -95,6 +96,11 @@ func (f *Fetcher) Fetch(number int, set string, _ ...fetcher.Opt) (fetcher.Card,
 		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
 	}
 
+	price := c.Prices.NonFoil
+	if foil {
+		price = c.Prices.Foil
+	}
+
 	return fetcher.Card{
 		Name:       c.Name,
 		Language:   c.Language,
@@ -104,7 +110,16 @@ func (f *Fetcher) Fetch(number int, set string, _ ...fetcher.Opt) (fetcher.Card,
 		Image:      pngBase64,
 		ManaCost:   c.ManaCost,
 		Reprint:    c.Reprint,
-		Price:      c.Prices.NonFoil,
+		Price:      price,
 		ReleasedAt: t,
 	}, nil
+}
+
+func containsFoil(opts ... fetcher.Opt) bool {
+	for _, opt := range opts {
+		if opt == fetcher.Foil {
+			return true
+		}
+	}
+	return false
 }
