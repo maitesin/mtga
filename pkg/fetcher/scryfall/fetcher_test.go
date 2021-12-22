@@ -9,7 +9,6 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-
 	"github.com/maitesin/mtga/pkg/fetcher"
 	"github.com/maitesin/mtga/pkg/fetcher/scryfall"
 	"github.com/stretchr/testify/require"

@@ -7,7 +7,7 @@ import (
 )
 
 type Card struct {
-	UUID       uuid.UUID
+	ID         uuid.UUID
 	Name       string
 	Language   string
 	URL        string
@@ -24,7 +24,7 @@ type Card struct {
 type Opt int
 
 const (
-	Plain Opt = iota
+	Plain Opt = 1 << iota
 	Foil
 	Signed
 	Altered
