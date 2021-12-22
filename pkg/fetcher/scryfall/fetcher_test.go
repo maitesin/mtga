@@ -8,6 +8,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/google/uuid"
+
 	"github.com/maitesin/mtga/pkg/fetcher"
 	"github.com/maitesin/mtga/pkg/fetcher/scryfall"
 	"github.com/stretchr/testify/require"
@@ -39,6 +41,7 @@ func (trt *testingRoundTripper) RoundTrip(*http.Request) (*http.Response, error)
 func validRoundTripper() *testingRoundTripper {
 	return &testingRoundTripper{
 		body: `{
+  "id": "66c3aa9f-5cb0-4c8d-a050-42938398071b",
   "name": "Opt",
   "lang": "en",
   "released_at": "2017-09-29",
@@ -65,12 +68,13 @@ var noopRoundTripperMutator = func(tripper *testingRoundTripper) http.RoundTripp
 }
 
 var validCard = fetcher.Card{
+	ID:         uuid.MustParse("66c3aa9f-5cb0-4c8d-a050-42938398071b"),
 	Name:       "Opt",
 	Language:   "en",
 	URL:        "https://scryfall.com/card/xln/65/opt?utm_source=api",
 	SetName:    "Ixalan",
 	Rarity:     "common",
-	Image:      "ewogICJuYW1lIjogIk9wdCIsCiAgImxhbmciOiAiZW4iLAogICJyZWxlYXNlZF9hdCI6ICIyMDE3LTA5LTI5IiwKICAic2NyeWZhbGxfdXJpIjogImh0dHBzOi8vc2NyeWZhbGwuY29tL2NhcmQveGxuLzY1L29wdD91dG1fc291cmNlPWFwaSIsCiAgImltYWdlX3VyaXMiOiB7CiAgICAicG5nIjogImh0dHBzOi8vYzEuc2NyeWZhbGwuY29tL2ZpbGUvc2NyeWZhbGwtY2FyZHMvcG5nL2Zyb250LzYvNi82NmMzYWE5Zi01Y2IwLTRjOGQtYTA1MC00MjkzODM5ODA3MWIucG5nPzE1NjI1NTY4MDUiCiAgfSwKICAibWFuYV9jb3N0IjogIntVfSIsCiAgInNldF9uYW1lIjogIkl4YWxhbiIsCiAgInJhcml0eSI6ICJjb21tb24iLAogICJwcmljZXMiOiB7CiAgICAiZXVyIjogIjAuMTIiLAogICAgImV1cl9mb2lsIjogIjEuNTQiCiAgfQp9",
+	Image:      "ewogICJpZCI6ICI2NmMzYWE5Zi01Y2IwLTRjOGQtYTA1MC00MjkzODM5ODA3MWIiLAogICJuYW1lIjogIk9wdCIsCiAgImxhbmciOiAiZW4iLAogICJyZWxlYXNlZF9hdCI6ICIyMDE3LTA5LTI5IiwKICAic2NyeWZhbGxfdXJpIjogImh0dHBzOi8vc2NyeWZhbGwuY29tL2NhcmQveGxuLzY1L29wdD91dG1fc291cmNlPWFwaSIsCiAgImltYWdlX3VyaXMiOiB7CiAgICAicG5nIjogImh0dHBzOi8vYzEuc2NyeWZhbGwuY29tL2ZpbGUvc2NyeWZhbGwtY2FyZHMvcG5nL2Zyb250LzYvNi82NmMzYWE5Zi01Y2IwLTRjOGQtYTA1MC00MjkzODM5ODA3MWIucG5nPzE1NjI1NTY4MDUiCiAgfSwKICAibWFuYV9jb3N0IjogIntVfSIsCiAgInNldF9uYW1lIjogIkl4YWxhbiIsCiAgInJhcml0eSI6ICJjb21tb24iLAogICJwcmljZXMiOiB7CiAgICAiZXVyIjogIjAuMTIiLAogICAgImV1cl9mb2lsIjogIjEuNTQiCiAgfQp9",
 	ManaCost:   "{U}",
 	Reprint:    false,
 	Price:      "0.12",

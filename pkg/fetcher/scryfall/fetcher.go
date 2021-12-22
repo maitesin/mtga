@@ -4,10 +4,12 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/maitesin/mtga/pkg/fetcher"
 	"io/ioutil"
 	"net/http"
 	"time"
+
+	"github.com/google/uuid"
+	"github.com/maitesin/mtga/pkg/fetcher"
 )
 
 const scryfallUrl = "https://api.scryfall.com"
@@ -22,6 +24,7 @@ type prices struct {
 }
 
 type card struct {
+	ID         uuid.UUID `json:"id"`
 	Name       string    `json:"name"`
 	Language   string    `json:"lang"`
 	Scryfall   string    `json:"scryfall_uri"`
@@ -102,6 +105,7 @@ func (f *Fetcher) Fetch(number int, set string, opts ...fetcher.Opt) (fetcher.Ca
 	}
 
 	return fetcher.Card{
+		ID:         c.ID,
 		Name:       c.Name,
 		Language:   c.Language,
 		URL:        c.Scryfall,
@@ -115,7 +119,7 @@ func (f *Fetcher) Fetch(number int, set string, opts ...fetcher.Opt) (fetcher.Ca
 	}, nil
 }
 
-func containsFoil(opts ... fetcher.Opt) bool {
+func containsFoil(opts ...fetcher.Opt) bool {
 	for _, opt := range opts {
 		if opt == fetcher.Foil {
 			return true

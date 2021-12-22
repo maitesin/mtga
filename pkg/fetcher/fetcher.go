@@ -1,8 +1,13 @@
 package fetcher
 
-import "time"
+import (
+	"time"
+
+	"github.com/google/uuid"
+)
 
 type Card struct {
+	ID         uuid.UUID
 	Name       string
 	Language   string
 	URL        string
