@@ -20,9 +20,6 @@ type Opt int
 const (
 	Plain Opt = iota
 	Foil
-	Signed
-	Altered
-	Misprint
 )
 
 type Fetcher interface {
