@@ -1,18 +1,27 @@
 package main
 
 import (
-	"fmt"
-	"github.com/maitesin/mtga/pkg/fetcher/scryfall"
-	"net/http"
+	"database/sql"
+	"github.com/maitesin/mtga/internal/app"
+	sql2 "github.com/maitesin/mtga/internal/infra/sql"
+	_ "github.com/mattn/go-sqlite3"
+	"github.com/upper/db/v4/adapter/sqlite"
 )
 
 func main() {
-	scryfallFetcher := scryfall.NewFetcher(scryfall.WithClient(http.DefaultClient))
-
-	card, err := scryfallFetcher.Fetch(96, "xln")
+	db, err := sql.Open("sqlite", "./cards.db")
 	if err != nil {
 		panic(err)
 	}
 
-	fmt.Printf("%+v\n", card)
+	dbConn, err := sqlite.New(db)
+	if err != nil {
+		panic(err)
+	}
+
+	repository := sql2.NewCardsRepository(dbConn)
+
+	addCommandHandler := app.NewCreateCardHandler(repository)
+
+	_ = addCommandHandler
 }

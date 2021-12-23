@@ -41,14 +41,54 @@ func (c *CardsRepository) Update(ctx context.Context, card domain.Card) error {
 }
 
 func (c *CardsRepository) GetByID(ctx context.Context, id uuid.UUID) (domain.Card, error) {
-	//rows, err := c.sess.WithContext(ctx).SQL().Query()
-	//TODO implement me
-	panic("implement me")
+	rows, err := c.sess.WithContext(ctx).SQL().Query("SELECT * FROM %s WHERE ID = %s", CardsTable, id)
+	if err != nil {
+		return domain.Card{}, err
+	}
+	defer rows.Close()
+
+	var result Card
+	if rows.Next() {
+		err := rows.Scan(&result)
+		if err != nil {
+			return domain.Card{}, err
+		}
+	}
+
+	if err := rows.Err(); err != nil {
+		return domain.Card{}, err
+	}
+
+	return toDomain(result), nil
 }
 
 func (c *CardsRepository) GetAll(ctx context.Context) ([]domain.Card, error) {
-	//TODO implement me
-	panic("implement me")
+	rows, err := c.sess.WithContext(ctx).SQL().Query("SELECT * FROM %s WHERE", CardsTable)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var results []Card
+	var i int
+	for rows.Next() {
+		err := rows.Scan(&results[i])
+		if err != nil {
+			return nil, err
+		}
+		i++
+	}
+
+	if err := rows.Err(); err != nil {
+		return nil, err
+	}
+
+	cards := make([]domain.Card, len(results))
+	for i = range results {
+		cards[i] = toDomain(results[i])
+	}
+
+	return cards, nil
 }
 
 func NewCardsRepository(session db.Session) *CardsRepository {
@@ -59,6 +99,23 @@ func NewCardsRepository(session db.Session) *CardsRepository {
 
 func fromDomain(card domain.Card) Card {
 	return Card{
+		ID:         card.ID,
+		Name:       card.Name,
+		Language:   card.Language,
+		URL:        card.URL,
+		SetName:    card.SetName,
+		Rarity:     card.Rarity,
+		Image:      card.Image,
+		ManaCost:   card.ManaCost,
+		Reprint:    card.Reprint,
+		Price:      card.Price,
+		ReleasedAt: card.ReleasedAt,
+		Opts:       card.Opts,
+	}
+}
+
+func toDomain(card Card) domain.Card {
+	return domain.Card{
 		ID:         card.ID,
 		Name:       card.Name,
 		Language:   card.Language,
