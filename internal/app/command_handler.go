@@ -58,7 +58,7 @@ func (c CreateCardHandler) Handle(ctx context.Context, cmd Command) error {
 		return InvalidCommandError{Expected: CreateCardCmd{}, Received: cmd}
 	}
 
-	canvas := domain.NewCard(
+	card := domain.NewCard(
 		createCmd.CardName,
 		createCmd.CardLanguage,
 		createCmd.CardURL,
@@ -72,5 +72,5 @@ func (c CreateCardHandler) Handle(ctx context.Context, cmd Command) error {
 		createCmd.CardOpts...,
 	)
 
-	return c.repository.Insert(ctx, canvas)
+	return c.repository.Insert(ctx, *card)
 }
