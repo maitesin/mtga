@@ -45,7 +45,7 @@ type CreateCardHandler struct {
 }
 
 // NewCreateCardHandler is a constructor
-func NewCreateCardHandler(repository CardsRepository, height, width int) CreateCardHandler {
+func NewCreateCardHandler(repository CardsRepository) CreateCardHandler {
 	return CreateCardHandler{
 		repository: repository,
 	}
