@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/maitesin/mtga/config"
 	"os"
 
 	"github.com/jessevdk/go-flags"
@@ -12,11 +13,28 @@ import (
 )
 
 func main() {
-	var settings = sqlite.ConnectionURL{
-		Database: `cards.db`, // Path to database file
+	cfg := config.NewConfig()
+
+	var opts cmd.Options
+
+	var parser = flags.NewParser(&opts, flags.Default)
+
+	if _, err := parser.Parse(); err != nil {
+		switch flagsErr := err.(type) {
+		case flags.ErrorType:
+			if flagsErr == flags.ErrHelp {
+				os.Exit(0)
+			}
+			os.Exit(1)
+		default:
+			os.Exit(0)
+		}
 	}
 
-	// Attempt to open the 'example.db' database file
+	var settings = sqlite.ConnectionURL{
+		Database: cfg.SQL.DatabaseURL(),
+	}
+
 	sess, err := sqlite.Open(settings)
 	if err != nil {
 		panic(err)
@@ -28,19 +46,5 @@ func main() {
 
 	_ = addCommandHandler
 
-	var opts cmd.Options
-
-	var parser = flags.NewParser(&opts, flags.Default)
-
-	if values, err := parser.Parse(); err != nil {
-		switch flagsErr := err.(type) {
-		case flags.ErrorType:
-			if flagsErr == flags.ErrHelp {
-				os.Exit(0)
-			}
-			os.Exit(1)
-		default:
-			fmt.Printf("Values %+v\n", values)
-		}
-	}
+	fmt.Printf("Opts %+v\n", opts)
 }
