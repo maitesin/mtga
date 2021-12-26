@@ -12,18 +12,18 @@ import (
 const CardsTable = "cards"
 
 type Card struct {
-	ID         uuid.UUID    `db:"id"`
-	Name       string       `db:"name"`
-	Language   string       `db:"language"`
-	URL        string       `db:"url"`
-	SetName    string       `db:"set_name"`
-	Rarity     string       `db:"rarity"`
-	Image      string       `db:"image"`
-	ManaCost   string       `db:"mana_cost"`
-	Reprint    bool         `db:"reprint"`
-	Price      string       `db:"price"`
-	ReleasedAt time.Time    `db:"released_at"`
-	Opts       []domain.Opt `db:"opts"`
+	ID         uuid.UUID `db:"id"`
+	Name       string    `db:"name"`
+	Language   string    `db:"language"`
+	URL        string    `db:"url"`
+	SetName    string    `db:"set_name"`
+	Rarity     string    `db:"rarity"`
+	Image      string    `db:"image"`
+	ManaCost   string    `db:"mana_cost"`
+	Reprint    bool      `db:"reprint"`
+	Price      string    `db:"price"`
+	ReleasedAt time.Time `db:"released_at"`
+	Opts       int       `db:"opts"`
 }
 
 type CardsRepository struct {
@@ -98,6 +98,10 @@ func NewCardsRepository(session db.Session) *CardsRepository {
 }
 
 func fromDomain(card domain.Card) Card {
+	var opts int
+	for _, opt := range card.Opts {
+		opts += int(opt)
+	}
 	return Card{
 		ID:         card.ID,
 		Name:       card.Name,
@@ -110,7 +114,7 @@ func fromDomain(card domain.Card) Card {
 		Reprint:    card.Reprint,
 		Price:      card.Price,
 		ReleasedAt: card.ReleasedAt,
-		Opts:       card.Opts,
+		Opts:       opts,
 	}
 }
 
@@ -127,6 +131,6 @@ func toDomain(card Card) domain.Card {
 		Reprint:    card.Reprint,
 		Price:      card.Price,
 		ReleasedAt: card.ReleasedAt,
-		Opts:       card.Opts,
+		Opts:       domain.OptsFromInt(card.Opts),
 	}
 }

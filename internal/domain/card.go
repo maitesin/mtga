@@ -24,11 +24,23 @@ type Card struct {
 type Opt int
 
 const (
-	Plain Opt = 1 << iota
+	Regular Opt = 1 << iota
 	Foil
 	Signed
 	Altered
 )
+
+func OptsFromInt(opts int) []Opt {
+	var optsOut []Opt
+
+	for _, value := range []Opt{Regular, Foil, Signed, Altered} {
+		if opts&int(value) == 1 {
+			optsOut = append(optsOut, value)
+		}
+	}
+
+	return optsOut
+}
 
 func NewCard(
 	id uuid.UUID,

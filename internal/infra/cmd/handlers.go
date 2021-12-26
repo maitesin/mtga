@@ -44,6 +44,7 @@ func Handle(ctx context.Context, repository app.CardsRepository) error {
 		cardF.Reprint,
 		cardF.Price,
 		cardF.ReleasedAt,
+		domain.Regular,
 	)
 
 	return repository.Insert(ctx, *card)
