@@ -31,6 +31,7 @@ const (
 )
 
 func NewCard(
+	id uuid.UUID,
 	name string,
 	language string,
 	URL string,
@@ -43,6 +44,7 @@ func NewCard(
 	releasedAt time.Time,
 	opts ...Opt) *Card {
 	return &Card{
+		ID:         id,
 		Name:       name,
 		Language:   language,
 		URL:        URL,

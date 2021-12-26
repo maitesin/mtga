@@ -13,17 +13,17 @@ const CardsTable = "cards"
 
 type Card struct {
 	ID         uuid.UUID    `db:"id"`
-	Name       string       `dn:"name"`
-	Language   string       `dn:"language"`
-	URL        string       `dn:"url"`
-	SetName    string       `dn:"set_name"`
-	Rarity     string       `dn:"rarity"`
-	Image      string       `dn:"image"`
-	ManaCost   string       `dn:"mana_cost"`
-	Reprint    bool         `dn:"reprint"`
-	Price      string       `dn:"price"`
-	ReleasedAt time.Time    `dn:"released_at"`
-	Opts       []domain.Opt `dn:"opts"`
+	Name       string       `db:"name"`
+	Language   string       `db:"language"`
+	URL        string       `db:"url"`
+	SetName    string       `db:"set_name"`
+	Rarity     string       `db:"rarity"`
+	Image      string       `db:"image"`
+	ManaCost   string       `db:"mana_cost"`
+	Reprint    bool         `db:"reprint"`
+	Price      string       `db:"price"`
+	ReleasedAt time.Time    `db:"released_at"`
+	Opts       []domain.Opt `db:"opts"`
 }
 
 type CardsRepository struct {

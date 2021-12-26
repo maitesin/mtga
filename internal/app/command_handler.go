@@ -59,6 +59,7 @@ func (c CreateCardHandler) Handle(ctx context.Context, cmd Command) error {
 	}
 
 	card := domain.NewCard(
+		createCmd.ID,
 		createCmd.CardName,
 		createCmd.CardLanguage,
 		createCmd.CardURL,
