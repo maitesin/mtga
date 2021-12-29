@@ -1,0 +1,19 @@
+<head>
+  <title>{{ .Site.Title }}</title>
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+
+  <!-- RSS alternative -->
+  {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
+  <!-- Favicon -->
+  <link rel='shortcut icon' type='image/x-icon' href='{{ .Site.BaseURL }}img/favicon.ico' />
+
+  <!-- Simple CSS -->
+  <link defer rel="stylesheet" href="{{ .Site.BaseURL }}css/simple.css" />
+  <link defer rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.css" />
+
+</head>

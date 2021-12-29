@@ -1,0 +1,11 @@
+<center>
+  <div class="head-title-wrapper">
+    <a href="/" class="head-title">{{ .Site.Title }}</a>
+    <hr/>
+    <div style="title-wrapper">
+      {{ range .Site.Menus.main }}
+      <a class="title" href="{{ .URL | relURL }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+  </div>
+</center>
