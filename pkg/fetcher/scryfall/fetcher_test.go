@@ -2,7 +2,9 @@ package scryfall_test
 
 import (
 	"errors"
+	"golang.org/x/time/rate"
 	"io"
+	"math"
 	"net/http"
 	"strings"
 	"testing"
@@ -176,7 +178,7 @@ then we receive an error`,
 			httpClient := &http.Client{}
 			httpClient.Transport = tt.roundTripperMutator(validRoundTripper())
 
-			f := scryfall.NewFetcher(scryfall.WithClient(httpClient))
+			f := scryfall.NewFetcher(httpClient, rate.NewLimiter(rate.Inf, math.MaxInt))
 			got, err := f.Fetch(tt.number, tt.set, tt.opts...)
 			if tt.wantErr != nil {
 				require.ErrorAs(t, err, &tt.wantErr)

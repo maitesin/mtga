@@ -2,12 +2,15 @@ package cmd
 
 import (
 	"context"
-	"github.com/maitesin/mtga/internal/domain"
-	"github.com/maitesin/mtga/pkg/fetcher/scryfall"
 	"net/http"
+	"time"
+
+	"golang.org/x/time/rate"
 
 	"github.com/jessevdk/go-flags"
 	"github.com/maitesin/mtga/internal/app"
+	"github.com/maitesin/mtga/internal/domain"
+	"github.com/maitesin/mtga/pkg/fetcher/scryfall"
 )
 
 func Handle(ctx context.Context, repository app.CardsRepository) error {
@@ -26,7 +29,7 @@ func Handle(ctx context.Context, repository app.CardsRepository) error {
 		}
 	}
 
-	cardsFetcher := scryfall.NewFetcher(scryfall.WithClient(http.DefaultClient))
+	cardsFetcher := scryfall.NewFetcher(http.DefaultClient, rate.NewLimiter(rate.Every(time.Second), 10))
 	cardF, err := cardsFetcher.Fetch(opts.Number, opts.Set)
 	if err != nil {
 		return err

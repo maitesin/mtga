@@ -8,6 +8,8 @@ import (
 	"net/http"
 	"time"
 
+	"golang.org/x/time/rate"
+
 	"github.com/google/uuid"
 	"github.com/maitesin/mtga/pkg/fetcher"
 )
@@ -38,33 +40,24 @@ type card struct {
 }
 
 type Fetcher struct {
-	client *http.Client
+	client *RLHTTPClient
 }
 
 type Opt func(fetcher *Fetcher) *Fetcher
 
-func WithClient(client *http.Client) func(fetcher *Fetcher) *Fetcher {
-	return func(fetcher *Fetcher) *Fetcher {
-		fetcher.client = client
-		return fetcher
+func NewFetcher(c *http.Client, limiter *rate.Limiter) *Fetcher {
+	return &Fetcher{
+		client: newRLHTTPClient(c, limiter),
 	}
-}
-
-func NewFetcher(opts ...Opt) *Fetcher {
-	f := &Fetcher{
-		client: http.DefaultClient,
-	}
-
-	for _, opt := range opts {
-		f = opt(f)
-	}
-
-	return f
 }
 
 func (f *Fetcher) Fetch(number int, set string, opts ...fetcher.Opt) (fetcher.Card, error) {
 	foil := containsFoil(opts...)
-	response, err := f.client.Get(fmt.Sprintf("%s/cards/%s/%d/", scryfallUrl, set, number))
+	cardReq, err := http.NewRequest(http.MethodGet, fmt.Sprintf("%s/cards/%s/%d/", scryfallUrl, set, number), nil)
+	if err != nil {
+		return fetcher.Card{}, err
+	}
+	response, err := f.client.Do(cardReq)
 	if err != nil {
 		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
 	}
@@ -81,7 +74,11 @@ func (f *Fetcher) Fetch(number int, set string, opts ...fetcher.Opt) (fetcher.Ca
 		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
 	}
 
-	pngResponse, err := f.client.Get(c.URIs.PngURI)
+	pngReq, err := http.NewRequest(http.MethodGet, c.URIs.PngURI, nil)
+	if err != nil {
+		return fetcher.Card{}, err
+	}
+	pngResponse, err := f.client.Do(pngReq)
 	if err != nil {
 		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
 	}
