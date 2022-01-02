@@ -3,11 +3,13 @@ package main
 import (
 	"context"
 	"fmt"
+	"os"
+
 	"github.com/maitesin/mtga/config"
 	"github.com/maitesin/mtga/internal/infra/cmd"
 	sqlx "github.com/maitesin/mtga/internal/infra/sql"
+	"github.com/maitesin/mtga/internal/infra/storage"
 	"github.com/upper/db/v4/adapter/sqlite"
-	"os"
 )
 
 func main() {
@@ -24,7 +26,9 @@ func main() {
 
 	repository := sqlx.NewCardsRepository(sess)
 
-	if err := cmd.Handle(context.Background(), repository); err != nil {
+	store, err := storage.NewFileSystemStorage(cfg.Storage.Path)
+
+	if err := cmd.Handle(context.Background(), repository, store); err != nil {
 		fmt.Println(err.Error())
 		os.Exit(1)
 	}
