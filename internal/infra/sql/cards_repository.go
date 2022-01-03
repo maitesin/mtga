@@ -23,6 +23,7 @@ type Card struct {
 	Price      string    `db:"price"`
 	ReleasedAt time.Time `db:"released_at"`
 	Opts       int       `db:"opts"`
+	Quantity   int       `db:"quantity"`
 }
 
 type CardsRepository struct {
@@ -113,6 +114,7 @@ func fromDomain(card domain.Card) Card {
 		Price:      card.Price,
 		ReleasedAt: card.ReleasedAt,
 		Opts:       opts,
+		Quantity:   card.Quantity,
 	}
 }
 
@@ -129,5 +131,6 @@ func toDomain(card Card) domain.Card {
 		Price:      card.Price,
 		ReleasedAt: card.ReleasedAt,
 		Opts:       domain.OptsFromInt(card.Opts),
+		Quantity:   card.Quantity,
 	}
 }
