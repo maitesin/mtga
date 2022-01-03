@@ -27,6 +27,9 @@ func main() {
 	repository := sqlx.NewCardsRepository(sess)
 
 	store, err := storage.NewFileSystemStorage(cfg.Storage.Path)
+	if err != nil {
+		panic(err)
+	}
 
 	if err := cmd.Handle(context.Background(), repository, store); err != nil {
 		fmt.Println(err.Error())
