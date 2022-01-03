@@ -18,7 +18,6 @@ type Card struct {
 	URL        string    `db:"url"`
 	SetName    string    `db:"set_name"`
 	Rarity     string    `db:"rarity"`
-	Image      string    `db:"image"`
 	ManaCost   string    `db:"mana_cost"`
 	Reprint    bool      `db:"reprint"`
 	Price      string    `db:"price"`
@@ -109,7 +108,6 @@ func fromDomain(card domain.Card) Card {
 		URL:        card.URL,
 		SetName:    card.SetName,
 		Rarity:     card.Rarity,
-		Image:      card.Image,
 		ManaCost:   card.ManaCost,
 		Reprint:    card.Reprint,
 		Price:      card.Price,
@@ -126,7 +124,6 @@ func toDomain(card Card) domain.Card {
 		URL:        card.URL,
 		SetName:    card.SetName,
 		Rarity:     card.Rarity,
-		Image:      card.Image,
 		ManaCost:   card.ManaCost,
 		Reprint:    card.Reprint,
 		Price:      card.Price,

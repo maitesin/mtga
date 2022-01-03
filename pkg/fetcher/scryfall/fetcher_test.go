@@ -1,6 +1,7 @@
 package scryfall_test
 
 import (
+	"encoding/base64"
 	"errors"
 	"golang.org/x/time/rate"
 	"io"
@@ -21,6 +22,11 @@ type testingRoundTripper struct {
 	statusCode int
 	err        error
 	bodyErr    error
+}
+
+func loadImageBinary() []byte {
+	b, _ := base64.StdEncoding.DecodeString("ewogICJpZCI6ICI2NmMzYWE5Zi01Y2IwLTRjOGQtYTA1MC00MjkzODM5ODA3MWIiLAogICJuYW1lIjogIk9wdCIsCiAgImxhbmciOiAiZW4iLAogICJyZWxlYXNlZF9hdCI6ICIyMDE3LTA5LTI5IiwKICAic2NyeWZhbGxfdXJpIjogImh0dHBzOi8vc2NyeWZhbGwuY29tL2NhcmQveGxuLzY1L29wdD91dG1fc291cmNlPWFwaSIsCiAgImltYWdlX3VyaXMiOiB7CiAgICAicG5nIjogImh0dHBzOi8vYzEuc2NyeWZhbGwuY29tL2ZpbGUvc2NyeWZhbGwtY2FyZHMvcG5nL2Zyb250LzYvNi82NmMzYWE5Zi01Y2IwLTRjOGQtYTA1MC00MjkzODM5ODA3MWIucG5nPzE1NjI1NTY4MDUiCiAgfSwKICAibWFuYV9jb3N0IjogIntVfSIsCiAgInNldF9uYW1lIjogIkl4YWxhbiIsCiAgInJhcml0eSI6ICJjb21tb24iLAogICJwcmljZXMiOiB7CiAgICAiZXVyIjogIjAuMTIiLAogICAgImV1cl9mb2lsIjogIjEuNTQiCiAgfQp9")
+	return b
 }
 
 func (trt *testingRoundTripper) RoundTrip(*http.Request) (*http.Response, error) {
@@ -75,7 +81,7 @@ var validCard = fetcher.Card{
 	URL:        "https://scryfall.com/card/xln/65/opt?utm_source=api",
 	SetName:    "Ixalan",
 	Rarity:     "common",
-	Image:      "ewogICJpZCI6ICI2NmMzYWE5Zi01Y2IwLTRjOGQtYTA1MC00MjkzODM5ODA3MWIiLAogICJuYW1lIjogIk9wdCIsCiAgImxhbmciOiAiZW4iLAogICJyZWxlYXNlZF9hdCI6ICIyMDE3LTA5LTI5IiwKICAic2NyeWZhbGxfdXJpIjogImh0dHBzOi8vc2NyeWZhbGwuY29tL2NhcmQveGxuLzY1L29wdD91dG1fc291cmNlPWFwaSIsCiAgImltYWdlX3VyaXMiOiB7CiAgICAicG5nIjogImh0dHBzOi8vYzEuc2NyeWZhbGwuY29tL2ZpbGUvc2NyeWZhbGwtY2FyZHMvcG5nL2Zyb250LzYvNi82NmMzYWE5Zi01Y2IwLTRjOGQtYTA1MC00MjkzODM5ODA3MWIucG5nPzE1NjI1NTY4MDUiCiAgfSwKICAibWFuYV9jb3N0IjogIntVfSIsCiAgInNldF9uYW1lIjogIkl4YWxhbiIsCiAgInJhcml0eSI6ICJjb21tb24iLAogICJwcmljZXMiOiB7CiAgICAiZXVyIjogIjAuMTIiLAogICAgImV1cl9mb2lsIjogIjEuNTQiCiAgfQp9",
+	Image:      loadImageBinary(),
 	ManaCost:   "{U}",
 	Reprint:    false,
 	Price:      "0.12",

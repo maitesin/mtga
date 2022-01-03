@@ -1,7 +1,6 @@
 package scryfall
 
 import (
-	"encoding/base64"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -89,8 +88,6 @@ func (f *Fetcher) Fetch(number int, set string, opts ...fetcher.Opt) (fetcher.Ca
 		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
 	}
 
-	pngBase64 := base64.StdEncoding.EncodeToString(pngBody)
-
 	t, err := time.Parse("2006-01-02", c.ReleasedAt)
 	if err != nil {
 		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
@@ -108,7 +105,7 @@ func (f *Fetcher) Fetch(number int, set string, opts ...fetcher.Opt) (fetcher.Ca
 		URL:        c.Scryfall,
 		SetName:    c.SetName,
 		Rarity:     c.Rarity,
-		Image:      pngBase64,
+		Image:      pngBody,
 		ManaCost:   c.ManaCost,
 		Reprint:    c.Reprint,
 		Price:      price,

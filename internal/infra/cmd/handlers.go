@@ -3,7 +3,6 @@ package cmd
 import (
 	"bytes"
 	"context"
-	"encoding/base64"
 	"io/ioutil"
 	"net/http"
 	"time"
@@ -46,7 +45,6 @@ func Handle(ctx context.Context, repository app.CardsRepository, storage storage
 		cardF.URL,
 		cardF.SetName,
 		cardF.Rarity,
-		cardF.Image,
 		cardF.ManaCost,
 		cardF.Reprint,
 		cardF.Price,
@@ -54,12 +52,7 @@ func Handle(ctx context.Context, repository app.CardsRepository, storage storage
 		domain.Regular,
 	)
 
-	b, err := base64.RawStdEncoding.DecodeString(card.Image)
-	if err != nil {
-		return err
-	}
-
-	err = storage.Store(ctx, card.ID, ioutil.NopCloser(bytes.NewReader(b)))
+	err = storage.Store(ctx, card.ID, ioutil.NopCloser(bytes.NewReader(cardF.Image)))
 	if err != nil {
 		return err
 	}

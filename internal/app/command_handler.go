@@ -65,7 +65,6 @@ func (c CreateCardHandler) Handle(ctx context.Context, cmd Command) error {
 		createCmd.CardURL,
 		createCmd.CardSetName,
 		createCmd.CardRarity,
-		createCmd.CardImage,
 		createCmd.CardManaCost,
 		createCmd.CardReprint,
 		createCmd.CardPrice,

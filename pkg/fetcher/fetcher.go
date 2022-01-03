@@ -13,7 +13,7 @@ type Card struct {
 	URL        string
 	SetName    string
 	Rarity     string
-	Image      string
+	Image      []byte
 	ManaCost   string
 	Reprint    bool
 	Price      string

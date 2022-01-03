@@ -13,7 +13,6 @@ type Card struct {
 	URL        string
 	SetName    string
 	Rarity     string
-	Image      string
 	ManaCost   string
 	Reprint    bool
 	Price      string
@@ -49,7 +48,6 @@ func NewCard(
 	URL string,
 	setName string,
 	rarity string,
-	image string,
 	manaCost string,
 	reprint bool,
 	price string,
@@ -62,7 +60,6 @@ func NewCard(
 		URL:        URL,
 		SetName:    setName,
 		Rarity:     rarity,
-		Image:      image,
 		ManaCost:   manaCost,
 		Reprint:    reprint,
 		Price:      price,
