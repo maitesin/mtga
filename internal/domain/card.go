@@ -18,6 +18,7 @@ type Card struct {
 	Price      string
 	ReleasedAt time.Time
 	Opts       []Opt
+	Quantity   int
 }
 
 type Opt int
@@ -52,6 +53,7 @@ func NewCard(
 	reprint bool,
 	price string,
 	releasedAt time.Time,
+	quantity int,
 	opts ...Opt) *Card {
 	return &Card{
 		ID:         id,
@@ -65,6 +67,7 @@ func NewCard(
 		Price:      price,
 		ReleasedAt: releasedAt,
 		Opts:       opts,
+		Quantity:   quantity,
 	}
 }
 

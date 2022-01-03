@@ -49,6 +49,7 @@ func Handle(ctx context.Context, repository app.CardsRepository, storage storage
 		cardF.Reprint,
 		cardF.Price,
 		cardF.ReleasedAt,
+		opts.Quantity,
 		domain.Regular,
 	)
 
