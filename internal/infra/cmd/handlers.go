@@ -1,7 +1,10 @@
 package cmd
 
 import (
+	"bytes"
 	"context"
+	"encoding/base64"
+	"io/ioutil"
 	"net/http"
 	"time"
 
@@ -10,10 +13,11 @@ import (
 	"github.com/jessevdk/go-flags"
 	"github.com/maitesin/mtga/internal/app"
 	"github.com/maitesin/mtga/internal/domain"
+	"github.com/maitesin/mtga/internal/infra/storage"
 	"github.com/maitesin/mtga/pkg/fetcher/scryfall"
 )
 
-func Handle(ctx context.Context, repository app.CardsRepository) error {
+func Handle(ctx context.Context, repository app.CardsRepository, storage storage.Storage) error {
 	var opts Options
 	var parser = flags.NewParser(&opts, flags.Default)
 
@@ -49,6 +53,16 @@ func Handle(ctx context.Context, repository app.CardsRepository) error {
 		cardF.ReleasedAt,
 		domain.Regular,
 	)
+
+	b, err := base64.RawStdEncoding.DecodeString(card.Image)
+	if err != nil {
+		return err
+	}
+
+	err = storage.Store(ctx, ioutil.NopCloser(bytes.NewReader(b)))
+	if err != nil {
+		return err
+	}
 
 	return repository.Insert(ctx, *card)
 }
