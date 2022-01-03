@@ -10,7 +10,7 @@ import (
 )
 
 type Storage interface {
-	Store(ctx context.Context, value io.ReadCloser) error
+	Store(ctx context.Context, id uuid.UUID, value io.ReadCloser) error
 	FindByID(ctx context.Context, id uuid.UUID) (io.ReadCloser, error)
 }
 
@@ -24,8 +24,8 @@ func NewFileSystemStorage(path string) (*FileSystemStorage, error) {
 	}, nil
 }
 
-func (f *FileSystemStorage) Store(ctx context.Context, value io.ReadCloser) error {
-	file, err := os.Open(filepath.Join(f.path, "a.png"))
+func (f *FileSystemStorage) Store(_ context.Context, id uuid.UUID, value io.ReadCloser) error {
+	file, err := os.Create(filepath.Join(f.path, id.String()+".png"))
 	if err != nil {
 		return err
 	}
@@ -35,7 +35,6 @@ func (f *FileSystemStorage) Store(ctx context.Context, value io.ReadCloser) erro
 	return err
 }
 
-func (f *FileSystemStorage) FindByID(ctx context.Context, id uuid.UUID) (io.ReadCloser, error) {
-	//TODO implement me
-	panic("implement me")
+func (f *FileSystemStorage) FindByID(_ context.Context, id uuid.UUID) (io.ReadCloser, error) {
+	return os.Open(filepath.Join(f.path, id.String()+".png"))
 }

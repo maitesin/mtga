@@ -59,7 +59,7 @@ func Handle(ctx context.Context, repository app.CardsRepository, storage storage
 		return err
 	}
 
-	err = storage.Store(ctx, ioutil.NopCloser(bytes.NewReader(b)))
+	err = storage.Store(ctx, card.ID, ioutil.NopCloser(bytes.NewReader(b)))
 	if err != nil {
 		return err
 	}
