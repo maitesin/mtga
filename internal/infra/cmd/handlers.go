@@ -38,6 +38,14 @@ func Handle(ctx context.Context, repository app.CardsRepository, storage storage
 		return err
 	}
 
+	options := domain.Regular
+	if opts.Foil {
+		options = domain.Foil
+	}
+	if opts.Altered {
+		options = options & domain.Altered
+	}
+
 	card := domain.NewCard(
 		cardF.ID,
 		cardF.Name,
@@ -50,7 +58,7 @@ func Handle(ctx context.Context, repository app.CardsRepository, storage storage
 		cardF.Price,
 		cardF.ReleasedAt,
 		opts.Quantity,
-		domain.Regular,
+		options,
 	)
 
 	err = storage.Store(ctx, card.ID, ioutil.NopCloser(bytes.NewReader(cardF.Image)))
