@@ -9,29 +9,13 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/jessevdk/go-flags"
 	"github.com/maitesin/mtga/internal/app"
 	"github.com/maitesin/mtga/internal/domain"
 	"github.com/maitesin/mtga/internal/infra/storage"
 	"github.com/maitesin/mtga/pkg/fetcher/scryfall"
 )
 
-func Handle(ctx context.Context, repository app.CardsRepository, storage storage.Storage) error {
-	var opts Options
-	var parser = flags.NewParser(&opts, flags.Default)
-
-	if _, err := parser.Parse(); err != nil {
-		switch flagsErr := err.(type) {
-		case flags.ErrorType:
-			if flagsErr == flags.ErrHelp {
-				return nil
-			}
-			return err
-		default:
-			return nil
-		}
-	}
-
+func Handle(ctx context.Context, opts Options, repository app.CardsRepository, storage storage.Storage) error {
 	condition, err := domain.ConditionFromString(opts.Condition)
 	if err != nil {
 		return err

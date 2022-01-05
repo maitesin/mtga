@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/jessevdk/go-flags"
 	"github.com/maitesin/mtga/config"
 	"github.com/maitesin/mtga/internal/infra/cmd"
 	sqlx "github.com/maitesin/mtga/internal/infra/sql"
@@ -31,7 +32,22 @@ func main() {
 		panic(err)
 	}
 
-	if err := cmd.Handle(context.Background(), repository, store); err != nil {
+	var opts cmd.Options
+	var parser = flags.NewParser(&opts, flags.Default)
+
+	if _, err := parser.Parse(); err != nil {
+		switch flagsErr := err.(type) {
+		case flags.ErrorType:
+			if flagsErr == flags.ErrHelp {
+				os.Exit(0)
+			}
+			panic(err)
+		default:
+			os.Exit(0)
+		}
+	}
+
+	if err := cmd.Handle(context.Background(), opts, repository, store); err != nil {
 		fmt.Println(err.Error())
 		os.Exit(1)
 	}
