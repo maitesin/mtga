@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS cards (
-                                     id blob PRIMARY KEY,
+                                     id blob,
                                      name       varchar,
                                      language   varchar,
                                      url        varchar,
@@ -10,5 +10,6 @@ CREATE TABLE IF NOT EXISTS cards (
                                      price      varchar,
                                      released_at datetime,
                                      opts int,
-                                     quantity int
+                                     quantity int,
+                                     PRIMARY KEY (id, language, opts)
 );
