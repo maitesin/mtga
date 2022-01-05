@@ -1,6 +1,7 @@
 package domain
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/google/uuid"
@@ -19,6 +20,7 @@ type Card struct {
 	ReleasedAt time.Time
 	Opts       []Opt
 	Quantity   int
+	Condition  Condition
 }
 
 type Opt int
@@ -42,6 +44,40 @@ func OptsFromInt(opts int) []Opt {
 	return optsOut
 }
 
+type Condition string
+
+const (
+	Mint        Condition = "mint"
+	NearMint    Condition = "near_mint"
+	Excellent   Condition = "excellent"
+	Good        Condition = "good"
+	LightPlayed Condition = "light_played"
+	Played      Condition = "played"
+	Poor        Condition = "poor"
+	Unknown     Condition = "unknown"
+)
+
+func ConditionFromString(cond string) (Condition, error) {
+	switch cond {
+	case "m", "mint":
+		return Mint, nil
+	case "nm", "near_mint":
+		return NearMint, nil
+	case "e", "excellent":
+		return Excellent, nil
+	case "g", "good":
+		return Good, nil
+	case "lp", "light_played":
+		return LightPlayed, nil
+	case "p", "played":
+		return Played, nil
+	case "po", "poor":
+		return Poor, nil
+	default:
+		return Unknown, fmt.Errorf("condition %q unknown", cond)
+	}
+}
+
 func NewCard(
 	id uuid.UUID,
 	name string,
@@ -54,6 +90,7 @@ func NewCard(
 	price string,
 	releasedAt time.Time,
 	quantity int,
+	condition Condition,
 	opts ...Opt) *Card {
 	return &Card{
 		ID:         id,
@@ -68,6 +105,7 @@ func NewCard(
 		ReleasedAt: releasedAt,
 		Opts:       opts,
 		Quantity:   quantity,
+		Condition:  condition,
 	}
 }
 

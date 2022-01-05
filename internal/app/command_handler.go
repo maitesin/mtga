@@ -33,6 +33,7 @@ type CreateCardCmd struct {
 	CardReleaseAt time.Time
 	CardOpts      []domain.Opt
 	CardQuantity  int
+	CardCondition domain.Condition
 }
 
 // Name returns the name of the command to create a card
@@ -71,6 +72,7 @@ func (c CreateCardHandler) Handle(ctx context.Context, cmd Command) error {
 		createCmd.CardPrice,
 		createCmd.CardReleaseAt,
 		createCmd.CardQuantity,
+		createCmd.CardCondition,
 		createCmd.CardOpts...,
 	)
 

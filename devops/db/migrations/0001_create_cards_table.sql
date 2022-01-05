@@ -11,5 +11,6 @@ CREATE TABLE IF NOT EXISTS cards (
                                      released_at datetime,
                                      opts int,
                                      quantity int,
-                                     PRIMARY KEY (id, language, opts)
+                                     condition varchar,
+                                     PRIMARY KEY (id, language, opts, condition)
 );

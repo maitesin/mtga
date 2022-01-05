@@ -32,6 +32,11 @@ func Handle(ctx context.Context, repository app.CardsRepository, storage storage
 		}
 	}
 
+	condition, err := domain.ConditionFromString(opts.Condition)
+	if err != nil {
+		return err
+	}
+
 	cardsFetcher := scryfall.NewFetcher(http.DefaultClient, rate.NewLimiter(rate.Every(time.Second), 10))
 	cardF, err := cardsFetcher.Fetch(opts.Number, opts.Set)
 	if err != nil {
@@ -58,6 +63,7 @@ func Handle(ctx context.Context, repository app.CardsRepository, storage storage
 		cardF.Price,
 		cardF.ReleasedAt,
 		opts.Quantity,
+		condition,
 		options,
 	)
 

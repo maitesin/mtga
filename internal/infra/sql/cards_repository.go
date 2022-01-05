@@ -24,6 +24,7 @@ type Card struct {
 	ReleasedAt time.Time `db:"released_at"`
 	Opts       int       `db:"opts"`
 	Quantity   int       `db:"quantity"`
+	Condition  string    `db:"condition"`
 }
 
 type CardsRepository struct {
@@ -59,7 +60,7 @@ func (c *CardsRepository) GetByID(ctx context.Context, id uuid.UUID) (domain.Car
 		return domain.Card{}, err
 	}
 
-	return toDomain(result), nil
+	return toDomain(result)
 }
 
 func (c *CardsRepository) GetAll(ctx context.Context) ([]domain.Card, error) {
@@ -85,7 +86,11 @@ func (c *CardsRepository) GetAll(ctx context.Context) ([]domain.Card, error) {
 
 	cards := make([]domain.Card, len(results))
 	for i = range results {
-		cards[i] = toDomain(results[i])
+		domainCard, err := toDomain(results[i])
+		if err != nil {
+			return nil, err
+		}
+		cards[i] = domainCard
 	}
 
 	return cards, nil
@@ -115,10 +120,15 @@ func fromDomain(card domain.Card) Card {
 		ReleasedAt: card.ReleasedAt,
 		Opts:       opts,
 		Quantity:   card.Quantity,
+		Condition:  string(card.Condition),
 	}
 }
 
-func toDomain(card Card) domain.Card {
+func toDomain(card Card) (domain.Card, error) {
+	condition, err := domain.ConditionFromString(card.Condition)
+	if err != nil {
+		return domain.Card{}, err
+	}
 	return domain.Card{
 		ID:         card.ID,
 		Name:       card.Name,
@@ -132,5 +142,6 @@ func toDomain(card Card) domain.Card {
 		ReleasedAt: card.ReleasedAt,
 		Opts:       domain.OptsFromInt(card.Opts),
 		Quantity:   card.Quantity,
-	}
+		Condition:  condition,
+	}, nil
 }
