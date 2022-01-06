@@ -52,65 +52,79 @@ func NewFetcher(c *http.Client, limiter *rate.Limiter) *Fetcher {
 
 func (f *Fetcher) Fetch(number int, set string, lang string, opts ...fetcher.Opt) (fetcher.Card, error) {
 	foil := containsFoil(opts...)
-	cardReq, err := http.NewRequest(http.MethodGet, fmt.Sprintf("%s/cards/%s/%d/%s", scryfallUrl, set, number, lang), nil)
+
+	cardInfoEn, err := f.downloadCard(number, set, "en")
 	if err != nil {
 		return fetcher.Card{}, err
 	}
-	response, err := f.client.Do(cardReq)
+
+	image, err := f.doRequest(cardInfoEn.URIs.PngURI)
+	if err != nil {
+		return fetcher.Card{}, err
+	}
+
+	t, err := time.Parse("2006-01-02", cardInfoEn.ReleasedAt)
 	if err != nil {
 		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
 	}
-	defer response.Body.Close()
 
-	body, err := ioutil.ReadAll(response.Body)
+	price := cardInfoEn.Prices.NonFoil
+	if foil {
+		price = cardInfoEn.Prices.Foil
+	}
+
+	cardInfoLang, err := f.downloadCard(number, set, lang)
 	if err != nil {
-		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
+		return fetcher.Card{}, err
+	}
+
+	return fetcher.Card{
+		ID:         cardInfoLang.ID,
+		Name:       cardInfoLang.Name,
+		Language:   cardInfoLang.Language,
+		URL:        cardInfoLang.Scryfall,
+		SetName:    cardInfoLang.SetName,
+		Rarity:     cardInfoLang.Rarity,
+		Image:      image,
+		ManaCost:   cardInfoLang.ManaCost,
+		Reprint:    cardInfoLang.Reprint,
+		Price:      price,
+		ReleasedAt: t,
+	}, nil
+}
+
+func (f *Fetcher) downloadCard(number int, set string, lang string) (card, error) {
+	body, err := f.doRequest(fmt.Sprintf("%s/cards/%s/%d/%s", scryfallUrl, set, number, lang))
+	if err != nil {
+		return card{}, err
 	}
 
 	var c card
 	err = json.Unmarshal(body, &c)
 	if err != nil {
-		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
+		return card{}, fetcher.NewCardError(number, set, err)
 	}
 
-	pngReq, err := http.NewRequest(http.MethodGet, c.URIs.PngURI, nil)
+	return c, nil
+}
+
+func (f *Fetcher) doRequest(endpoint string) ([]byte, error) {
+	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
 	if err != nil {
-		return fetcher.Card{}, err
+		return nil, err
 	}
-	pngResponse, err := f.client.Do(pngReq)
+	resp, err := f.client.Do(req)
 	if err != nil {
-		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
+		return nil, err
 	}
-	defer pngResponse.Body.Close()
+	defer resp.Body.Close()
 
-	pngBody, err := ioutil.ReadAll(pngResponse.Body)
+	pngBody, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
+		return nil, err
 	}
 
-	t, err := time.Parse("2006-01-02", c.ReleasedAt)
-	if err != nil {
-		return fetcher.Card{}, fetcher.NewCardError(number, set, err)
-	}
-
-	price := c.Prices.NonFoil
-	if foil {
-		price = c.Prices.Foil
-	}
-
-	return fetcher.Card{
-		ID:         c.ID,
-		Name:       c.Name,
-		Language:   c.Language,
-		URL:        c.Scryfall,
-		SetName:    c.SetName,
-		Rarity:     c.Rarity,
-		Image:      pngBody,
-		ManaCost:   c.ManaCost,
-		Reprint:    c.Reprint,
-		Price:      price,
-		ReleasedAt: t,
-	}, nil
+	return pngBody, nil
 }
 
 func containsFoil(opts ...fetcher.Opt) bool {
