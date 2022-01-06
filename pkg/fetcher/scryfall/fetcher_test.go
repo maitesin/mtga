@@ -185,7 +185,7 @@ then we receive an error`,
 			httpClient.Transport = tt.roundTripperMutator(validRoundTripper())
 
 			f := scryfall.NewFetcher(httpClient, rate.NewLimiter(rate.Inf, math.MaxInt))
-			got, err := f.Fetch(tt.number, tt.set, tt.opts...)
+			got, err := f.Fetch(tt.number, tt.set, "en", tt.opts...)
 			if tt.wantErr != nil {
 				require.ErrorAs(t, err, &tt.wantErr)
 			} else {
