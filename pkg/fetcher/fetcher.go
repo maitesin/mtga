@@ -28,5 +28,5 @@ const (
 )
 
 type Fetcher interface {
-	Fetch(number int, set string, opts ...Opt) (Card, error)
+	Fetch(number int, set string, lang string, opts ...Opt) (Card, error)
 }

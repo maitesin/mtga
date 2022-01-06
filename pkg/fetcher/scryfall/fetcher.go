@@ -50,9 +50,9 @@ func NewFetcher(c *http.Client, limiter *rate.Limiter) *Fetcher {
 	}
 }
 
-func (f *Fetcher) Fetch(number int, set string, opts ...fetcher.Opt) (fetcher.Card, error) {
+func (f *Fetcher) Fetch(number int, set string, lang string, opts ...fetcher.Opt) (fetcher.Card, error) {
 	foil := containsFoil(opts...)
-	cardReq, err := http.NewRequest(http.MethodGet, fmt.Sprintf("%s/cards/%s/%d/", scryfallUrl, set, number), nil)
+	cardReq, err := http.NewRequest(http.MethodGet, fmt.Sprintf("%s/cards/%s/%d/%s", scryfallUrl, set, number, lang), nil)
 	if err != nil {
 		return fetcher.Card{}, err
 	}

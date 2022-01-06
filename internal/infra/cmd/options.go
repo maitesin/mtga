@@ -8,4 +8,5 @@ type Options struct {
 	Altered   bool   `short:"a" long:"altered" description:"Altered card"`
 	Signed    bool   `short:"i" long:"signed" description:"Signed card"`
 	Condition string `short:"c" long:"condition" default:"nm" description:"Card's condition'"`
+	Language  string `short:"l" long:"language" default:"en" description:"Card's language'"`
 }

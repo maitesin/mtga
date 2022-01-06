@@ -22,7 +22,7 @@ func Handle(ctx context.Context, opts Options, repository app.CardsRepository, s
 	}
 
 	cardsFetcher := scryfall.NewFetcher(http.DefaultClient, rate.NewLimiter(rate.Every(time.Second), 10))
-	cardF, err := cardsFetcher.Fetch(opts.Number, opts.Set)
+	cardF, err := cardsFetcher.Fetch(opts.Number, opts.Set, opts.Language)
 	if err != nil {
 		return err
 	}
