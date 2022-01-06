@@ -18,3 +18,6 @@ run:
 
 build:
 	cd cmd/yaus && go build .
+
+update_hugo:
+	go run cmd/hugo/main.go

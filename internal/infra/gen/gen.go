@@ -33,14 +33,32 @@ func (f *InfoCardGenerator) Generate(_ context.Context, card domain.Card) error 
 		return err
 	}
 
-	value := fmt.Sprintf(`
-+++
+	value := fmt.Sprintf(
+		`+++
 title = %q
 date = %q
+lang = %q
+url = %q
+set = %q
+rarity = %q
+mana = %q
+reprint = %t
+price = %q
+quantity = %d
+condition = %q
 +++
 `,
 		card.Name,
 		card.ReleasedAt.Format(time.RFC3339),
+		card.Language,
+		card.URL,
+		card.SetName,
+		card.Rarity,
+		card.ManaCost,
+		card.Reprint,
+		card.Price,
+		card.Quantity,
+		card.Condition,
 	)
 
 	_, err = io.Copy(file, ioutil.NopCloser(strings.NewReader(value)))

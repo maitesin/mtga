@@ -40,6 +40,9 @@ func main() {
 	}
 
 	for _, card := range cards {
-		generator.Generate(ctx, card)
+		err = generator.Generate(ctx, card)
+		if err != nil {
+			panic(err)
+		}
 	}
 }
