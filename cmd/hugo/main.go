@@ -2,10 +2,10 @@ package main
 
 import (
 	"context"
+	"github.com/maitesin/mtga/internal/infra/gen"
 
 	"github.com/maitesin/mtga/config"
 	sqlx "github.com/maitesin/mtga/internal/infra/sql"
-	"github.com/maitesin/mtga/internal/infra/storage"
 	"github.com/upper/db/v4/adapter/sqlite"
 )
 
@@ -24,10 +24,15 @@ func main() {
 
 	repository := sqlx.NewCardsRepository(sess)
 
-	store, err := storage.NewFileSystemStorage(cfg.Storage.Path)
+	generator, err := gen.NewInfoCardGenerator("docs/content/cards")
 	if err != nil {
 		panic(err)
 	}
+
+	//store, err := storage.NewFileSystemStorage(cfg.Storage.Path)
+	//if err != nil {
+	//	panic(err)
+	//}
 
 	cards, err := repository.GetAll(ctx)
 	if err != nil {
@@ -35,6 +40,6 @@ func main() {
 	}
 
 	for _, card := range cards {
-
+		generator.Generate(ctx, card)
 	}
 }

@@ -2,6 +2,7 @@ package sql
 
 import (
 	"context"
+	"fmt"
 	"time"
 
 	"github.com/google/uuid"
@@ -10,6 +11,7 @@ import (
 )
 
 const CardsTable = "cards"
+const fields = "id, name, language, url, set_name, rarity, mana_cost, reprint, price, released_at, opts, quantity, condition"
 
 type Card struct {
 	ID         uuid.UUID `db:"id"`
@@ -42,7 +44,7 @@ func (c *CardsRepository) Update(ctx context.Context, card domain.Card) error {
 }
 
 func (c *CardsRepository) GetByID(ctx context.Context, id uuid.UUID) (domain.Card, error) {
-	rows, err := c.sess.WithContext(ctx).SQL().Query("SELECT * FROM %s WHERE ID = %s", CardsTable, id)
+	rows, err := c.sess.WithContext(ctx).SQL().Query(fmt.Sprintf("SELECT %s FROM %s WHERE ID = %s", fields, CardsTable, id))
 	if err != nil {
 		return domain.Card{}, err
 	}
@@ -50,7 +52,21 @@ func (c *CardsRepository) GetByID(ctx context.Context, id uuid.UUID) (domain.Car
 
 	var result Card
 	if rows.Next() {
-		err := rows.Scan(&result)
+		err := rows.Scan(
+			&result.ID,
+			&result.Name,
+			&result.Language,
+			&result.URL,
+			&result.SetName,
+			&result.Rarity,
+			&result.ManaCost,
+			&result.Reprint,
+			&result.Price,
+			&result.ReleasedAt,
+			&result.Opts,
+			&result.Quantity,
+			&result.Condition,
+		)
 		if err != nil {
 			return domain.Card{}, err
 		}
@@ -64,19 +80,35 @@ func (c *CardsRepository) GetByID(ctx context.Context, id uuid.UUID) (domain.Car
 }
 
 func (c *CardsRepository) GetAll(ctx context.Context) ([]domain.Card, error) {
-	rows, err := c.sess.WithContext(ctx).SQL().Query("SELECT * FROM %s WHERE", CardsTable)
+	rows, err := c.sess.WithContext(ctx).SQL().Query(fmt.Sprintf("SELECT %s FROM %s", fields, CardsTable))
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	//defer rows.Close()
 
 	var results []Card
+	var result Card
 	var i int
 	for rows.Next() {
-		err := rows.Scan(&results[i])
+		err := rows.Scan(
+			&result.ID,
+			&result.Name,
+			&result.Language,
+			&result.URL,
+			&result.SetName,
+			&result.Rarity,
+			&result.ManaCost,
+			&result.Reprint,
+			&result.Price,
+			&result.ReleasedAt,
+			&result.Opts,
+			&result.Quantity,
+			&result.Condition,
+		)
 		if err != nil {
 			return nil, err
 		}
+		results = append(results, result)
 		i++
 	}
 
