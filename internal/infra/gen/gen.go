@@ -38,7 +38,6 @@ func (f *InfoCardGenerator) Generate(_ context.Context, card domain.Card) error 
 title = %q
 date = %q
 lang = %q
-url = %q
 set = %q
 rarity = %q
 mana = %q
@@ -51,7 +50,6 @@ condition = %q
 		card.Name,
 		card.ReleasedAt.Format(time.RFC3339),
 		card.Language,
-		card.URL,
 		card.SetName,
 		card.Rarity,
 		card.ManaCost,

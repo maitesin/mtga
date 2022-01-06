@@ -21,3 +21,4 @@ build:
 
 update_hugo:
 	go run cmd/hugo/main.go
+	cp devops/storage/* docs/static/img/cards
