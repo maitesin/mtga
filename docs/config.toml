@@ -1,5 +1,5 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'MtG Collection'
+title = 'Magic The Gathering'
 
 theme = "mtga"

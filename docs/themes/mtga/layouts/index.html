@@ -1,12 +1,15 @@
 {{ define "main" }}
 
-<h1 class="title">Cards</h1>
-<div class="post-list">
-  {{ range where .Site.RegularPages "Section" "cards" }}
-  <div class="post-item">
-    <span class="post-date">{{ .Date.Format "02/01/2006" }}</span><a class="post-link" href={{ .Permalink }}>{{ .Title }}</a>
+<div class="card-list">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 row-cols-xl-8">
+      {{ range where .Site.RegularPages "Section" "cards" }}
+      <div class="col">
+        <img class="card-image" src="img/cards/{{.Title}}.png"/>
+      </div>
+      {{ end }}
+    </div>
   </div>
-  {{ end }}
 </div>
 
 {{ end }}

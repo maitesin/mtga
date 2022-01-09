@@ -36,6 +36,7 @@ func (f *InfoCardGenerator) Generate(_ context.Context, card domain.Card) error 
 	value := fmt.Sprintf(
 		`+++
 title = %q
+name = %q
 date = %q
 lang = %q
 set = %q
@@ -47,6 +48,7 @@ quantity = %d
 condition = %q
 +++
 `,
+		card.ID,
 		card.Name,
 		card.ReleasedAt.Format(time.RFC3339),
 		card.Language,
