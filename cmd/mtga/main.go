@@ -47,8 +47,17 @@ func main() {
 		}
 	}
 
-	if err := cmd.AddHandler(context.Background(), opts.Add, repository, store); err != nil {
-		fmt.Println(err.Error())
-		os.Exit(1)
+	switch parser.Command.Active.Name {
+	case "add":
+		if err := cmd.AddHandler(context.Background(), opts.Add, repository, store); err != nil {
+			fmt.Println(err.Error())
+			os.Exit(1)
+		}
+	case "export":
+		if err := cmd.ExportHandler(context.Background(), opts.Export, repository); err != nil {
+			fmt.Println(err.Error())
+			os.Exit(1)
+		}
 	}
+
 }
