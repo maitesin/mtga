@@ -47,7 +47,7 @@ func main() {
 		}
 	}
 
-	if err := cmd.Handle(context.Background(), opts, repository, store); err != nil {
+	if err := cmd.AddHandler(context.Background(), opts.Add, repository, store); err != nil {
 		fmt.Println(err.Error())
 		os.Exit(1)
 	}
