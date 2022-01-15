@@ -22,3 +22,6 @@ build:
 update_hugo:
 	go run cmd/hugo/main.go
 	cp devops/storage/* docs/static/img/cards
+
+update_csv:
+	go run cmd/mtga/main.go export -f devops/csv/collection.csv

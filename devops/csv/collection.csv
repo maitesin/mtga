@@ -1,0 +1,25 @@
+name,language,url,set_name,rarity,price,released_at,quantity,condition
+Wrenn and Six,en,https://scryfall.com/card/mh1/217/wrenn-and-six?utm_source=api,Modern Horizons,mythic,86.38,2019-06-14T00:00:00Z,4,mint
+Cunning Wish,en,https://scryfall.com/card/jud/37/cunning-wish?utm_source=api,Judgment,rare,5.36,2002-05-27T00:00:00Z,2,near_mint
+Cunning Wish,es,https://scryfall.com/card/jud/37/es/deseo-astuto?utm_source=api,Judgment,rare,5.36,2002-05-27T00:00:00Z,2,near_mint
+Morphling,en,https://scryfall.com/card/usg/85/morphling?utm_source=api,Urza's Saga,rare,17.44,1998-10-12T00:00:00Z,1,excellent
+Morphling,en,https://scryfall.com/card/usg/85/morphling?utm_source=api,Urza's Saga,rare,17.44,1998-10-12T00:00:00Z,1,near_mint
+Fact or Fiction,en,https://scryfall.com/card/inv/57/fact-or-fiction?utm_source=api,Invasion,uncommon,2.82,2000-10-02T00:00:00Z,2,near_mint
+Fact or Fiction,es,https://scryfall.com/card/inv/57/es/realidad-o-ficci%C3%B3n?utm_source=api,Invasion,uncommon,2.82,2000-10-02T00:00:00Z,2,near_mint
+Fire // Ice,en,https://scryfall.com/card/apc/128/fire-ice?utm_source=api,Apocalypse,uncommon,1.12,2001-06-04T00:00:00Z,4,near_mint
+Powder Keg,pt,https://scryfall.com/card/uds/136/pt/barrilete-de-p%C3%B3lvora?utm_source=api,Urza's Destiny,rare,10.17,1999-06-07T00:00:00Z,2,near_mint
+Powder Keg,es,https://scryfall.com/card/uds/136/es/barril-de-p%C3%B3lvora?utm_source=api,Urza's Destiny,rare,10.17,1999-06-07T00:00:00Z,1,near_mint
+Lightning Bolt,en,https://scryfall.com/card/4ed/208/lightning-bolt?utm_source=api,Fourth Edition,common,1.38,1995-04-01T00:00:00Z,4,near_mint
+Standstill,en,https://scryfall.com/card/ody/102/standstill?utm_source=api,Odyssey,uncommon,5.87,2001-10-01T00:00:00Z,3,near_mint
+Standstill,en,https://scryfall.com/card/ody/102/standstill?utm_source=api,Odyssey,uncommon,5.87,2001-10-01T00:00:00Z,1,excellent
+Accumulated Knowledge,en,https://scryfall.com/card/nem/26/accumulated-knowledge?utm_source=api,Nemesis,common,0.33,2000-02-14T00:00:00Z,2,near_mint
+Accumulated Knowledge,en,https://scryfall.com/card/nem/26/accumulated-knowledge?utm_source=api,Nemesis,common,0.33,2000-02-14T00:00:00Z,2,excellent
+Aether Burst,en,https://scryfall.com/card/ody/60/aether-burst?utm_source=api,Odyssey,common,0.02,2001-10-01T00:00:00Z,4,near_mint
+Counterspell,es,https://scryfall.com/card/ice/64/es/contrahechizo?utm_source=api,Ice Age,common,0.67,1995-06-03T00:00:00Z,2,near_mint
+Counterspell,en,https://scryfall.com/card/ice/64/counterspell?utm_source=api,Ice Age,common,0.67,1995-06-03T00:00:00Z,2,near_mint
+Faerie Conclave,en,https://scryfall.com/card/ulg/139/faerie-conclave?utm_source=api,Urza's Legacy,uncommon,1.90,1999-02-15T00:00:00Z,4,near_mint
+Mana Leak,en,https://scryfall.com/card/sth/36/mana-leak?utm_source=api,Stronghold,common,0.33,1998-03-02T00:00:00Z,4,near_mint
+Island,en,https://scryfall.com/card/usg/335/island?utm_source=api,Urza's Saga,common,0.27,1998-10-12T00:00:00Z,4,near_mint
+Island,en,https://scryfall.com/card/usg/336/island?utm_source=api,Urza's Saga,common,0.25,1998-10-12T00:00:00Z,4,near_mint
+Island,en,https://scryfall.com/card/usg/337/island?utm_source=api,Urza's Saga,common,0.20,1998-10-12T00:00:00Z,3,near_mint
+Island,en,https://scryfall.com/card/usg/338/island?utm_source=api,Urza's Saga,common,0.32,1998-10-12T00:00:00Z,4,near_mint
