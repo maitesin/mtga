@@ -8,19 +8,21 @@ import (
 )
 
 type Card struct {
-	ID         uuid.UUID
-	Name       string
-	Language   string
-	URL        string
-	SetName    string
-	Rarity     string
-	ManaCost   string
-	Reprint    bool
-	Price      string
-	ReleasedAt time.Time
-	Opts       []Opt
-	Quantity   int
-	Condition  Condition
+	ID           uuid.UUID
+	Name         string
+	Language     string
+	URL          string
+	SetName      string
+	Rarity       string
+	ManaCost     string
+	Reprint      bool
+	Price        string
+	ReleasedAt   time.Time
+	Opts         []Opt
+	Quantity     int
+	Condition    Condition
+	SetNumber    int
+	SetShortName string
 }
 
 type Opt int
@@ -91,21 +93,25 @@ func NewCard(
 	releasedAt time.Time,
 	quantity int,
 	condition Condition,
+	setNumber int,
+	setShortName string,
 	opts ...Opt) *Card {
 	return &Card{
-		ID:         id,
-		Name:       name,
-		Language:   language,
-		URL:        URL,
-		SetName:    setName,
-		Rarity:     rarity,
-		ManaCost:   manaCost,
-		Reprint:    reprint,
-		Price:      price,
-		ReleasedAt: releasedAt,
-		Opts:       opts,
-		Quantity:   quantity,
-		Condition:  condition,
+		ID:           id,
+		Name:         name,
+		Language:     language,
+		URL:          URL,
+		SetName:      setName,
+		Rarity:       rarity,
+		ManaCost:     manaCost,
+		Reprint:      reprint,
+		Price:        price,
+		ReleasedAt:   releasedAt,
+		Opts:         opts,
+		Quantity:     quantity,
+		Condition:    condition,
+		SetNumber:    setNumber,
+		SetShortName: setShortName,
 	}
 }
 

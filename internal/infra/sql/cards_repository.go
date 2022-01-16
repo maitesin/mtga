@@ -11,22 +11,24 @@ import (
 )
 
 const CardsTable = "cards"
-const fields = "id, name, language, url, set_name, rarity, mana_cost, reprint, price, released_at, opts, quantity, condition"
+const fields = "id, name, language, url, set_name, rarity, mana_cost, reprint, price, released_at, opts, quantity, condition, set_number, set_short_name"
 
 type Card struct {
-	ID         uuid.UUID `db:"id"`
-	Name       string    `db:"name"`
-	Language   string    `db:"language"`
-	URL        string    `db:"url"`
-	SetName    string    `db:"set_name"`
-	Rarity     string    `db:"rarity"`
-	ManaCost   string    `db:"mana_cost"`
-	Reprint    bool      `db:"reprint"`
-	Price      string    `db:"price"`
-	ReleasedAt time.Time `db:"released_at"`
-	Opts       int       `db:"opts"`
-	Quantity   int       `db:"quantity"`
-	Condition  string    `db:"condition"`
+	ID           uuid.UUID `db:"id"`
+	Name         string    `db:"name"`
+	Language     string    `db:"language"`
+	URL          string    `db:"url"`
+	SetName      string    `db:"set_name"`
+	Rarity       string    `db:"rarity"`
+	ManaCost     string    `db:"mana_cost"`
+	Reprint      bool      `db:"reprint"`
+	Price        string    `db:"price"`
+	ReleasedAt   time.Time `db:"released_at"`
+	Opts         int       `db:"opts"`
+	Quantity     int       `db:"quantity"`
+	Condition    string    `db:"condition"`
+	SetNumber    int       `db:"set_number"`
+	SetShortName string    `db:"set_short_name"`
 }
 
 type CardsRepository struct {
@@ -66,6 +68,8 @@ func (c *CardsRepository) GetByID(ctx context.Context, id uuid.UUID) (domain.Car
 			&result.Opts,
 			&result.Quantity,
 			&result.Condition,
+			&result.SetNumber,
+			&result.SetShortName,
 		)
 		if err != nil {
 			return domain.Card{}, err
@@ -84,7 +88,7 @@ func (c *CardsRepository) GetAll(ctx context.Context) ([]domain.Card, error) {
 	if err != nil {
 		return nil, err
 	}
-	//defer rows.Close()
+	defer rows.Close()
 
 	var results []Card
 	var result Card
@@ -104,6 +108,8 @@ func (c *CardsRepository) GetAll(ctx context.Context) ([]domain.Card, error) {
 			&result.Opts,
 			&result.Quantity,
 			&result.Condition,
+			&result.SetNumber,
+			&result.SetShortName,
 		)
 		if err != nil {
 			return nil, err
@@ -140,19 +146,21 @@ func fromDomain(card domain.Card) Card {
 		opts += int(opt)
 	}
 	return Card{
-		ID:         card.ID,
-		Name:       card.Name,
-		Language:   card.Language,
-		URL:        card.URL,
-		SetName:    card.SetName,
-		Rarity:     card.Rarity,
-		ManaCost:   card.ManaCost,
-		Reprint:    card.Reprint,
-		Price:      card.Price,
-		ReleasedAt: card.ReleasedAt,
-		Opts:       opts,
-		Quantity:   card.Quantity,
-		Condition:  string(card.Condition),
+		ID:           card.ID,
+		Name:         card.Name,
+		Language:     card.Language,
+		URL:          card.URL,
+		SetName:      card.SetName,
+		Rarity:       card.Rarity,
+		ManaCost:     card.ManaCost,
+		Reprint:      card.Reprint,
+		Price:        card.Price,
+		ReleasedAt:   card.ReleasedAt,
+		Opts:         opts,
+		Quantity:     card.Quantity,
+		Condition:    string(card.Condition),
+		SetNumber:    card.SetNumber,
+		SetShortName: card.SetShortName,
 	}
 }
 
@@ -162,18 +170,20 @@ func toDomain(card Card) (domain.Card, error) {
 		return domain.Card{}, err
 	}
 	return domain.Card{
-		ID:         card.ID,
-		Name:       card.Name,
-		Language:   card.Language,
-		URL:        card.URL,
-		SetName:    card.SetName,
-		Rarity:     card.Rarity,
-		ManaCost:   card.ManaCost,
-		Reprint:    card.Reprint,
-		Price:      card.Price,
-		ReleasedAt: card.ReleasedAt,
-		Opts:       domain.OptsFromInt(card.Opts),
-		Quantity:   card.Quantity,
-		Condition:  condition,
+		ID:           card.ID,
+		Name:         card.Name,
+		Language:     card.Language,
+		URL:          card.URL,
+		SetName:      card.SetName,
+		Rarity:       card.Rarity,
+		ManaCost:     card.ManaCost,
+		Reprint:      card.Reprint,
+		Price:        card.Price,
+		ReleasedAt:   card.ReleasedAt,
+		Opts:         domain.OptsFromInt(card.Opts),
+		Quantity:     card.Quantity,
+		Condition:    condition,
+		SetNumber:    card.SetNumber,
+		SetShortName: card.SetShortName,
 	}, nil
 }

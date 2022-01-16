@@ -58,6 +58,8 @@ func AddHandler(ctx context.Context, opts Add, repository app.CardsRepository, s
 		cardF.ReleasedAt,
 		opts.Quantity,
 		condition,
+		opts.Number,
+		opts.Set,
 		options,
 	)
 

@@ -20,20 +20,22 @@ type CommandHandler interface {
 
 // CreateCardCmd is a VTO
 type CreateCardCmd struct {
-	ID            uuid.UUID
-	CardName      string
-	CardLanguage  string
-	CardURL       string
-	CardSetName   string
-	CardRarity    string
-	CardImage     string
-	CardManaCost  string
-	CardReprint   bool
-	CardPrice     string
-	CardReleaseAt time.Time
-	CardOpts      []domain.Opt
-	CardQuantity  int
-	CardCondition domain.Condition
+	ID           uuid.UUID
+	CardName     string
+	Language     string
+	URL          string
+	SetName      string
+	Rarity       string
+	Image        string
+	ManaCost     string
+	Reprint      bool
+	Price        string
+	ReleaseAt    time.Time
+	Opts         []domain.Opt
+	Quantity     int
+	Condition    domain.Condition
+	SetNumber    int
+	SetShortName string
 }
 
 // Name returns the name of the command to create a card
@@ -63,17 +65,19 @@ func (c CreateCardHandler) Handle(ctx context.Context, cmd Command) error {
 	card := domain.NewCard(
 		createCmd.ID,
 		createCmd.CardName,
-		createCmd.CardLanguage,
-		createCmd.CardURL,
-		createCmd.CardSetName,
-		createCmd.CardRarity,
-		createCmd.CardManaCost,
-		createCmd.CardReprint,
-		createCmd.CardPrice,
-		createCmd.CardReleaseAt,
-		createCmd.CardQuantity,
-		createCmd.CardCondition,
-		createCmd.CardOpts...,
+		createCmd.Language,
+		createCmd.URL,
+		createCmd.SetName,
+		createCmd.Rarity,
+		createCmd.ManaCost,
+		createCmd.Reprint,
+		createCmd.Price,
+		createCmd.ReleaseAt,
+		createCmd.Quantity,
+		createCmd.Condition,
+		createCmd.SetNumber,
+		createCmd.SetShortName,
+		createCmd.Opts...,
 	)
 
 	return c.repository.Insert(ctx, *card)

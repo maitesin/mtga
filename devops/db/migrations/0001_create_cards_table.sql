@@ -12,5 +12,7 @@ CREATE TABLE IF NOT EXISTS cards (
                                      opts int,
                                      quantity int,
                                      condition varchar,
+                                     set_number int,
+                                     set_short_name varchar,
                                      PRIMARY KEY (id, language, opts, condition)
 );
