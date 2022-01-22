@@ -25,3 +25,6 @@ update_hugo:
 
 update_csv:
 	go run cmd/mtga/main.go export -f devops/csv/collection.csv
+
+update_price:
+	go run cmd/mtga/main.go update && make update_csv
