@@ -58,6 +58,11 @@ func main() {
 			fmt.Println(err.Error())
 			os.Exit(1)
 		}
+	case "update":
+		if err := cmd.UpdateHandler(context.Background(), opts.Update, repository); err != nil {
+			fmt.Println(err.Error())
+			os.Exit(1)
+		}
 	}
 
 }

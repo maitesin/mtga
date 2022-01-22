@@ -41,7 +41,7 @@ func (c *CardsRepository) Insert(ctx context.Context, card domain.Card) error {
 }
 
 func (c *CardsRepository) Update(ctx context.Context, card domain.Card) error {
-	_, err := c.sess.WithContext(ctx).SQL().Update(CardsTable).Set(fromDomain(card)).Exec()
+	_, err := c.sess.WithContext(ctx).SQL().Update(CardsTable).Set("price = ?", card.Price).Where("id = ?", card.ID).Exec()
 	return err
 }
 
