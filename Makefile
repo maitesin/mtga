@@ -20,6 +20,8 @@ build:
 	cd cmd/yaus && go build .
 
 update_hugo:
+	rm docs/content/cards/*.md
+	rm docs/static/img/cards/*.png
 	go run cmd/hugo/main.go
 	cp devops/storage/* docs/static/img/cards
 
