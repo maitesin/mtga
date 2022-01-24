@@ -3,6 +3,7 @@ package cmd
 import (
 	"bytes"
 	"context"
+	"fmt"
 	"golang.org/x/time/rate"
 	"io/ioutil"
 	"net/http"
@@ -68,5 +69,9 @@ func AddHandler(ctx context.Context, opts Add, repository app.CardsRepository, s
 		return err
 	}
 
-	return repository.Insert(ctx, *card)
+	err = repository.Insert(ctx, *card)
+
+	fmt.Printf("Card %q from %q added\n", card.Name, card.SetName)
+
+	return err
 }
