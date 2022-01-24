@@ -27,7 +27,10 @@ func UpdateHandler(ctx context.Context, _ Update, repository app.CardsRepository
 			return err
 		}
 		card.UpdatePrice(updatedCard.Price)
-		repository.Update(ctx, card)
+		err = repository.Update(ctx, card)
+		if err != nil {
+			return err
+		}
 	}
 
 	return nil
