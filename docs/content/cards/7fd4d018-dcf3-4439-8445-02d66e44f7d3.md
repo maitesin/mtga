@@ -7,7 +7,7 @@ set = "Invasion"
 rarity = "uncommon"
 mana = "{3}{U}"
 reprint = false
-price = "2.82"
+price = "2.76"
 quantity = 2
 condition = "near_mint"
 +++
