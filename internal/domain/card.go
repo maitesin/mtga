@@ -38,7 +38,8 @@ func OptsFromInt(opts int) []Opt {
 	var optsOut []Opt
 
 	for _, value := range []Opt{Regular, Foil, Signed, Altered} {
-		if opts&int(value) == 1 {
+		valueInt := int(value)
+		if opts&valueInt == valueInt {
 			optsOut = append(optsOut, value)
 		}
 	}
