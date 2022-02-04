@@ -6,6 +6,10 @@
       {{ range where .Site.RegularPages "Section" "cards" }}
       <div class="col">
         <img class="card-image" src="img/cards/{{.Title}}.png"/>
+        <div>
+          <p>Name: {{ .Params.Name }}</p>
+          <p>Cost: {{ .Params.Mana }}</p>
+        </div>
       </div>
       {{ end }}
     </div>
