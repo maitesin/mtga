@@ -15,4 +15,5 @@
 # vendor/
 
 **/.hugo_build.lock
+docs/public
 resources
