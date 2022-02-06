@@ -7,8 +7,10 @@
       <div class="col">
         <img class="card-image" src="img/cards/{{.Title}}.png"/>
         <div>
-          <p>Name: {{ .Params.Name }}</p>
-          <p>Cost: {{ .Params.Mana }}</p>
+          <p>{{ .Params.Name }}</p>
+          <p>Language: {{ .Params.Lang }}</p>
+          <p>Quantity: {{ .Params.Quantity }}</p>
+          <p>Price: {{ .Params.Price }}</p>
         </div>
       </div>
       {{ end }}
