@@ -8,7 +8,7 @@
         <img class="card-image" src="img/cards/{{.Title}}.png"/>
         <div>
           <p>{{ .Params.Name }}</p>
-          <p>Language: {{ .Params.Lang }}</p>
+          <p>Language: <span class="card-symbol lang-{{ .Params.Lang }}"/>------</p>
           <p>Quantity: {{ .Params.Quantity }}</p>
           <p>Price: {{ .Params.Price }}</p>
         </div>
