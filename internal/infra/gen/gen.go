@@ -38,7 +38,7 @@ func (f *InfoCardGenerator) Generate(_ context.Context, card domain.Card) error 
 title = %q
 name = %q
 date = %q
-lang = %q
+lang = [%q]
 set = %q
 rarity = %q
 mana = %q
