@@ -3,14 +3,12 @@ package gen
 import (
 	"context"
 	"fmt"
+	"github.com/maitesin/mtga/internal/domain"
 	"io"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
-	"time"
-
-	"github.com/maitesin/mtga/internal/domain"
 )
 
 type InfoGenerator interface {
@@ -27,7 +25,7 @@ func NewInfoCardGenerator(path string) (*InfoCardGenerator, error) {
 	}, nil
 }
 
-func (f *InfoCardGenerator) Generate(_ context.Context, card domain.Card) error {
+func (f *InfoCardGenerator) Generate(_ context.Context, card Card) error {
 	file, err := os.Create(filepath.Join(f.path, card.ID.String()+".md"))
 	if err != nil {
 		return err
@@ -37,28 +35,16 @@ func (f *InfoCardGenerator) Generate(_ context.Context, card domain.Card) error 
 		`+++
 title = %q
 name = %q
-date = %q
 lang = [%q]
-set = %q
-rarity = %q
-mana = %q
-reprint = %t
 price = %q
 quantity = %d
-condition = %q
 +++
 `,
 		card.ID,
 		card.Name,
-		card.ReleasedAt.Format(time.RFC3339),
-		card.Language,
-		card.SetName,
-		card.Rarity,
-		card.ManaCost,
-		card.Reprint,
+		card.Languages[0],
 		card.Price,
 		card.Quantity,
-		card.Condition,
 	)
 
 	_, err = io.Copy(file, ioutil.NopCloser(strings.NewReader(value)))

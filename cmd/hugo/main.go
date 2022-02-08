@@ -2,9 +2,8 @@ package main
 
 import (
 	"context"
-	"github.com/maitesin/mtga/internal/infra/gen"
-
 	"github.com/maitesin/mtga/config"
+	"github.com/maitesin/mtga/internal/infra/gen"
 	sqlx "github.com/maitesin/mtga/internal/infra/sql"
 	"github.com/upper/db/v4/adapter/sqlite"
 )
@@ -29,15 +28,14 @@ func main() {
 		panic(err)
 	}
 
-	//store, err := storage.NewFileSystemStorage(cfg.Storage.Path)
-	//if err != nil {
-	//	panic(err)
-	//}
+	merger := gen.CardMerger{}
 
-	cards, err := repository.GetAll(ctx)
+	domainCards, err := repository.GetAll(ctx)
 	if err != nil {
 		panic(err)
 	}
+
+	cards := merger.Merge(domainCards)
 
 	for _, card := range cards {
 		err = generator.Generate(ctx, card)
