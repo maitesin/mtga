@@ -7,6 +7,7 @@ import (
 	"golang.org/x/time/rate"
 	"io/ioutil"
 	"net/http"
+	"strings"
 	"time"
 
 	"github.com/maitesin/mtga/internal/app"
@@ -50,7 +51,7 @@ func AddHandler(ctx context.Context, opts Add, repository app.CardsRepository, s
 		cardF.ID,
 		cardF.Name,
 		cardF.Language,
-		cardF.URL,
+		cardF.URL[:strings.LastIndex(cardF.URL, "/")+1],
 		cardF.SetName,
 		cardF.Rarity,
 		cardF.ManaCost,

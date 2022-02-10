@@ -35,14 +35,14 @@ func (f *InfoCardGenerator) Generate(_ context.Context, card Card) error {
 		`+++
 title = %q
 name = %q
-lang = [%q]
+lang = ["%s"]
 price = %q
 quantity = %d
 +++
 `,
 		card.ID,
 		card.Name,
-		card.Languages[0],
+		strings.Join(card.Languages, `","`),
 		card.Price,
 		card.Quantity,
 	)
