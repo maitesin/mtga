@@ -26,7 +26,7 @@ func NewInfoCardGenerator(path string) (*InfoCardGenerator, error) {
 }
 
 func (f *InfoCardGenerator) Generate(_ context.Context, card Card) error {
-	file, err := os.Create(filepath.Join(f.path, card.ID.String()+".md"))
+	file, err := os.Create(filepath.Join(f.path, fmt.Sprintf("%s_%t.md", card.ID.String(), card.Foil)))
 	if err != nil {
 		return err
 	}
