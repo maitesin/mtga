@@ -4,4 +4,5 @@ name = "Ephemerate"
 lang = ["en"]
 price = "0.45"
 quantity = 4
+foil = false
 +++

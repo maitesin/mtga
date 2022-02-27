@@ -12,6 +12,12 @@ type Card struct {
 	Languages []string
 	Price     string
 	Quantity  int
+	Foil      bool
+}
+
+type key struct {
+	url  string
+	foil bool
 }
 
 type Merger interface {
@@ -21,7 +27,7 @@ type Merger interface {
 type CardMerger struct{}
 
 func (cm *CardMerger) Merge(domainCards []domain.Card) []Card {
-	m := make(map[string]*Card)
+	m := make(map[key]*Card)
 
 	// This is not accounting for foils
 
@@ -30,17 +36,22 @@ func (cm *CardMerger) Merge(domainCards []domain.Card) []Card {
 		if strings.Count(url, "/") != 6 {
 			url = url[:len(url)-3]
 		}
-		if _, ok := m[url]; !ok {
-			m[url] = &Card{
+		k := key{
+			url:  url,
+			foil: dcard.IsFoil(),
+		}
+		if _, ok := m[k]; !ok {
+			m[k] = &Card{
 				dcard.ID,
 				dcard.Name,
 				[]string{dcard.Language},
 				dcard.Price,
 				dcard.Quantity,
+				dcard.IsFoil(),
 			}
 		} else {
-			m[url].Quantity += dcard.Quantity
-			m[url].Languages = append(m[url].Languages, dcard.Language)
+			m[k].Quantity += dcard.Quantity
+			m[k].Languages = append(m[k].Languages, dcard.Language)
 		}
 	}
 

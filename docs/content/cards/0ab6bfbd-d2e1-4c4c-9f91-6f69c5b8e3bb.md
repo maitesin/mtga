@@ -4,4 +4,5 @@ name = "Waterlogged Grove"
 lang = ["en"]
 price = "6.52"
 quantity = 1
+foil = false
 +++

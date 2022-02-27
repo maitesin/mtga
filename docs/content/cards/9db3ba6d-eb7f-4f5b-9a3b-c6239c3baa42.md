@@ -4,4 +4,5 @@ name = "Marsh Flats"
 lang = ["en"]
 price = "14.25"
 quantity = 4
+foil = false
 +++

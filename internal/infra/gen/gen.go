@@ -38,6 +38,7 @@ name = %q
 lang = ["%s"]
 price = %q
 quantity = %d
+foil = %t
 +++
 `,
 		card.ID,
@@ -45,6 +46,7 @@ quantity = %d
 		strings.Join(card.Languages, `","`),
 		card.Price,
 		card.Quantity,
+		card.Foil,
 	)
 
 	_, err = io.Copy(file, ioutil.NopCloser(strings.NewReader(value)))

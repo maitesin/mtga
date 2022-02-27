@@ -7,7 +7,7 @@
       <div class="col">
         <img class="card-image" src="img/cards/{{.Title}}.png"/>
         <div>
-          <p>{{ .Params.Name }}</p>
+          <p>{{ .Params.Name }} {{ if .Params.Foil }} <span title="foil"><img style="width: 1rem;" src="img/options/star.svg"/></span> {{ end }}</p>
           <p>Language:
             {{ range $key, $lang := .Params.Lang }}
               <span class="card-lang-symbol lang-{{ $lang }}"></span>

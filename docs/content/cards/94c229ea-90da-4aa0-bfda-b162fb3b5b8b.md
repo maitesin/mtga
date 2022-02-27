@@ -4,4 +4,5 @@ name = "Verdant Catacombs"
 lang = ["en"]
 price = "19.93"
 quantity = 4
+foil = false
 +++

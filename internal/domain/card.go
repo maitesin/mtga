@@ -7,24 +7,6 @@ import (
 	"github.com/google/uuid"
 )
 
-type Card struct {
-	ID           uuid.UUID
-	Name         string
-	Language     string
-	URL          string
-	SetName      string
-	Rarity       string
-	ManaCost     string
-	Reprint      bool
-	Price        string
-	ReleasedAt   time.Time
-	Opts         []Opt
-	Quantity     int
-	Condition    Condition
-	SetNumber    int
-	SetShortName string
-}
-
 type Opt int
 
 const (
@@ -45,6 +27,33 @@ func OptsFromInt(opts int) []Opt {
 	}
 
 	return optsOut
+}
+
+type Card struct {
+	ID           uuid.UUID
+	Name         string
+	Language     string
+	URL          string
+	SetName      string
+	Rarity       string
+	ManaCost     string
+	Reprint      bool
+	Price        string
+	ReleasedAt   time.Time
+	Opts         []Opt
+	Quantity     int
+	Condition    Condition
+	SetNumber    int
+	SetShortName string
+}
+
+func (c *Card) IsFoil() bool {
+	for _, opt := range c.Opts {
+		if opt == Foil {
+			return true
+		}
+	}
+	return false
 }
 
 type Condition string
