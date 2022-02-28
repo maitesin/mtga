@@ -29,6 +29,26 @@ func validCard() *domain.Card {
 	)
 }
 
+func validFoilCard() *domain.Card {
+	return domain.NewCard(
+		uuid.New(),
+		"Thoughtseize",
+		"es",
+		"https://scryfall.com/card/ths/107/thoughtseize",
+		"Theros",
+		"rare",
+		"{B}",
+		true,
+		"12.00",
+		time.Now(),
+		1,
+		"nm",
+		107,
+		"ths",
+		domain.Foil,
+	)
+}
+
 func TestCard_UpdatePrice(t *testing.T) {
 	tests := []struct {
 		name  string
@@ -46,6 +66,34 @@ func TestCard_UpdatePrice(t *testing.T) {
 			c := validCard()
 			c.UpdatePrice(tt.price)
 			require.Equal(t, tt.price, c.Price)
+		})
+	}
+}
+
+func TestCard_IsFoil(t *testing.T) {
+	tests := []struct {
+		name   string
+		card   *domain.Card
+		isFoil bool
+	}{
+		{
+			name: `Given a non-foil card,
+				   when the isFoil method is called,
+                   then it returns false`,
+			card:   validCard(),
+			isFoil: false,
+		},
+		{
+			name: `Given a foil card,
+				   when the isFoil method is called,
+                   then it returns true`,
+			card:   validFoilCard(),
+			isFoil: true,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			require.Equal(t, tt.isFoil, tt.card.IsFoil())
 		})
 	}
 }
