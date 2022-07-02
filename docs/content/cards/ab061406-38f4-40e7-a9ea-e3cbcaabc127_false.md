@@ -2,7 +2,7 @@
 title = "ab061406-38f4-40e7-a9ea-e3cbcaabc127"
 name = "Accumulated Knowledge"
 lang = ["en"]
-price = "0.33"
+price = "0.18"
 quantity = 4
 foil = false
 +++

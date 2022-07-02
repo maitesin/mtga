@@ -2,7 +2,7 @@
 title = "ced4c824-2dfc-42ae-84e6-09f8e3f51b5b"
 name = "Godless Shrine"
 lang = ["en"]
-price = "9.10"
+price = "9.93"
 quantity = 4
 foil = false
 +++
