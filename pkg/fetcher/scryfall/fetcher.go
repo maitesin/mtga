@@ -24,18 +24,23 @@ type prices struct {
 	Foil    string `json:"eur_foil"`
 }
 
+type face struct {
+	URIs *imageUris `json:"image_uris"`
+}
+
 type card struct {
-	ID         uuid.UUID `json:"id"`
-	Name       string    `json:"name"`
-	Language   string    `json:"lang"`
-	Scryfall   string    `json:"scryfall_uri"`
-	SetName    string    `json:"set_name"`
-	Rarity     string    `json:"rarity"`
-	URIs       imageUris `json:"image_uris"`
-	ManaCost   string    `json:"mana_cost"`
-	Reprint    bool      `json:"reprint"`
-	Prices     prices    `json:"prices"`
-	ReleasedAt string    `json:"released_at"`
+	ID         uuid.UUID  `json:"id"`
+	Name       string     `json:"name"`
+	Language   string     `json:"lang"`
+	Scryfall   string     `json:"scryfall_uri"`
+	SetName    string     `json:"set_name"`
+	Rarity     string     `json:"rarity"`
+	URIs       *imageUris `json:"image_uris,omitempty"`
+	ManaCost   string     `json:"mana_cost"`
+	Reprint    bool       `json:"reprint"`
+	Prices     prices     `json:"prices"`
+	ReleasedAt string     `json:"released_at"`
+	Faces      []face     `json:"card_faces,omitempty"`
 }
 
 type Fetcher struct {
@@ -58,9 +63,17 @@ func (f *Fetcher) Fetch(number int, set string, lang string, opts ...fetcher.Opt
 		return fetcher.Card{}, err
 	}
 
-	image, err := f.doRequest(cardInfoEn.URIs.PngURI)
-	if err != nil {
-		return fetcher.Card{}, err
+	var image []byte
+	if cardInfoEn.URIs != nil {
+		image, err = f.doRequest(cardInfoEn.URIs.PngURI)
+		if err != nil {
+			return fetcher.Card{}, err
+		}
+	} else {
+		image, err = f.doRequest(cardInfoEn.Faces[0].URIs.PngURI)
+		if err != nil {
+			return fetcher.Card{}, err
+		}
 	}
 
 	t, err := time.Parse("2006-01-02", cardInfoEn.ReleasedAt)
