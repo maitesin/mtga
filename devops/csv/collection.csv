@@ -1,480 +1,671 @@
 name,language,url,set_name,rarity,price,released_at,quantity,condition
-Wrenn and Six,en,https://scryfall.com/card/mh1/217/,Modern Horizons,mythic,60.34,2019-06-14T00:00:00Z,4,mint
-Cunning Wish,en,https://scryfall.com/card/jud/37/,Judgment,rare,4.50,2002-05-27T00:00:00Z,2,near_mint
-Cunning Wish,es,https://scryfall.com/card/jud/37/es/,Judgment,rare,4.50,2002-05-27T00:00:00Z,2,near_mint
-Morphling,en,https://scryfall.com/card/usg/85/,Urza's Saga,rare,12.40,1998-10-12T00:00:00Z,1,excellent
-Morphling,en,https://scryfall.com/card/usg/85/,Urza's Saga,rare,12.40,1998-10-12T00:00:00Z,1,near_mint
-Fact or Fiction,en,https://scryfall.com/card/inv/57/,Invasion,uncommon,1.97,2000-10-02T00:00:00Z,2,near_mint
-Fact or Fiction,es,https://scryfall.com/card/inv/57/es/,Invasion,uncommon,1.97,2000-10-02T00:00:00Z,2,near_mint
-Fire // Ice,en,https://scryfall.com/card/apc/128/,Apocalypse,uncommon,0.40,2001-06-04T00:00:00Z,4,near_mint
-Powder Keg,pt,https://scryfall.com/card/uds/136/pt/,Urza's Destiny,rare,9.39,1999-06-07T00:00:00Z,2,near_mint
-Powder Keg,es,https://scryfall.com/card/uds/136/es/,Urza's Destiny,rare,9.39,1999-06-07T00:00:00Z,2,near_mint
-Lightning Bolt,en,https://scryfall.com/card/4ed/208/,Fourth Edition,common,1.54,1995-04-01T00:00:00Z,2,near_mint
-Standstill,en,https://scryfall.com/card/ody/102/,Odyssey,uncommon,5.10,2001-10-01T00:00:00Z,3,near_mint
-Standstill,en,https://scryfall.com/card/ody/102/,Odyssey,uncommon,5.10,2001-10-01T00:00:00Z,1,excellent
+Cunning Wish,en,https://scryfall.com/card/jud/37/,Judgment,rare,6.66,2002-05-27T00:00:00Z,2,near_mint
+Cunning Wish,es,https://scryfall.com/card/jud/37/es/,Judgment,rare,6.66,2002-05-27T00:00:00Z,2,near_mint
+Morphling,en,https://scryfall.com/card/usg/85/,Urza's Saga,rare,11.69,1998-10-12T00:00:00Z,1,excellent
+Morphling,en,https://scryfall.com/card/usg/85/,Urza's Saga,rare,11.69,1998-10-12T00:00:00Z,1,near_mint
+Fact or Fiction,en,https://scryfall.com/card/inv/57/,Invasion,uncommon,2.52,2000-10-02T00:00:00Z,2,near_mint
+Fact or Fiction,es,https://scryfall.com/card/inv/57/es/,Invasion,uncommon,2.52,2000-10-02T00:00:00Z,2,near_mint
+Fire // Ice,en,https://scryfall.com/card/apc/128/,Apocalypse,uncommon,0.50,2001-06-04T00:00:00Z,4,near_mint
+Powder Keg,pt,https://scryfall.com/card/uds/136/pt/,Urza's Destiny,rare,9.45,1999-06-07T00:00:00Z,2,near_mint
+Powder Keg,es,https://scryfall.com/card/uds/136/es/,Urza's Destiny,rare,9.45,1999-06-07T00:00:00Z,2,near_mint
+Lightning Bolt,en,https://scryfall.com/card/4ed/208/,Fourth Edition,common,3.99,1995-04-01T00:00:00Z,2,near_mint
+Standstill,en,https://scryfall.com/card/ody/102/,Odyssey,uncommon,3.99,2001-10-01T00:00:00Z,3,near_mint
+Standstill,en,https://scryfall.com/card/ody/102/,Odyssey,uncommon,3.99,2001-10-01T00:00:00Z,1,excellent
 Accumulated Knowledge,en,https://scryfall.com/card/nem/26/,Nemesis,common,0.18,2000-02-14T00:00:00Z,2,near_mint
 Accumulated Knowledge,en,https://scryfall.com/card/nem/26/,Nemesis,common,0.18,2000-02-14T00:00:00Z,2,excellent
-Aether Burst,en,https://scryfall.com/card/ody/60/,Odyssey,common,0.04,2001-10-01T00:00:00Z,4,near_mint
-Counterspell,es,https://scryfall.com/card/ice/64/es/,Ice Age,common,0.66,1995-06-03T00:00:00Z,2,near_mint
-Counterspell,en,https://scryfall.com/card/ice/64/,Ice Age,common,0.66,1995-06-03T00:00:00Z,2,near_mint
-Faerie Conclave,en,https://scryfall.com/card/ulg/139/,Urza's Legacy,uncommon,1.00,1999-02-15T00:00:00Z,4,near_mint
-Mana Leak,en,https://scryfall.com/card/sth/36/,Stronghold,common,0.53,1998-03-02T00:00:00Z,4,near_mint
-Island,en,https://scryfall.com/card/usg/335/,Urza's Saga,common,0.74,1998-10-12T00:00:00Z,5,near_mint
-Island,en,https://scryfall.com/card/usg/336/,Urza's Saga,common,0.97,1998-10-12T00:00:00Z,5,near_mint
-Island,en,https://scryfall.com/card/usg/337/,Urza's Saga,common,0.38,1998-10-12T00:00:00Z,5,near_mint
-Island,en,https://scryfall.com/card/usg/338/,Urza's Saga,common,0.20,1998-10-12T00:00:00Z,5,near_mint
-Compost,en,https://scryfall.com/card/uds/102/,Urza's Destiny,uncommon,0.99,1999-06-07T00:00:00Z,3,near_mint
-Compost,es,https://scryfall.com/card/7ed/235/es/,Seventh Edition,uncommon,1.15,2001-04-11T00:00:00Z,1,near_mint
-Unearth,en,https://scryfall.com/card/mh1/113/,Modern Horizons,common,0.24,2019-06-14T00:00:00Z,4,near_mint
-Death Grasp,en,https://scryfall.com/card/apc/95/,Apocalypse,rare,0.28,2001-06-04T00:00:00Z,4,near_mint
-Tarmogoyf,en,https://scryfall.com/card/fut/153/,Future Sight,rare,28.74,2007-05-04T00:00:00Z,4,near_mint
-Wall of Blossoms,en,https://scryfall.com/card/mh1/190/,Modern Horizons,uncommon,0.16,2019-06-14T00:00:00Z,4,near_mint
-Ignoble Hierarch,en,https://scryfall.com/card/mh2/166/,Modern Horizons 2,rare,4.21,2021-06-18T00:00:00Z,4,near_mint
-Ephemerate,en,https://scryfall.com/card/mh1/7/,Modern Horizons,common,0.37,2019-06-14T00:00:00Z,4,near_mint
-Force of Negation,en,https://scryfall.com/card/mh1/52/,Modern Horizons,rare,46.83,2019-06-14T00:00:00Z,4,near_mint
-Thoughtseize,en,https://scryfall.com/card/ths/107/,Theros,rare,14.88,2013-09-27T00:00:00Z,4,near_mint
-Extirpate,es,https://scryfall.com/card/plc/71/es/,Planar Chaos,rare,4.50,2007-02-02T00:00:00Z,4,near_mint
-Concealed Courtyard,en,https://scryfall.com/card/kld/245/,Kaladesh,rare,2.51,2016-09-30T00:00:00Z,4,near_mint
-Spirebluff Canal,en,https://scryfall.com/card/kld/249/,Kaladesh,rare,17.17,2016-09-30T00:00:00Z,4,near_mint
-Indatha Triome,en,https://scryfall.com/card/iko/248/,Ikoria: Lair of Behemoths,rare,10.70,2020-04-24T00:00:00Z,4,near_mint
-Den of the Bugbear,en,https://scryfall.com/card/afr/254/,Adventures in the Forgotten Realms,rare,7.14,2021-07-23T00:00:00Z,4,near_mint
-Seachrome Coast,en,https://scryfall.com/card/som/229/,Scars of Mirrodin,rare,16.49,2010-10-01T00:00:00Z,4,near_mint
-Razorverge Thicket,en,https://scryfall.com/card/som/228/,Scars of Mirrodin,rare,3.65,2010-10-01T00:00:00Z,4,near_mint
-Strip Mine,en,https://scryfall.com/card/4ed/363/,Fourth Edition,uncommon,7.80,1995-04-01T00:00:00Z,1,near_mint
-Urborg,en,https://scryfall.com/card/leg/310/,Legends,uncommon,17.99,1994-06-01T00:00:00Z,1,near_mint
-Cabal Coffers,en,https://scryfall.com/card/tor/139/,Torment,uncommon,10.00,2002-02-04T00:00:00Z,4,near_mint
-Urza's Saga,en,https://scryfall.com/card/mh2/259/,Modern Horizons 2,rare,31.39,2021-06-18T00:00:00Z,4,near_mint
-Castle Locthwain,en,https://scryfall.com/card/eld/241/,Throne of Eldraine,rare,2.75,2019-10-04T00:00:00Z,4,near_mint
-Hall of Storm Giants,en,https://scryfall.com/card/afr/257/,Adventures in the Forgotten Realms,rare,2.38,2021-07-23T00:00:00Z,4,near_mint
+Aether Burst,en,https://scryfall.com/card/ody/60/,Odyssey,common,0.08,2001-10-01T00:00:00Z,4,near_mint
+Counterspell,es,https://scryfall.com/card/ice/64/es/,Ice Age,common,1.02,1995-06-03T00:00:00Z,2,near_mint
+Counterspell,en,https://scryfall.com/card/ice/64/,Ice Age,common,1.02,1995-06-03T00:00:00Z,2,near_mint
+Faerie Conclave,en,https://scryfall.com/card/ulg/139/,Urza's Legacy,uncommon,0.25,1999-02-15T00:00:00Z,4,near_mint
+Mana Leak,en,https://scryfall.com/card/sth/36/,Stronghold,common,0.51,1998-03-02T00:00:00Z,4,near_mint
+Island,en,https://scryfall.com/card/usg/335/,Urza's Saga,common,0.28,1998-10-12T00:00:00Z,5,near_mint
+Island,en,https://scryfall.com/card/usg/336/,Urza's Saga,common,0.50,1998-10-12T00:00:00Z,5,near_mint
+Island,en,https://scryfall.com/card/usg/337/,Urza's Saga,common,0.70,1998-10-12T00:00:00Z,5,near_mint
+Island,en,https://scryfall.com/card/usg/338/,Urza's Saga,common,0.70,1998-10-12T00:00:00Z,5,near_mint
+Compost,en,https://scryfall.com/card/uds/102/,Urza's Destiny,uncommon,1.98,1999-06-07T00:00:00Z,3,near_mint
+Compost,es,https://scryfall.com/card/7ed/235/es/,Seventh Edition,uncommon,0.49,2001-04-11T00:00:00Z,1,near_mint
+Unearth,en,https://scryfall.com/card/mh1/113/,Modern Horizons,common,0.16,2019-06-14T00:00:00Z,4,near_mint
+Death Grasp,en,https://scryfall.com/card/apc/95/,Apocalypse,rare,0.29,2001-06-04T00:00:00Z,1,near_mint
+Tarmogoyf,en,https://scryfall.com/card/fut/153/,Future Sight,rare,25.00,2007-05-04T00:00:00Z,4,near_mint
+Wall of Blossoms,en,https://scryfall.com/card/mh1/190/,Modern Horizons,uncommon,0.23,2019-06-14T00:00:00Z,4,near_mint
+Ignoble Hierarch,en,https://scryfall.com/card/mh2/166/,Modern Horizons 2,rare,4.83,2021-06-18T00:00:00Z,4,near_mint
+Ephemerate,en,https://scryfall.com/card/mh1/7/,Modern Horizons,common,0.51,2019-06-14T00:00:00Z,4,near_mint
+Force of Negation,en,https://scryfall.com/card/mh1/52/,Modern Horizons,rare,48.40,2019-06-14T00:00:00Z,4,near_mint
+Thoughtseize,en,https://scryfall.com/card/ths/107/,Theros,rare,14.60,2013-09-27T00:00:00Z,4,near_mint
+Extirpate,es,https://scryfall.com/card/plc/71/es/,Planar Chaos,rare,1.42,2007-02-02T00:00:00Z,4,near_mint
+Concealed Courtyard,en,https://scryfall.com/card/kld/245/,Kaladesh,rare,2.59,2016-09-30T00:00:00Z,4,near_mint
+Spirebluff Canal,en,https://scryfall.com/card/kld/249/,Kaladesh,rare,17.75,2016-09-30T00:00:00Z,4,near_mint
+Indatha Triome,en,https://scryfall.com/card/iko/248/,Ikoria: Lair of Behemoths,rare,9.92,2020-04-24T00:00:00Z,4,near_mint
+Den of the Bugbear,en,https://scryfall.com/card/afr/254/,Adventures in the Forgotten Realms,rare,7.05,2021-07-23T00:00:00Z,4,near_mint
+Seachrome Coast,en,https://scryfall.com/card/som/229/,Scars of Mirrodin,rare,18.43,2010-10-01T00:00:00Z,4,near_mint
+Razorverge Thicket,en,https://scryfall.com/card/som/228/,Scars of Mirrodin,rare,3.86,2010-10-01T00:00:00Z,4,near_mint
+Strip Mine,en,https://scryfall.com/card/4ed/363/,Fourth Edition,uncommon,5.61,1995-04-01T00:00:00Z,1,near_mint
+Urborg,en,https://scryfall.com/card/leg/310/,Legends,uncommon,15.00,1994-06-01T00:00:00Z,1,near_mint
+Cabal Coffers,en,https://scryfall.com/card/tor/139/,Torment,uncommon,12.90,2002-02-04T00:00:00Z,4,near_mint
+Urza's Saga,en,https://scryfall.com/card/mh2/259/,Modern Horizons 2,rare,34.56,2021-06-18T00:00:00Z,4,near_mint
+Castle Locthwain,en,https://scryfall.com/card/eld/241/,Throne of Eldraine,rare,2.25,2019-10-04T00:00:00Z,4,near_mint
+Hall of Storm Giants,en,https://scryfall.com/card/afr/257/,Adventures in the Forgotten Realms,rare,2.50,2021-07-23T00:00:00Z,4,near_mint
 "Urborg, Tomb of Yawgmoth",en,https://scryfall.com/card/plist/452/,The List,rare,27.34,2021-06-19T00:00:00Z,4,near_mint
-"Yavimaya, Cradle of Growth",en,https://scryfall.com/card/mh2/261/,Modern Horizons 2,rare,7.05,2021-06-18T00:00:00Z,4,near_mint
-Hallowed Fountain,en,https://scryfall.com/card/rna/251/,Ravnica Allegiance,rare,10.15,2019-01-25T00:00:00Z,4,near_mint
-Blood Crypt,en,https://scryfall.com/card/rna/245/,Ravnica Allegiance,rare,14.41,2019-01-25T00:00:00Z,4,near_mint
-Stomping Ground,en,https://scryfall.com/card/rna/259/,Ravnica Allegiance,rare,8.95,2019-01-25T00:00:00Z,4,near_mint
-Godless Shrine,en,https://scryfall.com/card/rna/248/,Ravnica Allegiance,rare,9.93,2019-01-25T00:00:00Z,4,near_mint
-Breeding Pool,en,https://scryfall.com/card/rna/246/,Ravnica Allegiance,rare,16.51,2019-01-25T00:00:00Z,4,near_mint
-Steam Vents,en,https://scryfall.com/card/grn/257/,Guilds of Ravnica,rare,11.98,2018-10-05T00:00:00Z,4,near_mint
-Overgrown Tomb,en,https://scryfall.com/card/grn/253/,Guilds of Ravnica,rare,8.87,2018-10-05T00:00:00Z,4,near_mint
-Sacred Foundry,en,https://scryfall.com/card/grn/254/,Guilds of Ravnica,rare,11.95,2018-10-05T00:00:00Z,4,near_mint
-Watery Grave,en,https://scryfall.com/card/grn/259/,Guilds of Ravnica,rare,11.89,2018-10-05T00:00:00Z,4,near_mint
-Temple Garden,en,https://scryfall.com/card/grn/258/,Guilds of Ravnica,rare,7.54,2018-10-05T00:00:00Z,4,near_mint
-Marsh Flats,en,https://scryfall.com/card/mh2/248/,Modern Horizons 2,rare,12.55,2021-06-18T00:00:00Z,4,near_mint
-Scalding Tarn,en,https://scryfall.com/card/mh2/254/,Modern Horizons 2,rare,23.80,2021-06-18T00:00:00Z,4,near_mint
-Verdant Catacombs,en,https://scryfall.com/card/mh2/260/,Modern Horizons 2,rare,16.54,2021-06-18T00:00:00Z,4,near_mint
-Arid Mesa,en,https://scryfall.com/card/mh2/244/,Modern Horizons 2,rare,14.58,2021-06-18T00:00:00Z,4,near_mint
-Misty Rainforest,en,https://scryfall.com/card/mh2/250/,Modern Horizons 2,rare,21.10,2021-06-18T00:00:00Z,4,near_mint
-Wooded Bastion,en,https://scryfall.com/card/2xm/332/,Double Masters,rare,4.55,2020-08-07T00:00:00Z,4,near_mint
-Sunken Ruins,en,https://scryfall.com/card/2xm/326/,Double Masters,rare,11.95,2020-08-07T00:00:00Z,2,near_mint
-Twilight Mire,en,https://scryfall.com/card/2xm/328/,Double Masters,rare,5.90,2020-08-07T00:00:00Z,4,near_mint
-Flooded Grove,en,https://scryfall.com/card/2xm/318/,Double Masters,rare,3.75,2020-08-07T00:00:00Z,4,near_mint
-Graven Cairns,en,https://scryfall.com/card/2xm/320/,Double Masters,rare,5.82,2020-08-07T00:00:00Z,4,near_mint
-Fiery Islet,en,https://scryfall.com/card/mh1/238/,Modern Horizons,rare,12.97,2019-06-14T00:00:00Z,4,near_mint
-Nurturing Peatland,en,https://scryfall.com/card/mh1/243/,Modern Horizons,rare,8.27,2019-06-14T00:00:00Z,4,near_mint
-Waterlogged Grove,en,https://scryfall.com/card/mh1/249/,Modern Horizons,rare,6.25,2019-06-14T00:00:00Z,4,near_mint
-Sunbaked Canyon,en,https://scryfall.com/card/mh1/247/,Modern Horizons,rare,19.26,2019-06-14T00:00:00Z,4,near_mint
-Silent Clearing,en,https://scryfall.com/card/mh1/246/,Modern Horizons,rare,8.11,2019-06-14T00:00:00Z,4,near_mint
-Blackcleave Cliffs,en,https://scryfall.com/card/som/224/,Scars of Mirrodin,rare,17.14,2010-10-01T00:00:00Z,4,near_mint
-Prismatic Vista,en,https://scryfall.com/card/mh1/244/,Modern Horizons,rare,26.03,2019-06-14T00:00:00Z,4,near_mint
-Mystic Gate,en,https://scryfall.com/card/2xm/324/,Double Masters,rare,22.38,2020-08-07T00:00:00Z,1,near_mint
-Wellwisher,es,https://scryfall.com/card/ons/300/es/,Onslaught,common,0.48,2002-10-07T00:00:00Z,1,near_mint
-Caller of the Claw,es,https://scryfall.com/card/lgn/121/es/,Legions,rare,0.67,2003-02-03T00:00:00Z,1,near_mint
-Wellwisher,es,https://scryfall.com/card/ons/300/es/,Onslaught,common,0.48,2002-10-07T00:00:00Z,4,played
-Blooming Marsh,en,https://scryfall.com/card/kld/243/,Kaladesh,rare,5.19,2016-09-30T00:00:00Z,4,near_mint
-Inspiring Vantage,en,https://scryfall.com/card/kld/246/,Kaladesh,rare,8.94,2016-09-30T00:00:00Z,4,near_mint
-Botanical Sanctum,en,https://scryfall.com/card/kld/244/,Kaladesh,rare,6.93,2016-09-30T00:00:00Z,4,near_mint
-Copperline Gorge,en,https://scryfall.com/card/som/225/,Scars of Mirrodin,rare,4.76,2010-10-01T00:00:00Z,4,near_mint
-Darkslick Shores,en,https://scryfall.com/card/som/226/,Scars of Mirrodin,rare,8.85,2010-10-01T00:00:00Z,4,near_mint
-Polluted Delta,en,https://scryfall.com/card/ktk/239/,Khans of Tarkir,rare,29.19,2014-09-26T00:00:00Z,4,near_mint
-Wooded Foothills,en,https://scryfall.com/card/ktk/249/,Khans of Tarkir,rare,24.99,2014-09-26T00:00:00Z,4,near_mint
-Windswept Heath,en,https://scryfall.com/card/ktk/248/,Khans of Tarkir,rare,16.14,2014-09-26T00:00:00Z,4,near_mint
-Flooded Strand,en,https://scryfall.com/card/ktk/233/,Khans of Tarkir,rare,26.01,2014-09-26T00:00:00Z,4,near_mint
-Bloodstained Mire,en,https://scryfall.com/card/ktk/230/,Khans of Tarkir,rare,25.26,2014-09-26T00:00:00Z,4,near_mint
-Fabled Passage,en,https://scryfall.com/card/m21/246/,Core Set 2021,rare,4.30,2020-07-03T00:00:00Z,4,near_mint
-"Eiganjo, Seat of the Empire",en,https://scryfall.com/card/neo/268/,Kamigawa: Neon Dynasty,rare,5.23,2022-02-18T00:00:00Z,4,near_mint
-"Boseiju, Who Endures",en,https://scryfall.com/card/neo/266/,Kamigawa: Neon Dynasty,rare,28.46,2022-02-18T00:00:00Z,4,near_mint
-"Takenuma, Abandoned Mire",en,https://scryfall.com/card/neo/278/,Kamigawa: Neon Dynasty,rare,4.83,2022-02-18T00:00:00Z,4,near_mint
-"Otawara, Soaring City",en,https://scryfall.com/card/neo/271/,Kamigawa: Neon Dynasty,rare,15.12,2022-02-18T00:00:00Z,4,near_mint
-"Sokenzan, Crucible of Defiance",en,https://scryfall.com/card/neo/276/,Kamigawa: Neon Dynasty,rare,2.39,2022-02-18T00:00:00Z,4,near_mint
-Hive of the Eye Tyrant,en,https://scryfall.com/card/afr/258/,Adventures in the Forgotten Realms,rare,7.32,2021-07-23T00:00:00Z,4,near_mint
-Celestial Colonnade,en,https://scryfall.com/card/wwk/133/,Worldwake,rare,2.70,2010-02-05T00:00:00Z,4,near_mint
-Castle Vantress,en,https://scryfall.com/card/eld/242/,Throne of Eldraine,rare,1.13,2019-10-04T00:00:00Z,4,near_mint
-Ketria Triome,en,https://scryfall.com/card/iko/250/,Ikoria: Lair of Behemoths,rare,14.39,2020-04-24T00:00:00Z,4,near_mint
-Raugrin Triome,en,https://scryfall.com/card/iko/251/,Ikoria: Lair of Behemoths,rare,16.49,2020-04-24T00:00:00Z,4,near_mint
-Savai Triome,en,https://scryfall.com/card/iko/253/,Ikoria: Lair of Behemoths,rare,10.37,2020-04-24T00:00:00Z,4,near_mint
-Zagoth Triome,en,https://scryfall.com/card/iko/259/,Ikoria: Lair of Behemoths,rare,13.16,2020-04-24T00:00:00Z,4,near_mint
+"Yavimaya, Cradle of Growth",en,https://scryfall.com/card/mh2/261/,Modern Horizons 2,rare,6.58,2021-06-18T00:00:00Z,4,near_mint
+Hallowed Fountain,en,https://scryfall.com/card/rna/251/,Ravnica Allegiance,rare,10.11,2019-01-25T00:00:00Z,4,near_mint
+Blood Crypt,en,https://scryfall.com/card/rna/245/,Ravnica Allegiance,rare,16.78,2019-01-25T00:00:00Z,4,near_mint
+Stomping Ground,en,https://scryfall.com/card/rna/259/,Ravnica Allegiance,rare,9.39,2019-01-25T00:00:00Z,4,near_mint
+Godless Shrine,en,https://scryfall.com/card/rna/248/,Ravnica Allegiance,rare,11.13,2019-01-25T00:00:00Z,4,near_mint
+Breeding Pool,en,https://scryfall.com/card/rna/246/,Ravnica Allegiance,rare,17.13,2019-01-25T00:00:00Z,4,near_mint
+Steam Vents,en,https://scryfall.com/card/grn/257/,Guilds of Ravnica,rare,12.62,2018-10-05T00:00:00Z,4,near_mint
+Overgrown Tomb,en,https://scryfall.com/card/grn/253/,Guilds of Ravnica,rare,8.92,2018-10-05T00:00:00Z,4,near_mint
+Sacred Foundry,en,https://scryfall.com/card/grn/254/,Guilds of Ravnica,rare,12.04,2018-10-05T00:00:00Z,4,near_mint
+Watery Grave,en,https://scryfall.com/card/grn/259/,Guilds of Ravnica,rare,12.15,2018-10-05T00:00:00Z,4,near_mint
+Temple Garden,en,https://scryfall.com/card/grn/258/,Guilds of Ravnica,rare,9.44,2018-10-05T00:00:00Z,4,near_mint
+Marsh Flats,en,https://scryfall.com/card/mh2/248/,Modern Horizons 2,rare,13.12,2021-06-18T00:00:00Z,4,near_mint
+Scalding Tarn,en,https://scryfall.com/card/mh2/254/,Modern Horizons 2,rare,23.63,2021-06-18T00:00:00Z,4,near_mint
+Verdant Catacombs,en,https://scryfall.com/card/mh2/260/,Modern Horizons 2,rare,16.69,2021-06-18T00:00:00Z,4,near_mint
+Arid Mesa,en,https://scryfall.com/card/mh2/244/,Modern Horizons 2,rare,14.76,2021-06-18T00:00:00Z,4,near_mint
+Misty Rainforest,en,https://scryfall.com/card/mh2/250/,Modern Horizons 2,rare,21.57,2021-06-18T00:00:00Z,4,near_mint
+Wooded Bastion,en,https://scryfall.com/card/2xm/332/,Double Masters,rare,5.00,2020-08-07T00:00:00Z,4,near_mint
+Sunken Ruins,en,https://scryfall.com/card/2xm/326/,Double Masters,rare,12.34,2020-08-07T00:00:00Z,2,near_mint
+Twilight Mire,en,https://scryfall.com/card/2xm/328/,Double Masters,rare,5.77,2020-08-07T00:00:00Z,4,near_mint
+Flooded Grove,en,https://scryfall.com/card/2xm/318/,Double Masters,rare,2.50,2020-08-07T00:00:00Z,4,near_mint
+Graven Cairns,en,https://scryfall.com/card/2xm/320/,Double Masters,rare,5.91,2020-08-07T00:00:00Z,4,near_mint
+Fiery Islet,en,https://scryfall.com/card/mh1/238/,Modern Horizons,rare,12.51,2019-06-14T00:00:00Z,4,near_mint
+Nurturing Peatland,en,https://scryfall.com/card/mh1/243/,Modern Horizons,rare,9.35,2019-06-14T00:00:00Z,4,near_mint
+Waterlogged Grove,en,https://scryfall.com/card/mh1/249/,Modern Horizons,rare,6.11,2019-06-14T00:00:00Z,4,near_mint
+Sunbaked Canyon,en,https://scryfall.com/card/mh1/247/,Modern Horizons,rare,18.83,2019-06-14T00:00:00Z,4,near_mint
+Silent Clearing,en,https://scryfall.com/card/mh1/246/,Modern Horizons,rare,8.05,2019-06-14T00:00:00Z,4,near_mint
+Blackcleave Cliffs,en,https://scryfall.com/card/som/224/,Scars of Mirrodin,rare,17.45,2010-10-01T00:00:00Z,4,near_mint
+Prismatic Vista,en,https://scryfall.com/card/mh1/244/,Modern Horizons,rare,25.70,2019-06-14T00:00:00Z,4,near_mint
+Mystic Gate,en,https://scryfall.com/card/2xm/324/,Double Masters,rare,19.98,2020-08-07T00:00:00Z,1,near_mint
+Wellwisher,es,https://scryfall.com/card/ons/300/es/,Onslaught,common,0.65,2002-10-07T00:00:00Z,1,near_mint
+Caller of the Claw,es,https://scryfall.com/card/lgn/121/es/,Legions,rare,1.48,2003-02-03T00:00:00Z,1,near_mint
+Wellwisher,es,https://scryfall.com/card/ons/300/es/,Onslaught,common,0.65,2002-10-07T00:00:00Z,4,played
+Blooming Marsh,en,https://scryfall.com/card/kld/243/,Kaladesh,rare,5.07,2016-09-30T00:00:00Z,4,near_mint
+Inspiring Vantage,en,https://scryfall.com/card/kld/246/,Kaladesh,rare,9.18,2016-09-30T00:00:00Z,4,near_mint
+Botanical Sanctum,en,https://scryfall.com/card/kld/244/,Kaladesh,rare,6.63,2016-09-30T00:00:00Z,4,near_mint
+Copperline Gorge,en,https://scryfall.com/card/som/225/,Scars of Mirrodin,rare,5.49,2010-10-01T00:00:00Z,4,near_mint
+Darkslick Shores,en,https://scryfall.com/card/som/226/,Scars of Mirrodin,rare,11.77,2010-10-01T00:00:00Z,4,near_mint
+Polluted Delta,en,https://scryfall.com/card/ktk/239/,Khans of Tarkir,rare,30.56,2014-09-26T00:00:00Z,4,near_mint
+Wooded Foothills,en,https://scryfall.com/card/ktk/249/,Khans of Tarkir,rare,24.58,2014-09-26T00:00:00Z,4,near_mint
+Windswept Heath,en,https://scryfall.com/card/ktk/248/,Khans of Tarkir,rare,17.51,2014-09-26T00:00:00Z,4,near_mint
+Flooded Strand,en,https://scryfall.com/card/ktk/233/,Khans of Tarkir,rare,26.89,2014-09-26T00:00:00Z,4,near_mint
+Bloodstained Mire,en,https://scryfall.com/card/ktk/230/,Khans of Tarkir,rare,27.07,2014-09-26T00:00:00Z,4,near_mint
+Fabled Passage,en,https://scryfall.com/card/m21/246/,Core Set 2021,rare,4.68,2020-07-03T00:00:00Z,4,near_mint
+"Eiganjo, Seat of the Empire",en,https://scryfall.com/card/neo/268/,Kamigawa: Neon Dynasty,rare,4.85,2022-02-18T00:00:00Z,4,near_mint
+"Boseiju, Who Endures",en,https://scryfall.com/card/neo/266/,Kamigawa: Neon Dynasty,rare,27.58,2022-02-18T00:00:00Z,4,near_mint
+"Takenuma, Abandoned Mire",en,https://scryfall.com/card/neo/278/,Kamigawa: Neon Dynasty,rare,4.81,2022-02-18T00:00:00Z,4,near_mint
+"Otawara, Soaring City",en,https://scryfall.com/card/neo/271/,Kamigawa: Neon Dynasty,rare,15.00,2022-02-18T00:00:00Z,4,near_mint
+"Sokenzan, Crucible of Defiance",en,https://scryfall.com/card/neo/276/,Kamigawa: Neon Dynasty,rare,2.46,2022-02-18T00:00:00Z,4,near_mint
+Hive of the Eye Tyrant,en,https://scryfall.com/card/afr/258/,Adventures in the Forgotten Realms,rare,8.74,2021-07-23T00:00:00Z,4,near_mint
+Celestial Colonnade,en,https://scryfall.com/card/wwk/133/,Worldwake,rare,2.41,2010-02-05T00:00:00Z,4,near_mint
+Castle Vantress,en,https://scryfall.com/card/eld/242/,Throne of Eldraine,rare,1.10,2019-10-04T00:00:00Z,4,near_mint
+Ketria Triome,en,https://scryfall.com/card/iko/250/,Ikoria: Lair of Behemoths,rare,14.62,2020-04-24T00:00:00Z,4,near_mint
+Raugrin Triome,en,https://scryfall.com/card/iko/251/,Ikoria: Lair of Behemoths,rare,14.72,2020-04-24T00:00:00Z,4,near_mint
+Savai Triome,en,https://scryfall.com/card/iko/253/,Ikoria: Lair of Behemoths,rare,9.40,2020-04-24T00:00:00Z,4,near_mint
+Zagoth Triome,en,https://scryfall.com/card/iko/259/,Ikoria: Lair of Behemoths,rare,12.26,2020-04-24T00:00:00Z,4,near_mint
 Jetmir's Garden,en,https://scryfall.com/card/snc/250/,Streets of New Capenna,rare,7.67,2022-04-29T00:00:00Z,4,near_mint
-Raffine's Tower,en,https://scryfall.com/card/snc/254/,Streets of New Capenna,rare,10.23,2022-04-29T00:00:00Z,4,near_mint
-Spara's Headquarters,en,https://scryfall.com/card/snc/257/,Streets of New Capenna,rare,8.59,2022-04-29T00:00:00Z,4,near_mint
-Xander's Lounge,en,https://scryfall.com/card/snc/260/,Streets of New Capenna,rare,8.47,2022-04-29T00:00:00Z,4,near_mint
-Ziatora's Proving Ground,en,https://scryfall.com/card/snc/261/,Streets of New Capenna,rare,8.60,2022-04-29T00:00:00Z,4,near_mint
-Dauthi Voidwalker,en,https://scryfall.com/card/mh2/81/,Modern Horizons 2,rare,7.36,2021-06-18T00:00:00Z,4,near_mint
-Inquisition of Kozilek,en,https://scryfall.com/card/mm3/75/,Modern Masters 2017,uncommon,1.97,2017-03-17T00:00:00Z,4,near_mint
-Fatal Push,en,https://scryfall.com/card/aer/57/,Aether Revolt,uncommon,1.76,2017-01-20T00:00:00Z,4,near_mint
-"Tourach, Dread Cantor",en,https://scryfall.com/card/mh2/102/,Modern Horizons 2,mythic,4.64,2021-06-18T00:00:00Z,4,near_mint
-Seasoned Pyromancer,en,https://scryfall.com/card/mh1/145/,Modern Horizons,mythic,27.47,2019-06-14T00:00:00Z,4,near_mint
-"Shizo, Death's Storehouse",en,https://scryfall.com/card/chk/283/,Champions of Kamigawa,rare,13.50,2004-10-01T00:00:00Z,1,near_mint
-Liliana of the Veil,en,https://scryfall.com/card/isd/105/,Innistrad,mythic,51.44,2011-09-30T00:00:00Z,4,near_mint
-"Ragavan, Nimble Pilferer",en,https://scryfall.com/card/mh2/138/,Modern Horizons 2,mythic,61.87,2021-06-18T00:00:00Z,4,near_mint
-"Kroxa, Titan of Death's Hunger",en,https://scryfall.com/card/thb/221/,Theros Beyond Death,mythic,26.07,2020-01-24T00:00:00Z,4,near_mint
-Kolaghan's Command,en,https://scryfall.com/card/dtk/224/,Dragons of Tarkir,rare,7.46,2015-03-27T00:00:00Z,4,near_mint
-Unlicensed Hearse,en,https://scryfall.com/card/snc/246/,Streets of New Capenna,rare,8.64,2022-04-29T00:00:00Z,4,near_mint
-Terminate,en,https://scryfall.com/card/arb/46/,Alara Reborn,common,0.25,2009-04-30T00:00:00Z,4,near_mint
-"Shinka, the Bloodsoaked Keep",en,https://scryfall.com/card/plist/651/,The List,rare,9.47,2021-11-19T00:00:00Z,4,near_mint
-Chalice of the Void,en,https://scryfall.com/card/mrd/150/,Mirrodin,rare,42.73,2003-10-02T00:00:00Z,1,near_mint
-Engineered Explosives,en,https://scryfall.com/card/2xm/252/,Double Masters,rare,15.16,2020-08-07T00:00:00Z,4,near_mint
-Alpine Moon,en,https://scryfall.com/card/m19/128/,Core Set 2019,rare,7.07,2018-07-13T00:00:00Z,4,near_mint
-Pithing Needle,en,https://scryfall.com/card/mid/257/,Innistrad: Midnight Hunt,rare,0.82,2021-09-24T00:00:00Z,4,near_mint
-Void Mirror,en,https://scryfall.com/card/mh2/242/,Modern Horizons 2,rare,0.62,2021-06-18T00:00:00Z,4,near_mint
-"Ashiok, Dream Render",en,https://scryfall.com/card/war/228/,War of the Spark,uncommon,0.84,2019-05-03T00:00:00Z,4,near_mint
-Boil,en,https://scryfall.com/card/tmp/165/,Tempest,uncommon,0.99,1997-10-14T00:00:00Z,4,near_mint
-Noble Hierarch,en,https://scryfall.com/card/uma/174/,Ultimate Masters,rare,10.76,2018-12-07T00:00:00Z,4,near_mint
-Hexdrinker,en,https://scryfall.com/card/mh1/168/,Modern Horizons,mythic,9.61,2019-06-14T00:00:00Z,4,near_mint
-Elvish Reclaimer,en,https://scryfall.com/card/m20/169/,Core Set 2020,rare,6.75,2019-07-12T00:00:00Z,4,near_mint
-Tireless Tracker,en,https://scryfall.com/card/soi/233/,Shadows over Innistrad,rare,4.86,2016-04-08T00:00:00Z,4,near_mint
-Cemetery Prowler,en,https://scryfall.com/card/vow/191/,Innistrad: Crimson Vow,mythic,5.99,2021-11-19T00:00:00Z,4,near_mint
-Endurance,en,https://scryfall.com/card/mh2/157/,Modern Horizons 2,mythic,42.11,2021-06-18T00:00:00Z,4,near_mint
-Force of Vigor,en,https://scryfall.com/card/mh1/164/,Modern Horizons,rare,31.58,2019-06-14T00:00:00Z,2,near_mint
-"Toski, Bearer of Secrets",en,https://scryfall.com/card/khm/197/,Kaldheim,rare,8.77,2021-02-05T00:00:00Z,4,near_mint
-Esika's Chariot,en,https://scryfall.com/card/khm/169/,Kaldheim,rare,3.87,2021-02-05T00:00:00Z,4,near_mint
-Flusterstorm,en,https://scryfall.com/card/mh1/255/,Modern Horizons,rare,9.30,2019-06-14T00:00:00Z,4,near_mint
-True-Name Nemesis,en,https://scryfall.com/card/bbd/136/,Battlebond,mythic,4.50,2018-06-08T00:00:00Z,1,near_mint
-Snapcaster Mage,en,https://scryfall.com/card/isd/78/,Innistrad,rare,27.17,2011-09-30T00:00:00Z,4,near_mint
-Ledger Shredder,en,https://scryfall.com/card/snc/46/,Streets of New Capenna,rare,21.26,2022-04-29T00:00:00Z,4,near_mint
-Brazen Borrower // Petty Theft,en,https://scryfall.com/card/eld/39/,Throne of Eldraine,mythic,14.04,2019-10-04T00:00:00Z,4,near_mint
-Archmage's Charm,en,https://scryfall.com/card/mh1/40/,Modern Horizons,rare,19.20,2019-06-14T00:00:00Z,4,near_mint
-"Jace, the Mind Sculptor",en,https://scryfall.com/card/wwk/31/,Worldwake,mythic,40.00,2010-02-05T00:00:00Z,4,near_mint
-Subtlety,en,https://scryfall.com/card/mh2/67/,Modern Horizons 2,mythic,7.25,2021-06-18T00:00:00Z,4,near_mint
-Demilich,en,https://scryfall.com/card/afr/53/,Adventures in the Forgotten Realms,mythic,3.97,2021-07-23T00:00:00Z,4,near_mint
-Force of Will,en,https://scryfall.com/card/all/28/,Alliances,uncommon,80.18,1996-06-10T00:00:00Z,2,near_mint
-Force of Will,es,https://scryfall.com/card/all/28/es/,Alliances,uncommon,80.18,1996-06-10T00:00:00Z,2,excellent
-Cryptic Command,en,https://scryfall.com/card/lrw/56/,Lorwyn,rare,11.50,2007-10-12T00:00:00Z,4,near_mint
-Shark Typhoon,en,https://scryfall.com/card/iko/67/,Ikoria: Lair of Behemoths,rare,13.91,2020-04-24T00:00:00Z,4,near_mint
-Murktide Regent,en,https://scryfall.com/card/mh2/52/,Modern Horizons 2,mythic,21.66,2021-06-18T00:00:00Z,4,near_mint
-Mishra's Bauble,en,https://scryfall.com/card/2xm/274/,Double Masters,uncommon,9.22,2020-08-07T00:00:00Z,4,near_mint
-Isochron Scepter,en,https://scryfall.com/card/mrd/188/,Mirrodin,uncommon,3.31,2003-10-02T00:00:00Z,2,near_mint
-Isochron Scepter,en,https://scryfall.com/card/mrd/188/,Mirrodin,uncommon,3.31,2003-10-02T00:00:00Z,1,excellent
-Isochron Scepter,es,https://scryfall.com/card/mrd/188/es/,Mirrodin,uncommon,3.31,2003-10-02T00:00:00Z,1,excellent
-Masticore,en,https://scryfall.com/card/uds/134/,Urza's Destiny,rare,6.93,1999-06-07T00:00:00Z,4,near_mint
-"Luxior, Giada's Gift",en,https://scryfall.com/card/snc/240/,Streets of New Capenna,mythic,8.49,2022-04-29T00:00:00Z,4,near_mint
-Shadowspear,en,https://scryfall.com/card/thb/236/,Theros Beyond Death,rare,15.80,2020-01-24T00:00:00Z,1,near_mint
-Winter Orb,en,https://scryfall.com/card/3ed/280/,Revised Edition,rare,10.67,1994-04-01T00:00:00Z,1,near_mint
-Black Vise,en,https://scryfall.com/card/4ed/299/,Fourth Edition,uncommon,0.36,1995-04-01T00:00:00Z,1,excellent
-Kaldra Compleat,en,https://scryfall.com/card/mh2/227/,Modern Horizons 2,mythic,4.79,2021-06-18T00:00:00Z,1,near_mint
+Raffine's Tower,en,https://scryfall.com/card/snc/254/,Streets of New Capenna,rare,9.24,2022-04-29T00:00:00Z,4,near_mint
+Spara's Headquarters,en,https://scryfall.com/card/snc/257/,Streets of New Capenna,rare,7.92,2022-04-29T00:00:00Z,4,near_mint
+Xander's Lounge,en,https://scryfall.com/card/snc/260/,Streets of New Capenna,rare,8.14,2022-04-29T00:00:00Z,4,near_mint
+Ziatora's Proving Ground,en,https://scryfall.com/card/snc/261/,Streets of New Capenna,rare,8.12,2022-04-29T00:00:00Z,4,near_mint
+Dauthi Voidwalker,en,https://scryfall.com/card/mh2/81/,Modern Horizons 2,rare,7.81,2021-06-18T00:00:00Z,4,near_mint
+Inquisition of Kozilek,en,https://scryfall.com/card/mm3/75/,Modern Masters 2017,uncommon,2.00,2017-03-17T00:00:00Z,4,near_mint
+Fatal Push,en,https://scryfall.com/card/aer/57/,Aether Revolt,uncommon,2.13,2017-01-20T00:00:00Z,4,near_mint
+"Tourach, Dread Cantor",en,https://scryfall.com/card/mh2/102/,Modern Horizons 2,mythic,5.58,2021-06-18T00:00:00Z,4,near_mint
+Seasoned Pyromancer,en,https://scryfall.com/card/mh1/145/,Modern Horizons,mythic,27.66,2019-06-14T00:00:00Z,4,near_mint
+"Shizo, Death's Storehouse",en,https://scryfall.com/card/chk/283/,Champions of Kamigawa,rare,18.25,2004-10-01T00:00:00Z,1,near_mint
+Liliana of the Veil,en,https://scryfall.com/card/isd/105/,Innistrad,mythic,54.13,2011-09-30T00:00:00Z,4,near_mint
+"Ragavan, Nimble Pilferer",en,https://scryfall.com/card/mh2/138/,Modern Horizons 2,mythic,62.35,2021-06-18T00:00:00Z,4,near_mint
+"Kroxa, Titan of Death's Hunger",en,https://scryfall.com/card/thb/221/,Theros Beyond Death,mythic,24.99,2020-01-24T00:00:00Z,4,near_mint
+Kolaghan's Command,en,https://scryfall.com/card/dtk/224/,Dragons of Tarkir,rare,8.99,2015-03-27T00:00:00Z,4,near_mint
+Unlicensed Hearse,en,https://scryfall.com/card/snc/246/,Streets of New Capenna,rare,12.84,2022-04-29T00:00:00Z,4,near_mint
+Terminate,en,https://scryfall.com/card/arb/46/,Alara Reborn,common,0.39,2009-04-30T00:00:00Z,4,near_mint
+"Shinka, the Bloodsoaked Keep",en,https://scryfall.com/card/plist/651/,The List,rare,12.95,2021-11-19T00:00:00Z,4,near_mint
+Chalice of the Void,en,https://scryfall.com/card/mrd/150/,Mirrodin,rare,44.02,2003-10-02T00:00:00Z,1,near_mint
+Engineered Explosives,en,https://scryfall.com/card/2xm/252/,Double Masters,rare,11.84,2020-08-07T00:00:00Z,4,near_mint
+Alpine Moon,en,https://scryfall.com/card/m19/128/,Core Set 2019,rare,7.13,2018-07-13T00:00:00Z,4,near_mint
+Pithing Needle,en,https://scryfall.com/card/mid/257/,Innistrad: Midnight Hunt,rare,0.53,2021-09-24T00:00:00Z,4,near_mint
+Void Mirror,en,https://scryfall.com/card/mh2/242/,Modern Horizons 2,rare,0.37,2021-06-18T00:00:00Z,4,near_mint
+"Ashiok, Dream Render",en,https://scryfall.com/card/war/228/,War of the Spark,uncommon,1.10,2019-05-03T00:00:00Z,4,near_mint
+Boil,en,https://scryfall.com/card/tmp/165/,Tempest,uncommon,0.50,1997-10-14T00:00:00Z,4,near_mint
+Noble Hierarch,en,https://scryfall.com/card/uma/174/,Ultimate Masters,rare,11.20,2018-12-07T00:00:00Z,4,near_mint
+Hexdrinker,en,https://scryfall.com/card/mh1/168/,Modern Horizons,mythic,9.01,2019-06-14T00:00:00Z,4,near_mint
+Elvish Reclaimer,en,https://scryfall.com/card/m20/169/,Core Set 2020,rare,7.85,2019-07-12T00:00:00Z,4,near_mint
+Tireless Tracker,en,https://scryfall.com/card/soi/233/,Shadows over Innistrad,rare,5.55,2016-04-08T00:00:00Z,4,near_mint
+Cemetery Prowler,en,https://scryfall.com/card/vow/191/,Innistrad: Crimson Vow,mythic,5.13,2021-11-19T00:00:00Z,4,near_mint
+Endurance,en,https://scryfall.com/card/mh2/157/,Modern Horizons 2,mythic,43.97,2021-06-18T00:00:00Z,4,near_mint
+Force of Vigor,en,https://scryfall.com/card/mh1/164/,Modern Horizons,rare,31.36,2019-06-14T00:00:00Z,2,near_mint
+"Toski, Bearer of Secrets",en,https://scryfall.com/card/khm/197/,Kaldheim,rare,8.44,2021-02-05T00:00:00Z,4,near_mint
+Esika's Chariot,en,https://scryfall.com/card/khm/169/,Kaldheim,rare,3.58,2021-02-05T00:00:00Z,4,near_mint
+Flusterstorm,en,https://scryfall.com/card/mh1/255/,Modern Horizons,rare,10.00,2019-06-14T00:00:00Z,4,near_mint
+True-Name Nemesis,en,https://scryfall.com/card/bbd/136/,Battlebond,mythic,6.98,2018-06-08T00:00:00Z,1,near_mint
+Snapcaster Mage,en,https://scryfall.com/card/isd/78/,Innistrad,rare,27.74,2011-09-30T00:00:00Z,4,near_mint
+Ledger Shredder,en,https://scryfall.com/card/snc/46/,Streets of New Capenna,rare,21.69,2022-04-29T00:00:00Z,4,near_mint
+Brazen Borrower // Petty Theft,en,https://scryfall.com/card/eld/39/,Throne of Eldraine,mythic,14.82,2019-10-04T00:00:00Z,4,near_mint
+Archmage's Charm,en,https://scryfall.com/card/mh1/40/,Modern Horizons,rare,21.77,2019-06-14T00:00:00Z,4,near_mint
+"Jace, the Mind Sculptor",en,https://scryfall.com/card/wwk/31/,Worldwake,mythic,42.50,2010-02-05T00:00:00Z,4,near_mint
+Subtlety,en,https://scryfall.com/card/mh2/67/,Modern Horizons 2,mythic,7.59,2021-06-18T00:00:00Z,4,near_mint
+Demilich,en,https://scryfall.com/card/afr/53/,Adventures in the Forgotten Realms,mythic,2.70,2021-07-23T00:00:00Z,4,near_mint
+Force of Will,en,https://scryfall.com/card/all/28/,Alliances,uncommon,75.49,1996-06-10T00:00:00Z,2,near_mint
+Force of Will,es,https://scryfall.com/card/all/28/es/,Alliances,uncommon,75.49,1996-06-10T00:00:00Z,2,excellent
+Cryptic Command,en,https://scryfall.com/card/lrw/56/,Lorwyn,rare,10.50,2007-10-12T00:00:00Z,4,near_mint
+Shark Typhoon,en,https://scryfall.com/card/iko/67/,Ikoria: Lair of Behemoths,rare,12.84,2020-04-24T00:00:00Z,4,near_mint
+Murktide Regent,en,https://scryfall.com/card/mh2/52/,Modern Horizons 2,mythic,23.30,2021-06-18T00:00:00Z,4,near_mint
+Mishra's Bauble,en,https://scryfall.com/card/2xm/274/,Double Masters,uncommon,8.65,2020-08-07T00:00:00Z,4,near_mint
+Isochron Scepter,en,https://scryfall.com/card/mrd/188/,Mirrodin,uncommon,4.19,2003-10-02T00:00:00Z,2,near_mint
+Isochron Scepter,en,https://scryfall.com/card/mrd/188/,Mirrodin,uncommon,4.19,2003-10-02T00:00:00Z,1,excellent
+Isochron Scepter,es,https://scryfall.com/card/mrd/188/es/,Mirrodin,uncommon,4.19,2003-10-02T00:00:00Z,1,excellent
+Masticore,en,https://scryfall.com/card/uds/134/,Urza's Destiny,rare,8.48,1999-06-07T00:00:00Z,4,near_mint
+"Luxior, Giada's Gift",en,https://scryfall.com/card/snc/240/,Streets of New Capenna,mythic,8.09,2022-04-29T00:00:00Z,4,near_mint
+Shadowspear,en,https://scryfall.com/card/thb/236/,Theros Beyond Death,rare,16.77,2020-01-24T00:00:00Z,1,near_mint
+Winter Orb,en,https://scryfall.com/card/3ed/280/,Revised Edition,rare,12.97,1994-04-01T00:00:00Z,1,near_mint
+Black Vise,en,https://scryfall.com/card/4ed/299/,Fourth Edition,uncommon,0.73,1995-04-01T00:00:00Z,1,excellent
+Kaldra Compleat,en,https://scryfall.com/card/mh2/227/,Modern Horizons 2,mythic,4.61,2021-06-18T00:00:00Z,1,near_mint
 Batterskull,en,https://scryfall.com/card/nph/130/,New Phyrexia,mythic,6.00,2011-05-13T00:00:00Z,1,near_mint
-Crucible of Worlds,en,https://scryfall.com/card/5dn/114/,Fifth Dawn,rare,20.00,2004-06-04T00:00:00Z,1,near_mint
-Crucible of Worlds,en,https://scryfall.com/card/5dn/114/,Fifth Dawn,rare,20.00,2004-06-04T00:00:00Z,1,excellent
-Sword of Fire and Ice,en,https://scryfall.com/card/2xm/297/,Double Masters,mythic,36.16,2020-08-07T00:00:00Z,2,near_mint
-Sword of Body and Mind,en,https://scryfall.com/card/2xm/363/,Double Masters,mythic,18.25,2020-08-07T00:00:00Z,1,near_mint
-Sword of Feast and Famine,en,https://scryfall.com/card/2xm/364/,Double Masters,mythic,93.99,2020-08-07T00:00:00Z,1,near_mint
-Sword of Truth and Justice,en,https://scryfall.com/card/mh1/229/,Modern Horizons,mythic,14.99,2019-06-14T00:00:00Z,1,near_mint
-Sword of Sinew and Steel,en,https://scryfall.com/card/mh1/228/,Modern Horizons,mythic,8.41,2019-06-14T00:00:00Z,1,near_mint
-Deathrite Shaman,en,https://scryfall.com/card/rtr/213/,Return to Ravnica,rare,5.44,2012-10-05T00:00:00Z,4,near_mint
-Dovin's Veto,en,https://scryfall.com/card/war/193/,War of the Spark,uncommon,1.40,2019-05-03T00:00:00Z,4,near_mint
-Wrenn and Six,en,https://scryfall.com/card/mh1/217/,Modern Horizons,mythic,65.97,2019-06-14T00:00:00Z,4,near_mint
-Assassin's Trophy,en,https://scryfall.com/card/grn/152/,Guilds of Ravnica,rare,8.23,2018-10-05T00:00:00Z,4,near_mint
+Crucible of Worlds,en,https://scryfall.com/card/5dn/114/,Fifth Dawn,rare,16.95,2004-06-04T00:00:00Z,1,near_mint
+Crucible of Worlds,en,https://scryfall.com/card/5dn/114/,Fifth Dawn,rare,16.95,2004-06-04T00:00:00Z,1,excellent
+Sword of Fire and Ice,en,https://scryfall.com/card/2xm/297/,Double Masters,mythic,32.02,2020-08-07T00:00:00Z,2,near_mint
+Sword of Body and Mind,en,https://scryfall.com/card/2xm/363/,Double Masters,mythic,19.00,2020-08-07T00:00:00Z,1,near_mint
+Sword of Feast and Famine,en,https://scryfall.com/card/2xm/364/,Double Masters,mythic,65.00,2020-08-07T00:00:00Z,1,near_mint
+Sword of Truth and Justice,en,https://scryfall.com/card/mh1/229/,Modern Horizons,mythic,16.49,2019-06-14T00:00:00Z,1,near_mint
+Sword of Sinew and Steel,en,https://scryfall.com/card/mh1/228/,Modern Horizons,mythic,7.09,2019-06-14T00:00:00Z,1,near_mint
+Deathrite Shaman,en,https://scryfall.com/card/rtr/213/,Return to Ravnica,rare,6.89,2012-10-05T00:00:00Z,4,near_mint
+Dovin's Veto,en,https://scryfall.com/card/war/193/,War of the Spark,uncommon,1.34,2019-05-03T00:00:00Z,4,near_mint
+Wrenn and Six,en,https://scryfall.com/card/mh1/217/,Modern Horizons,mythic,63.89,2019-06-14T00:00:00Z,4,near_mint
+Assassin's Trophy,en,https://scryfall.com/card/grn/152/,Guilds of Ravnica,rare,9.03,2018-10-05T00:00:00Z,4,near_mint
 Abrupt Decay,en,https://scryfall.com/card/rtr/141/,Return to Ravnica,rare,3.93,2012-10-05T00:00:00Z,4,near_mint
-Galvanic Iteration,en,https://scryfall.com/card/mid/224/,Innistrad: Midnight Hunt,rare,1.09,2021-09-24T00:00:00Z,4,near_mint
-Kaito Shizuki,en,https://scryfall.com/card/neo/226/,Kamigawa: Neon Dynasty,mythic,9.69,2022-02-18T00:00:00Z,4,near_mint
-Prismari Command,en,https://scryfall.com/card/stx/214/,Strixhaven: School of Mages,rare,5.35,2021-04-23T00:00:00Z,4,near_mint
-"Grist, the Hunger Tide",en,https://scryfall.com/card/mh2/202/,Modern Horizons 2,mythic,6.47,2021-06-18T00:00:00Z,4,near_mint
-"Klothys, God of Destiny",en,https://scryfall.com/card/thb/220/,Theros Beyond Death,mythic,9.00,2020-01-24T00:00:00Z,4,near_mint
-"Ob Nixilis, the Adversary",en,https://scryfall.com/card/snc/206/,Streets of New Capenna,mythic,17.98,2022-04-29T00:00:00Z,4,near_mint
-Kaya's Guile,en,https://scryfall.com/card/mh1/205/,Modern Horizons,rare,3.63,2019-06-14T00:00:00Z,4,near_mint
-"Kaya, Orzhov Usurper",en,https://scryfall.com/card/rna/186/,Ravnica Allegiance,mythic,3.00,2019-01-25T00:00:00Z,4,near_mint
-"Teferi, Time Raveler",en,https://scryfall.com/card/war/221/,War of the Spark,rare,19.30,2019-05-03T00:00:00Z,4,near_mint
-Olivia Voldaren,en,https://scryfall.com/card/isd/215/,Innistrad,mythic,8.50,2011-09-30T00:00:00Z,4,near_mint
-Supreme Verdict,en,https://scryfall.com/card/rtr/201/,Return to Ravnica,rare,7.16,2012-10-05T00:00:00Z,4,near_mint
-"Teferi, Hero of Dominaria",en,https://scryfall.com/card/dom/207/,Dominaria,mythic,29.44,2018-04-27T00:00:00Z,4,near_mint
-"Zirda, the Dawnwaker",en,https://scryfall.com/card/iko/233/,Ikoria: Lair of Behemoths,rare,1.33,2020-04-24T00:00:00Z,1,near_mint
-"Umori, the Collector",en,https://scryfall.com/card/iko/231/,Ikoria: Lair of Behemoths,rare,0.35,2020-04-24T00:00:00Z,1,near_mint
-"Obosh, the Preypiercer",en,https://scryfall.com/card/iko/228/,Ikoria: Lair of Behemoths,rare,0.33,2020-04-24T00:00:00Z,1,near_mint
-"Kaheera, the Orphanguard",en,https://scryfall.com/card/iko/224/,Ikoria: Lair of Behemoths,rare,0.89,2020-04-24T00:00:00Z,1,near_mint
-"Lutri, the Spellchaser",en,https://scryfall.com/card/iko/227/,Ikoria: Lair of Behemoths,rare,0.14,2020-04-24T00:00:00Z,1,near_mint
-"Jegantha, the Wellspring",en,https://scryfall.com/card/iko/222/,Ikoria: Lair of Behemoths,rare,0.89,2020-04-24T00:00:00Z,1,near_mint
-Lurrus of the Dream-Den,en,https://scryfall.com/card/iko/226/,Ikoria: Lair of Behemoths,rare,2.79,2020-04-24T00:00:00Z,3,near_mint
-Lurrus of the Dream-Den,en,https://scryfall.com/card/q06/9/,Pioneer Challenger Decks 2021,rare,4.40,2021-10-15T00:00:00Z,1,near_mint
-"Nevinyrral, Urborg Tyrant",en,https://scryfall.com/card/cmr/287/,Commander Legends,rare,0.19,2020-11-20T00:00:00Z,1,near_mint
-Kozilek's Return,en,https://scryfall.com/card/ogw/98/,Oath of the Gatewatch,mythic,3.16,2016-01-22T00:00:00Z,4,near_mint
-"Chandra, Torch of Defiance",en,https://scryfall.com/card/kld/110/,Kaladesh,mythic,6.64,2016-09-30T00:00:00Z,4,near_mint
-Arclight Phoenix,en,https://scryfall.com/card/grn/91/,Guilds of Ravnica,mythic,7.22,2018-10-05T00:00:00Z,4,near_mint
-Shattering Spree,en,https://scryfall.com/card/gk1/34/,GRN Guild Kit,uncommon,3.45,2018-11-02T00:00:00Z,4,near_mint
-Fury,en,https://scryfall.com/card/mh2/126/,Modern Horizons 2,mythic,27.26,2021-06-18T00:00:00Z,4,near_mint
-Dragon's Rage Channeler,en,https://scryfall.com/card/mh2/121/,Modern Horizons 2,uncommon,1.34,2021-06-18T00:00:00Z,4,near_mint
-Magus of the Moon,en,https://scryfall.com/card/fut/101/,Future Sight,rare,6.21,2007-05-04T00:00:00Z,4,near_mint
-Blood Moon,en,https://scryfall.com/card/a25/122/,Masters 25,rare,11.90,2018-03-16T00:00:00Z,4,near_mint
-Leyline of Sanctity,en,https://scryfall.com/card/m20/26/,Core Set 2020,rare,5.11,2019-07-12T00:00:00Z,4,near_mint
-Rest in Peace,en,https://scryfall.com/card/rtr/18/,Return to Ravnica,rare,5.02,2012-10-05T00:00:00Z,4,near_mint
-Esper Sentinel,en,https://scryfall.com/card/mh2/12/,Modern Horizons 2,rare,17.76,2021-06-18T00:00:00Z,4,near_mint
-Stoneforge Mystic,en,https://scryfall.com/card/wwk/20/,Worldwake,rare,33.95,2010-02-05T00:00:00Z,4,near_mint
-The Wandering Emperor,en,https://scryfall.com/card/neo/42/,Kamigawa: Neon Dynasty,mythic,33.25,2022-02-18T00:00:00Z,4,near_mint
-Ranger-Captain of Eos,en,https://scryfall.com/card/mh1/21/,Modern Horizons,mythic,24.95,2019-06-14T00:00:00Z,4,near_mint
-March of Otherworldly Light,en,https://scryfall.com/card/neo/28/,Kamigawa: Neon Dynasty,rare,6.81,2022-02-18T00:00:00Z,4,near_mint
-Monastery Mentor,en,https://scryfall.com/card/frf/20/,Fate Reforged,mythic,10.00,2015-01-23T00:00:00Z,4,near_mint
-Lion Sash,en,https://scryfall.com/card/neo/26/,Kamigawa: Neon Dynasty,rare,2.11,2022-02-18T00:00:00Z,4,near_mint
-Giver of Runes,en,https://scryfall.com/card/mh1/13/,Modern Horizons,rare,7.72,2019-06-14T00:00:00Z,4,near_mint
-Solitude,en,https://scryfall.com/card/mh2/32/,Modern Horizons 2,mythic,40.57,2021-06-18T00:00:00Z,4,near_mint
-Sanctifier en-Vec,en,https://scryfall.com/card/mh2/27/,Modern Horizons 2,rare,0.73,2021-06-18T00:00:00Z,4,near_mint
-Death's Shadow,en,https://scryfall.com/card/2xm/82/,Double Masters,rare,3.73,2020-08-07T00:00:00Z,4,near_mint
-Bitterblossom,en,https://scryfall.com/card/mor/58/,Morningtide,rare,21.50,2008-02-01T00:00:00Z,4,near_mint
-Goryo's Vengeance,en,https://scryfall.com/card/uma/99/,Ultimate Masters,rare,1.69,2018-12-07T00:00:00Z,4,near_mint
-Dark Confidant,en,https://scryfall.com/card/rav/81/,Ravnica: City of Guilds,rare,18.50,2005-10-07T00:00:00Z,4,near_mint
-Bloodghast,en,https://scryfall.com/card/ima/82/,Iconic Masters,rare,9.00,2017-11-17T00:00:00Z,4,near_mint
-Collective Brutality,en,https://scryfall.com/card/emn/85/,Eldritch Moon,rare,3.18,2016-07-22T00:00:00Z,4,near_mint
-Sinkhole,en,https://scryfall.com/card/2ed/130/,Unlimited Edition,common,37.99,1993-12-01T00:00:00Z,2,near_mint
-Sinkhole,en,https://scryfall.com/card/2ed/130/,Unlimited Edition,common,37.99,1993-12-01T00:00:00Z,2,excellent
-Sinkhole,en,https://scryfall.com/card/2ed/130/,Unlimited Edition,common,37.99,1993-12-01T00:00:00Z,2,played
-Phyrexian Negator,en,https://scryfall.com/card/uds/65/,Urza's Destiny,rare,8.47,1999-06-07T00:00:00Z,2,near_mint
-Phyrexian Negator,en,https://scryfall.com/card/uds/65/,Urza's Destiny,rare,8.47,1999-06-07T00:00:00Z,2,excellent
-Damnation,es,https://scryfall.com/card/plc/85/es/,Planar Chaos,rare,18.46,2007-02-02T00:00:00Z,4,near_mint
-Toxic Deluge,en,https://scryfall.com/card/2xm/110/,Double Masters,rare,13.12,2020-08-07T00:00:00Z,1,near_mint
-Necropotence,es,https://scryfall.com/card/ice/154/es/,Ice Age,rare,22.90,1995-06-03T00:00:00Z,1,played
-Yawgmoth's Will,en,https://scryfall.com/card/usg/171/,Urza's Saga,rare,129.00,1998-10-12T00:00:00Z,1,near_mint
-Demonic Tutor,en,https://scryfall.com/card/3ed/105/,Revised Edition,uncommon,18.00,1994-04-01T00:00:00Z,1,near_mint
-Mind Twist,en,https://scryfall.com/card/4ed/147/,Fourth Edition,rare,7.95,1995-04-01T00:00:00Z,1,good
-Grief,en,https://scryfall.com/card/mh2/87/,Modern Horizons 2,mythic,13.68,2021-06-18T00:00:00Z,4,near_mint
-Archon of Cruelty,en,https://scryfall.com/card/mh2/75/,Modern Horizons 2,mythic,10.68,2021-06-18T00:00:00Z,4,near_mint
-Fire-Lit Thicket,en,https://scryfall.com/card/2xm/317/,Double Masters,rare,3.92,2020-08-07T00:00:00Z,4,near_mint
+Galvanic Iteration,en,https://scryfall.com/card/mid/224/,Innistrad: Midnight Hunt,rare,1.73,2021-09-24T00:00:00Z,4,near_mint
+Kaito Shizuki,en,https://scryfall.com/card/neo/226/,Kamigawa: Neon Dynasty,mythic,9.73,2022-02-18T00:00:00Z,4,near_mint
+Prismari Command,en,https://scryfall.com/card/stx/214/,Strixhaven: School of Mages,rare,5.33,2021-04-23T00:00:00Z,4,near_mint
+"Grist, the Hunger Tide",en,https://scryfall.com/card/mh2/202/,Modern Horizons 2,mythic,7.15,2021-06-18T00:00:00Z,4,near_mint
+"Klothys, God of Destiny",en,https://scryfall.com/card/thb/220/,Theros Beyond Death,mythic,9.90,2020-01-24T00:00:00Z,4,near_mint
+"Ob Nixilis, the Adversary",en,https://scryfall.com/card/snc/206/,Streets of New Capenna,mythic,18.61,2022-04-29T00:00:00Z,4,near_mint
+Kaya's Guile,en,https://scryfall.com/card/mh1/205/,Modern Horizons,rare,2.70,2019-06-14T00:00:00Z,4,near_mint
+"Kaya, Orzhov Usurper",en,https://scryfall.com/card/rna/186/,Ravnica Allegiance,mythic,6.97,2019-01-25T00:00:00Z,4,near_mint
+"Teferi, Time Raveler",en,https://scryfall.com/card/war/221/,War of the Spark,rare,19.21,2019-05-03T00:00:00Z,4,near_mint
+Olivia Voldaren,en,https://scryfall.com/card/isd/215/,Innistrad,mythic,8.06,2011-09-30T00:00:00Z,4,near_mint
+Supreme Verdict,en,https://scryfall.com/card/rtr/201/,Return to Ravnica,rare,7.56,2012-10-05T00:00:00Z,4,near_mint
+"Teferi, Hero of Dominaria",en,https://scryfall.com/card/dom/207/,Dominaria,mythic,27.70,2018-04-27T00:00:00Z,4,near_mint
+"Zirda, the Dawnwaker",en,https://scryfall.com/card/iko/233/,Ikoria: Lair of Behemoths,rare,0.93,2020-04-24T00:00:00Z,1,near_mint
+"Umori, the Collector",en,https://scryfall.com/card/iko/231/,Ikoria: Lair of Behemoths,rare,0.12,2020-04-24T00:00:00Z,1,near_mint
+"Obosh, the Preypiercer",en,https://scryfall.com/card/iko/228/,Ikoria: Lair of Behemoths,rare,0.46,2020-04-24T00:00:00Z,1,near_mint
+"Kaheera, the Orphanguard",en,https://scryfall.com/card/iko/224/,Ikoria: Lair of Behemoths,rare,1.03,2020-04-24T00:00:00Z,1,near_mint
+"Lutri, the Spellchaser",en,https://scryfall.com/card/iko/227/,Ikoria: Lair of Behemoths,rare,0.15,2020-04-24T00:00:00Z,1,near_mint
+"Jegantha, the Wellspring",en,https://scryfall.com/card/iko/222/,Ikoria: Lair of Behemoths,rare,0.87,2020-04-24T00:00:00Z,1,near_mint
+Lurrus of the Dream-Den,en,https://scryfall.com/card/iko/226/,Ikoria: Lair of Behemoths,rare,2.65,2020-04-24T00:00:00Z,3,near_mint
+Lurrus of the Dream-Den,en,https://scryfall.com/card/q06/9/,Pioneer Challenger Decks 2021,rare,2.50,2021-10-15T00:00:00Z,1,near_mint
+"Nevinyrral, Urborg Tyrant",en,https://scryfall.com/card/cmr/287/,Commander Legends,rare,0.69,2020-11-20T00:00:00Z,1,near_mint
+Kozilek's Return,en,https://scryfall.com/card/ogw/98/,Oath of the Gatewatch,mythic,4.02,2016-01-22T00:00:00Z,4,near_mint
+"Chandra, Torch of Defiance",en,https://scryfall.com/card/kld/110/,Kaladesh,mythic,6.94,2016-09-30T00:00:00Z,4,near_mint
+Arclight Phoenix,en,https://scryfall.com/card/grn/91/,Guilds of Ravnica,mythic,7.67,2018-10-05T00:00:00Z,4,near_mint
+Shattering Spree,en,https://scryfall.com/card/gk1/34/,GRN Guild Kit,uncommon,3.67,2018-11-02T00:00:00Z,4,near_mint
+Fury,en,https://scryfall.com/card/mh2/126/,Modern Horizons 2,mythic,25.96,2021-06-18T00:00:00Z,4,near_mint
+Dragon's Rage Channeler,en,https://scryfall.com/card/mh2/121/,Modern Horizons 2,uncommon,1.25,2021-06-18T00:00:00Z,4,near_mint
+Magus of the Moon,en,https://scryfall.com/card/fut/101/,Future Sight,rare,5.00,2007-05-04T00:00:00Z,4,near_mint
+Blood Moon,en,https://scryfall.com/card/a25/122/,Masters 25,rare,10.95,2018-03-16T00:00:00Z,4,near_mint
+Leyline of Sanctity,en,https://scryfall.com/card/m20/26/,Core Set 2020,rare,4.62,2019-07-12T00:00:00Z,4,near_mint
+Rest in Peace,en,https://scryfall.com/card/rtr/18/,Return to Ravnica,rare,4.84,2012-10-05T00:00:00Z,4,near_mint
+Esper Sentinel,en,https://scryfall.com/card/mh2/12/,Modern Horizons 2,rare,18.33,2021-06-18T00:00:00Z,4,near_mint
+Stoneforge Mystic,en,https://scryfall.com/card/wwk/20/,Worldwake,rare,34.07,2010-02-05T00:00:00Z,4,near_mint
+The Wandering Emperor,en,https://scryfall.com/card/neo/42/,Kamigawa: Neon Dynasty,mythic,33.63,2022-02-18T00:00:00Z,4,near_mint
+Ranger-Captain of Eos,en,https://scryfall.com/card/mh1/21/,Modern Horizons,mythic,18.99,2019-06-14T00:00:00Z,4,near_mint
+March of Otherworldly Light,en,https://scryfall.com/card/neo/28/,Kamigawa: Neon Dynasty,rare,6.75,2022-02-18T00:00:00Z,4,near_mint
+Monastery Mentor,en,https://scryfall.com/card/frf/20/,Fate Reforged,mythic,9.50,2015-01-23T00:00:00Z,4,near_mint
+Lion Sash,en,https://scryfall.com/card/neo/26/,Kamigawa: Neon Dynasty,rare,2.04,2022-02-18T00:00:00Z,4,near_mint
+Giver of Runes,en,https://scryfall.com/card/mh1/13/,Modern Horizons,rare,6.69,2019-06-14T00:00:00Z,4,near_mint
+Solitude,en,https://scryfall.com/card/mh2/32/,Modern Horizons 2,mythic,43.32,2021-06-18T00:00:00Z,4,near_mint
+Sanctifier en-Vec,en,https://scryfall.com/card/mh2/27/,Modern Horizons 2,rare,1.02,2021-06-18T00:00:00Z,4,near_mint
+Death's Shadow,en,https://scryfall.com/card/2xm/82/,Double Masters,rare,4.53,2020-08-07T00:00:00Z,4,near_mint
+Bitterblossom,en,https://scryfall.com/card/mor/58/,Morningtide,rare,23.45,2008-02-01T00:00:00Z,4,near_mint
+Goryo's Vengeance,en,https://scryfall.com/card/uma/99/,Ultimate Masters,rare,2.29,2018-12-07T00:00:00Z,4,near_mint
+Dark Confidant,en,https://scryfall.com/card/rav/81/,Ravnica: City of Guilds,rare,19.19,2005-10-07T00:00:00Z,4,near_mint
+Bloodghast,en,https://scryfall.com/card/ima/82/,Iconic Masters,rare,10.10,2017-11-17T00:00:00Z,4,near_mint
+Collective Brutality,en,https://scryfall.com/card/emn/85/,Eldritch Moon,rare,4.25,2016-07-22T00:00:00Z,4,near_mint
+Sinkhole,en,https://scryfall.com/card/2ed/130/,Unlimited Edition,common,49.99,1993-12-01T00:00:00Z,2,near_mint
+Sinkhole,en,https://scryfall.com/card/2ed/130/,Unlimited Edition,common,49.99,1993-12-01T00:00:00Z,1,excellent
+Sinkhole,en,https://scryfall.com/card/2ed/130/,Unlimited Edition,common,49.99,1993-12-01T00:00:00Z,1,played
+Phyrexian Negator,en,https://scryfall.com/card/uds/65/,Urza's Destiny,rare,6.50,1999-06-07T00:00:00Z,2,near_mint
+Phyrexian Negator,en,https://scryfall.com/card/uds/65/,Urza's Destiny,rare,6.50,1999-06-07T00:00:00Z,2,excellent
+Damnation,es,https://scryfall.com/card/plc/85/es/,Planar Chaos,rare,15.73,2007-02-02T00:00:00Z,4,near_mint
+Toxic Deluge,en,https://scryfall.com/card/2xm/110/,Double Masters,rare,12.23,2020-08-07T00:00:00Z,1,near_mint
+Necropotence,es,https://scryfall.com/card/ice/154/es/,Ice Age,rare,29.65,1995-06-03T00:00:00Z,1,played
+Yawgmoth's Will,en,https://scryfall.com/card/usg/171/,Urza's Saga,rare,96.95,1998-10-12T00:00:00Z,1,near_mint
+Demonic Tutor,en,https://scryfall.com/card/3ed/105/,Revised Edition,uncommon,29.09,1994-04-01T00:00:00Z,1,near_mint
+Mind Twist,en,https://scryfall.com/card/4ed/147/,Fourth Edition,rare,8.02,1995-04-01T00:00:00Z,1,good
+Grief,en,https://scryfall.com/card/mh2/87/,Modern Horizons 2,mythic,13.82,2021-06-18T00:00:00Z,4,near_mint
+Archon of Cruelty,en,https://scryfall.com/card/mh2/75/,Modern Horizons 2,mythic,11.04,2021-06-18T00:00:00Z,4,near_mint
+Fire-Lit Thicket,en,https://scryfall.com/card/2xm/317/,Double Masters,rare,4.12,2020-08-07T00:00:00Z,4,near_mint
 Rugged Prairie,en,https://scryfall.com/card/2xm/325/,Double Masters,rare,2.90,2020-08-07T00:00:00Z,4,near_mint
-Elvish Visionary,en,https://scryfall.com/card/ala/130/,Shards of Alara,common,0.05,2008-10-03T00:00:00Z,3,near_mint
-Elvish Visionary,en,https://scryfall.com/card/ala/130/,Shards of Alara,common,0.05,2008-10-03T00:00:00Z,1,excellent
-"Kess, Dissident Mage",en,https://scryfall.com/card/mh1/206/,Modern Horizons,mythic,0.35,2019-06-14T00:00:00Z,1,near_mint
-"Sea Gate Restoration // Sea Gate, Reborn",en,https://scryfall.com/card/znr/76/,Zendikar Rising,mythic,11.40,2020-09-25T00:00:00Z,4,near_mint
-"Shatterskull Smashing // Shatterskull, the Hammer Pass",en,https://scryfall.com/card/znr/161/,Zendikar Rising,mythic,6.95,2020-09-25T00:00:00Z,4,near_mint
-"Agadeem's Awakening // Agadeem, the Undercrypt",en,https://scryfall.com/card/znr/90/,Zendikar Rising,mythic,15.52,2020-09-25T00:00:00Z,1,near_mint
-Thing in the Ice // Awoken Horror,en,https://scryfall.com/card/soi/92/,Shadows over Innistrad,rare,11.04,2016-04-08T00:00:00Z,4,near_mint
-Hidetsugu Consumes All // Vessel of the All-Consuming,en,https://scryfall.com/card/neo/221/,Kamigawa: Neon Dynasty,mythic,4.59,2022-02-18T00:00:00Z,4,near_mint
-Huntmaster of the Fells // Ravager of the Fells,en,https://scryfall.com/card/dka/140/,Dark Ascension,mythic,6.99,2012-02-03T00:00:00Z,4,near_mint
-Geier Reach Bandit // Vildin-Pack Alpha,en,https://scryfall.com/card/soi/159/,Shadows over Innistrad,rare,0.75,2016-04-08T00:00:00Z,4,near_mint
-Delver of Secrets // Insectile Aberration,en,https://scryfall.com/card/isd/51/,Innistrad,common,1.35,2011-09-30T00:00:00Z,4,near_mint
-Legion Warboss,en,https://scryfall.com/card/grn/109/,Guilds of Ravnica,rare,1.28,2018-10-05T00:00:00Z,4,near_mint
-Dreadhorde Arcanist,en,https://scryfall.com/card/war/125/,War of the Spark,rare,1.84,2019-05-03T00:00:00Z,4,near_mint
-Ancient Grudge,en,https://scryfall.com/card/tsr/151/,Time Spiral Remastered,common,0.11,2021-03-19T00:00:00Z,4,near_mint
-Young Pyromancer,en,https://scryfall.com/card/m14/163/,Magic 2014,uncommon,0.24,2013-07-19T00:00:00Z,4,near_mint
-Bonecrusher Giant // Stomp,en,https://scryfall.com/card/eld/115/,Throne of Eldraine,rare,0.49,2019-10-04T00:00:00Z,4,near_mint
-Fable of the Mirror-Breaker // Reflection of Kiki-Jiki,en,https://scryfall.com/card/neo/141/,Kamigawa: Neon Dynasty,rare,13.32,2022-02-18T00:00:00Z,4,near_mint
-Tainted Indulgence,en,https://scryfall.com/card/snc/227/,Streets of New Capenna,uncommon,0.65,2022-04-29T00:00:00Z,4,near_mint
-Faithful Mending,en,https://scryfall.com/card/mid/221/,Innistrad: Midnight Hunt,uncommon,1.13,2021-09-24T00:00:00Z,4,near_mint
-Professional Face-Breaker,en,https://scryfall.com/card/snc/116/,Streets of New Capenna,rare,4.65,2022-04-29T00:00:00Z,4,near_mint
-"Jaxis, the Troublemaker",en,https://scryfall.com/card/snc/112/,Streets of New Capenna,rare,0.25,2022-04-29T00:00:00Z,4,near_mint
-Sprite Dragon,en,https://scryfall.com/card/iko/211/,Ikoria: Lair of Behemoths,uncommon,0.50,2020-04-24T00:00:00Z,4,near_mint
-Stormchaser Mage,en,https://scryfall.com/card/ogw/159/,Oath of the Gatewatch,uncommon,0.45,2016-01-22T00:00:00Z,4,near_mint
-Once Upon a Time,en,https://scryfall.com/card/eld/169/,Throne of Eldraine,rare,1.01,2019-10-04T00:00:00Z,4,near_mint
-Containment Priest,en,https://scryfall.com/card/m21/13/,Core Set 2021,rare,0.18,2020-07-03T00:00:00Z,4,near_mint
-Leyline of the Void,en,https://scryfall.com/card/m20/107/,Core Set 2020,rare,4.20,2019-07-12T00:00:00Z,4,near_mint
-Veil of Summer,en,https://scryfall.com/card/m20/198/,Core Set 2020,uncommon,5.35,2019-07-12T00:00:00Z,4,near_mint
-Baleful Strix,en,https://scryfall.com/card/2xm/191/,Double Masters,rare,2.50,2020-08-07T00:00:00Z,4,near_mint
-"Chevill, Bane of Monsters",en,https://scryfall.com/card/iko/181/,Ikoria: Lair of Behemoths,mythic,1.69,2020-04-24T00:00:00Z,4,near_mint
-Growth Spiral,en,https://scryfall.com/card/rna/178/,Ravnica Allegiance,common,0.19,2019-01-25T00:00:00Z,4,near_mint
-Grisly Salvage,en,https://scryfall.com/card/rtr/165/,Return to Ravnica,common,0.37,2012-10-05T00:00:00Z,4,near_mint
-Lightning Helix,en,https://scryfall.com/card/rav/213/,Ravnica: City of Guilds,uncommon,0.33,2005-10-07T00:00:00Z,4,near_mint
-Manamorphose,en,https://scryfall.com/card/2xm/208/,Double Masters,uncommon,2.32,2020-08-07T00:00:00Z,4,near_mint
-Meddling Mage,en,https://scryfall.com/card/2xm/210/,Double Masters,rare,1.33,2020-08-07T00:00:00Z,4,near_mint
-Priest of Fell Rites,en,https://scryfall.com/card/mh2/208/,Modern Horizons 2,rare,0.16,2021-06-18T00:00:00Z,4,near_mint
-Territorial Kavu,en,https://scryfall.com/card/mh2/216/,Modern Horizons 2,rare,0.21,2021-06-18T00:00:00Z,4,near_mint
-Wear // Tear,en,https://scryfall.com/card/dgm/135/,Dragon's Maze,uncommon,1.98,2013-05-03T00:00:00Z,4,near_mint
-Witherbloom Command,en,https://scryfall.com/card/stx/248/,Strixhaven: School of Mages,rare,1.03,2021-04-23T00:00:00Z,4,near_mint
-Izzet Charm,en,https://scryfall.com/card/2xm/202/,Double Masters,uncommon,0.21,2020-08-07T00:00:00Z,4,near_mint
-Soaring Thought-Thief,en,https://scryfall.com/card/znr/236/,Zendikar Rising,uncommon,0.20,2020-09-25T00:00:00Z,4,near_mint
-Expressive Iteration,en,https://scryfall.com/card/stx/186/,Strixhaven: School of Mages,uncommon,5.87,2021-04-23T00:00:00Z,4,near_mint
-Ice-Fang Coatl,en,https://scryfall.com/card/mh1/203/,Modern Horizons,rare,4.08,2019-06-14T00:00:00Z,4,near_mint
-"Raffine, Scheming Seer",en,https://scryfall.com/card/snc/213/,Streets of New Capenna,mythic,5.65,2022-04-29T00:00:00Z,4,near_mint
-Lingering Souls,en,https://scryfall.com/card/dka/12/,Dark Ascension,uncommon,0.15,2012-02-03T00:00:00Z,4,near_mint
-"Ayara, First of Locthwain",en,https://scryfall.com/card/eld/75/,Throne of Eldraine,rare,2.80,2019-10-04T00:00:00Z,4,near_mint
-Master of the Wild Hunt,en,https://scryfall.com/card/plist/550/,The List,mythic,1.91,2021-09-25T00:00:00Z,4,near_mint
+Elvish Visionary,en,https://scryfall.com/card/ala/130/,Shards of Alara,common,0.07,2008-10-03T00:00:00Z,3,near_mint
+Elvish Visionary,en,https://scryfall.com/card/ala/130/,Shards of Alara,common,0.07,2008-10-03T00:00:00Z,1,excellent
+"Kess, Dissident Mage",en,https://scryfall.com/card/mh1/206/,Modern Horizons,mythic,1.54,2019-06-14T00:00:00Z,1,near_mint
+"Sea Gate Restoration // Sea Gate, Reborn",en,https://scryfall.com/card/znr/76/,Zendikar Rising,mythic,11.48,2020-09-25T00:00:00Z,4,near_mint
+"Shatterskull Smashing // Shatterskull, the Hammer Pass",en,https://scryfall.com/card/znr/161/,Zendikar Rising,mythic,6.16,2020-09-25T00:00:00Z,4,near_mint
+"Agadeem's Awakening // Agadeem, the Undercrypt",en,https://scryfall.com/card/znr/90/,Zendikar Rising,mythic,15.94,2020-09-25T00:00:00Z,1,near_mint
+Thing in the Ice // Awoken Horror,en,https://scryfall.com/card/soi/92/,Shadows over Innistrad,rare,15.43,2016-04-08T00:00:00Z,4,near_mint
+Hidetsugu Consumes All // Vessel of the All-Consuming,en,https://scryfall.com/card/neo/221/,Kamigawa: Neon Dynasty,mythic,4.82,2022-02-18T00:00:00Z,4,near_mint
+Huntmaster of the Fells // Ravager of the Fells,en,https://scryfall.com/card/dka/140/,Dark Ascension,mythic,8.25,2012-02-03T00:00:00Z,4,near_mint
+Geier Reach Bandit // Vildin-Pack Alpha,en,https://scryfall.com/card/soi/159/,Shadows over Innistrad,rare,1.14,2016-04-08T00:00:00Z,4,near_mint
+Delver of Secrets // Insectile Aberration,en,https://scryfall.com/card/isd/51/,Innistrad,common,0.63,2011-09-30T00:00:00Z,4,near_mint
+Legion Warboss,en,https://scryfall.com/card/grn/109/,Guilds of Ravnica,rare,0.95,2018-10-05T00:00:00Z,4,near_mint
+Dreadhorde Arcanist,en,https://scryfall.com/card/war/125/,War of the Spark,rare,1.40,2019-05-03T00:00:00Z,4,near_mint
+Ancient Grudge,en,https://scryfall.com/card/tsr/151/,Time Spiral Remastered,common,0.10,2021-03-19T00:00:00Z,4,near_mint
+Young Pyromancer,en,https://scryfall.com/card/m14/163/,Magic 2014,uncommon,0.45,2013-07-19T00:00:00Z,4,near_mint
+Bonecrusher Giant // Stomp,en,https://scryfall.com/card/eld/115/,Throne of Eldraine,rare,0.76,2019-10-04T00:00:00Z,4,near_mint
+Fable of the Mirror-Breaker // Reflection of Kiki-Jiki,en,https://scryfall.com/card/neo/141/,Kamigawa: Neon Dynasty,rare,12.80,2022-02-18T00:00:00Z,4,near_mint
+Tainted Indulgence,en,https://scryfall.com/card/snc/227/,Streets of New Capenna,uncommon,0.54,2022-04-29T00:00:00Z,4,near_mint
+Faithful Mending,en,https://scryfall.com/card/mid/221/,Innistrad: Midnight Hunt,uncommon,1.14,2021-09-24T00:00:00Z,4,near_mint
+Professional Face-Breaker,en,https://scryfall.com/card/snc/116/,Streets of New Capenna,rare,4.04,2022-04-29T00:00:00Z,4,near_mint
+"Jaxis, the Troublemaker",en,https://scryfall.com/card/snc/112/,Streets of New Capenna,rare,0.27,2022-04-29T00:00:00Z,4,near_mint
+Sprite Dragon,en,https://scryfall.com/card/iko/211/,Ikoria: Lair of Behemoths,uncommon,1.75,2020-04-24T00:00:00Z,4,near_mint
+Stormchaser Mage,en,https://scryfall.com/card/ogw/159/,Oath of the Gatewatch,uncommon,0.17,2016-01-22T00:00:00Z,4,near_mint
+Once Upon a Time,en,https://scryfall.com/card/eld/169/,Throne of Eldraine,rare,1.49,2019-10-04T00:00:00Z,4,near_mint
+Containment Priest,en,https://scryfall.com/card/m21/13/,Core Set 2021,rare,0.34,2020-07-03T00:00:00Z,4,near_mint
+Leyline of the Void,en,https://scryfall.com/card/m20/107/,Core Set 2020,rare,5.17,2019-07-12T00:00:00Z,4,near_mint
+Veil of Summer,en,https://scryfall.com/card/m20/198/,Core Set 2020,uncommon,5.05,2019-07-12T00:00:00Z,4,near_mint
+Baleful Strix,en,https://scryfall.com/card/2xm/191/,Double Masters,rare,2.17,2020-08-07T00:00:00Z,4,near_mint
+"Chevill, Bane of Monsters",en,https://scryfall.com/card/iko/181/,Ikoria: Lair of Behemoths,mythic,1.84,2020-04-24T00:00:00Z,4,near_mint
+Growth Spiral,en,https://scryfall.com/card/rna/178/,Ravnica Allegiance,common,0.25,2019-01-25T00:00:00Z,4,near_mint
+Grisly Salvage,en,https://scryfall.com/card/rtr/165/,Return to Ravnica,common,0.27,2012-10-05T00:00:00Z,4,near_mint
+Lightning Helix,en,https://scryfall.com/card/rav/213/,Ravnica: City of Guilds,uncommon,0.46,2005-10-07T00:00:00Z,4,near_mint
+Manamorphose,en,https://scryfall.com/card/2xm/208/,Double Masters,uncommon,2.41,2020-08-07T00:00:00Z,4,near_mint
+Meddling Mage,en,https://scryfall.com/card/2xm/210/,Double Masters,rare,1.00,2020-08-07T00:00:00Z,4,near_mint
+Priest of Fell Rites,en,https://scryfall.com/card/mh2/208/,Modern Horizons 2,rare,0.39,2021-06-18T00:00:00Z,4,near_mint
+Territorial Kavu,en,https://scryfall.com/card/mh2/216/,Modern Horizons 2,rare,0.15,2021-06-18T00:00:00Z,4,near_mint
+Wear // Tear,en,https://scryfall.com/card/dgm/135/,Dragon's Maze,uncommon,1.90,2013-05-03T00:00:00Z,4,near_mint
+Witherbloom Command,en,https://scryfall.com/card/stx/248/,Strixhaven: School of Mages,rare,1.06,2021-04-23T00:00:00Z,4,near_mint
+Izzet Charm,en,https://scryfall.com/card/2xm/202/,Double Masters,uncommon,0.25,2020-08-07T00:00:00Z,4,near_mint
+Soaring Thought-Thief,en,https://scryfall.com/card/znr/236/,Zendikar Rising,uncommon,0.05,2020-09-25T00:00:00Z,4,near_mint
+Expressive Iteration,en,https://scryfall.com/card/stx/186/,Strixhaven: School of Mages,uncommon,6.05,2021-04-23T00:00:00Z,4,near_mint
+Ice-Fang Coatl,en,https://scryfall.com/card/mh1/203/,Modern Horizons,rare,4.73,2019-06-14T00:00:00Z,4,near_mint
+"Raffine, Scheming Seer",en,https://scryfall.com/card/snc/213/,Streets of New Capenna,mythic,5.98,2022-04-29T00:00:00Z,4,near_mint
+Lingering Souls,en,https://scryfall.com/card/dka/12/,Dark Ascension,uncommon,0.25,2012-02-03T00:00:00Z,4,near_mint
+"Ayara, First of Locthwain",en,https://scryfall.com/card/eld/75/,Throne of Eldraine,rare,2.82,2019-10-04T00:00:00Z,4,near_mint
+Master of the Wild Hunt,en,https://scryfall.com/card/plist/550/,The List,mythic,1.36,2021-09-25T00:00:00Z,4,near_mint
 Blightning,en,https://scryfall.com/card/a25/198/,Masters 25,uncommon,0.18,2018-03-16T00:00:00Z,4,near_mint
 Deputy of Detention,en,https://scryfall.com/card/rna/165/,Ravnica Allegiance,rare,0.63,2019-01-25T00:00:00Z,4,near_mint
-Electrolyze,en,https://scryfall.com/card/gpt/111/,Guildpact,uncommon,0.40,2006-02-03T00:00:00Z,4,near_mint
-Esper Charm,en,https://scryfall.com/card/ala/167/,Shards of Alara,uncommon,0.34,2008-10-03T00:00:00Z,4,near_mint
-"Florian, Voldaren Scion",en,https://scryfall.com/card/mid/223/,Innistrad: Midnight Hunt,rare,0.27,2021-09-24T00:00:00Z,4,near_mint
-Drown in the Loch,en,https://scryfall.com/card/eld/188/,Throne of Eldraine,uncommon,1.82,2019-10-04T00:00:00Z,4,near_mint
-Geist of Saint Traft,en,https://scryfall.com/card/isd/213/,Innistrad,mythic,0.90,2011-09-30T00:00:00Z,4,near_mint
-Knight of Autumn,en,https://scryfall.com/card/grn/183/,Guilds of Ravnica,rare,0.68,2018-10-05T00:00:00Z,4,near_mint
+Electrolyze,en,https://scryfall.com/card/gpt/111/,Guildpact,uncommon,0.25,2006-02-03T00:00:00Z,4,near_mint
+Esper Charm,en,https://scryfall.com/card/ala/167/,Shards of Alara,uncommon,0.46,2008-10-03T00:00:00Z,4,near_mint
+"Florian, Voldaren Scion",en,https://scryfall.com/card/mid/223/,Innistrad: Midnight Hunt,rare,0.25,2021-09-24T00:00:00Z,4,near_mint
+Drown in the Loch,en,https://scryfall.com/card/eld/188/,Throne of Eldraine,uncommon,1.57,2019-10-04T00:00:00Z,4,near_mint
+Geist of Saint Traft,en,https://scryfall.com/card/isd/213/,Innistrad,mythic,1.05,2011-09-30T00:00:00Z,4,near_mint
+Knight of Autumn,en,https://scryfall.com/card/grn/183/,Guilds of Ravnica,rare,0.77,2018-10-05T00:00:00Z,4,near_mint
 Lightning Skelemental,en,https://scryfall.com/card/mh1/208/,Modern Horizons,rare,1.23,2019-06-14T00:00:00Z,4,near_mint
-Maelstrom Pulse,en,https://scryfall.com/card/2xm/207/,Double Masters,rare,1.83,2020-08-07T00:00:00Z,4,near_mint
-"Radha, Heart of Keld",en,https://scryfall.com/card/m21/224/,Core Set 2021,rare,0.57,2020-07-03T00:00:00Z,4,near_mint
-Reflector Mage,en,https://scryfall.com/card/ogw/157/,Oath of the Gatewatch,uncommon,0.37,2016-01-22T00:00:00Z,4,near_mint
-Soulherder,en,https://scryfall.com/card/mh1/214/,Modern Horizons,uncommon,0.33,2019-06-14T00:00:00Z,4,near_mint
-The Royal Scions,en,https://scryfall.com/card/eld/199/,Throne of Eldraine,mythic,1.93,2019-10-04T00:00:00Z,4,near_mint
-Thief of Sanity,en,https://scryfall.com/card/grn/205/,Guilds of Ravnica,rare,0.43,2018-10-05T00:00:00Z,4,near_mint
-Wandering Mind,en,https://scryfall.com/card/vow/251/,Innistrad: Crimson Vow,uncommon,0.09,2021-11-19T00:00:00Z,4,near_mint
-Void Rend,en,https://scryfall.com/card/snc/230/,Streets of New Capenna,rare,2.10,2022-04-29T00:00:00Z,4,near_mint
-Maestros Charm,en,https://scryfall.com/card/snc/199/,Streets of New Capenna,uncommon,0.08,2022-04-29T00:00:00Z,4,near_mint
-Obscura Charm,en,https://scryfall.com/card/snc/208/,Streets of New Capenna,uncommon,0.09,2022-04-29T00:00:00Z,4,near_mint
-Riveteers Charm,en,https://scryfall.com/card/snc/217/,Streets of New Capenna,uncommon,0.18,2022-04-29T00:00:00Z,4,near_mint
-Crime // Punishment,en,https://scryfall.com/card/dis/150/,Dissension,rare,10.33,2006-05-05T00:00:00Z,4,near_mint
-Stony Silence,en,https://scryfall.com/card/isd/36/,Innistrad,rare,2.39,2011-09-30T00:00:00Z,4,near_mint
-Hushbringer,en,https://scryfall.com/card/eld/18/,Throne of Eldraine,rare,0.50,2019-10-04T00:00:00Z,4,near_mint
-Bloodbraid Elf,en,https://scryfall.com/card/arb/50/,Alara Reborn,uncommon,0.40,2009-04-30T00:00:00Z,4,near_mint
-Culling Ritual,en,https://scryfall.com/card/stx/172/,Strixhaven: School of Mages,rare,3.16,2021-04-23T00:00:00Z,4,near_mint
+Maelstrom Pulse,en,https://scryfall.com/card/2xm/207/,Double Masters,rare,1.91,2020-08-07T00:00:00Z,4,near_mint
+"Radha, Heart of Keld",en,https://scryfall.com/card/m21/224/,Core Set 2021,rare,0.61,2020-07-03T00:00:00Z,4,near_mint
+Reflector Mage,en,https://scryfall.com/card/ogw/157/,Oath of the Gatewatch,uncommon,0.88,2016-01-22T00:00:00Z,4,near_mint
+Soulherder,en,https://scryfall.com/card/mh1/214/,Modern Horizons,uncommon,0.24,2019-06-14T00:00:00Z,4,near_mint
+The Royal Scions,en,https://scryfall.com/card/eld/199/,Throne of Eldraine,mythic,1.50,2019-10-04T00:00:00Z,4,near_mint
+Thief of Sanity,en,https://scryfall.com/card/grn/205/,Guilds of Ravnica,rare,1.07,2018-10-05T00:00:00Z,4,near_mint
+Wandering Mind,en,https://scryfall.com/card/vow/251/,Innistrad: Crimson Vow,uncommon,0.11,2021-11-19T00:00:00Z,4,near_mint
+Void Rend,en,https://scryfall.com/card/snc/230/,Streets of New Capenna,rare,2.14,2022-04-29T00:00:00Z,4,near_mint
+Maestros Charm,en,https://scryfall.com/card/snc/199/,Streets of New Capenna,uncommon,0.15,2022-04-29T00:00:00Z,4,near_mint
+Obscura Charm,en,https://scryfall.com/card/snc/208/,Streets of New Capenna,uncommon,0.11,2022-04-29T00:00:00Z,4,near_mint
+Riveteers Charm,en,https://scryfall.com/card/snc/217/,Streets of New Capenna,uncommon,0.13,2022-04-29T00:00:00Z,4,near_mint
+Crime // Punishment,en,https://scryfall.com/card/dis/150/,Dissension,rare,14.71,2006-05-05T00:00:00Z,4,near_mint
+Stony Silence,en,https://scryfall.com/card/isd/36/,Innistrad,rare,3.19,2011-09-30T00:00:00Z,4,near_mint
+Hushbringer,en,https://scryfall.com/card/eld/18/,Throne of Eldraine,rare,0.61,2019-10-04T00:00:00Z,4,near_mint
+Bloodbraid Elf,en,https://scryfall.com/card/arb/50/,Alara Reborn,uncommon,0.91,2009-04-30T00:00:00Z,4,near_mint
+Culling Ritual,en,https://scryfall.com/card/stx/172/,Strixhaven: School of Mages,rare,3.83,2021-04-23T00:00:00Z,4,near_mint
 Siege Rhino,en,https://scryfall.com/card/ktk/200/,Khans of Tarkir,rare,0.58,2014-09-26T00:00:00Z,4,near_mint
-Showdown of the Skalds,en,https://scryfall.com/card/khm/229/,Kaldheim,rare,0.91,2021-02-05T00:00:00Z,4,near_mint
-Ashen Rider,en,https://scryfall.com/card/afc/175/,Forgotten Realms Commander,mythic,0.35,2021-07-23T00:00:00Z,4,near_mint
-Terastodon,en,https://scryfall.com/card/2xm/182/,Double Masters,rare,0.20,2020-08-07T00:00:00Z,1,near_mint
-Serra's Emissary,en,https://scryfall.com/card/mh2/30/,Modern Horizons 2,mythic,2.38,2021-06-18T00:00:00Z,4,near_mint
-Unmarked Grave,en,https://scryfall.com/card/mh2/106/,Modern Horizons 2,rare,1.43,2021-06-18T00:00:00Z,4,near_mint
-Persist,en,https://scryfall.com/card/mh2/96/,Modern Horizons 2,rare,1.12,2021-06-18T00:00:00Z,4,near_mint
-Dismember,en,https://scryfall.com/card/nph/57/,New Phyrexia,uncommon,2.00,2011-05-13T00:00:00Z,4,near_mint
-Invoke Despair,en,https://scryfall.com/card/neo/101/,Kamigawa: Neon Dynasty,rare,0.23,2022-02-18T00:00:00Z,4,near_mint
-Eyetwitch,en,https://scryfall.com/card/stx/70/,Strixhaven: School of Mages,uncommon,0.08,2021-04-23T00:00:00Z,4,near_mint
-Shambling Ghast,en,https://scryfall.com/card/afr/119/,Adventures in the Forgotten Realms,common,0.28,2021-07-23T00:00:00Z,4,near_mint
-Fires of Invention,en,https://scryfall.com/card/eld/125/,Throne of Eldraine,rare,0.27,2019-10-04T00:00:00Z,4,near_mint
+Showdown of the Skalds,en,https://scryfall.com/card/khm/229/,Kaldheim,rare,0.75,2021-02-05T00:00:00Z,4,near_mint
+Ashen Rider,en,https://scryfall.com/card/afc/175/,Forgotten Realms Commander,mythic,0.54,2021-07-23T00:00:00Z,4,near_mint
+Terastodon,en,https://scryfall.com/card/2xm/182/,Double Masters,rare,0.17,2020-08-07T00:00:00Z,1,near_mint
+Serra's Emissary,en,https://scryfall.com/card/mh2/30/,Modern Horizons 2,mythic,2.67,2021-06-18T00:00:00Z,4,near_mint
+Unmarked Grave,en,https://scryfall.com/card/mh2/106/,Modern Horizons 2,rare,1.26,2021-06-18T00:00:00Z,4,near_mint
+Persist,en,https://scryfall.com/card/mh2/96/,Modern Horizons 2,rare,0.98,2021-06-18T00:00:00Z,4,near_mint
+Dismember,en,https://scryfall.com/card/nph/57/,New Phyrexia,uncommon,1.37,2011-05-13T00:00:00Z,4,near_mint
+Invoke Despair,en,https://scryfall.com/card/neo/101/,Kamigawa: Neon Dynasty,rare,0.33,2022-02-18T00:00:00Z,4,near_mint
+Eyetwitch,en,https://scryfall.com/card/stx/70/,Strixhaven: School of Mages,uncommon,0.14,2021-04-23T00:00:00Z,4,near_mint
+Shambling Ghast,en,https://scryfall.com/card/afr/119/,Adventures in the Forgotten Realms,common,0.26,2021-07-23T00:00:00Z,4,near_mint
+Fires of Invention,en,https://scryfall.com/card/eld/125/,Throne of Eldraine,rare,0.42,2019-10-04T00:00:00Z,4,near_mint
 Ingot Chewer,en,https://scryfall.com/card/lrw/180/,Lorwyn,common,0.23,2007-10-12T00:00:00Z,4,near_mint
-Village Rites,en,https://scryfall.com/card/m21/126/,Core Set 2021,common,0.11,2020-07-03T00:00:00Z,4,near_mint
-Anger of the Gods,en,https://scryfall.com/card/ths/112/,Theros,rare,0.93,2013-09-27T00:00:00Z,4,near_mint
-Undying Malice,en,https://scryfall.com/card/vow/134/,Innistrad: Crimson Vow,common,0.09,2021-11-19T00:00:00Z,4,near_mint
-Undying Evil,en,https://scryfall.com/card/dka/77/,Dark Ascension,common,0.74,2012-02-03T00:00:00Z,4,near_mint
-Feign Death,en,https://scryfall.com/card/afr/103/,Adventures in the Forgotten Realms,common,0.12,2021-07-23T00:00:00Z,4,near_mint
-Malakir Rebirth // Malakir Mire,en,https://scryfall.com/card/znr/111/,Zendikar Rising,uncommon,1.91,2020-09-25T00:00:00Z,4,near_mint
-Bedevil,en,https://scryfall.com/card/rna/157/,Ravnica Allegiance,rare,1.24,2019-01-25T00:00:00Z,4,near_mint
-Dreadbore,en,https://scryfall.com/card/rtr/157/,Return to Ravnica,rare,3.05,2012-10-05T00:00:00Z,4,near_mint
-Quicken,en,https://scryfall.com/card/m14/68/,Magic 2014,rare,0.99,2013-07-19T00:00:00Z,4,near_mint
-Falkenrath Gorger,en,https://scryfall.com/card/soi/155/,Shadows over Innistrad,rare,0.22,2016-04-08T00:00:00Z,4,near_mint
-March of Wretched Sorrow,en,https://scryfall.com/card/neo/111/,Kamigawa: Neon Dynasty,rare,0.14,2022-02-18T00:00:00Z,4,near_mint
-Heartless Act,en,https://scryfall.com/card/iko/91/,Ikoria: Lair of Behemoths,uncommon,0.75,2020-04-24T00:00:00Z,4,near_mint
-Extinction Event,en,https://scryfall.com/card/iko/88/,Ikoria: Lair of Behemoths,rare,0.91,2020-04-24T00:00:00Z,4,near_mint
-Fulminator Mage,en,https://scryfall.com/card/uma/215/,Ultimate Masters,rare,1.45,2018-12-07T00:00:00Z,4,near_mint
+Village Rites,en,https://scryfall.com/card/m21/126/,Core Set 2021,common,0.15,2020-07-03T00:00:00Z,4,near_mint
+Anger of the Gods,en,https://scryfall.com/card/ths/112/,Theros,rare,0.87,2013-09-27T00:00:00Z,4,near_mint
+Undying Malice,en,https://scryfall.com/card/vow/134/,Innistrad: Crimson Vow,common,0.13,2021-11-19T00:00:00Z,4,near_mint
+Undying Evil,en,https://scryfall.com/card/dka/77/,Dark Ascension,common,0.90,2012-02-03T00:00:00Z,4,near_mint
+Feign Death,en,https://scryfall.com/card/afr/103/,Adventures in the Forgotten Realms,common,0.15,2021-07-23T00:00:00Z,4,near_mint
+Malakir Rebirth // Malakir Mire,en,https://scryfall.com/card/znr/111/,Zendikar Rising,uncommon,1.57,2020-09-25T00:00:00Z,4,near_mint
+Bedevil,en,https://scryfall.com/card/rna/157/,Ravnica Allegiance,rare,1.43,2019-01-25T00:00:00Z,4,near_mint
+Dreadbore,en,https://scryfall.com/card/rtr/157/,Return to Ravnica,rare,3.63,2012-10-05T00:00:00Z,4,near_mint
+Quicken,en,https://scryfall.com/card/m14/68/,Magic 2014,rare,0.30,2013-07-19T00:00:00Z,4,near_mint
+Falkenrath Gorger,en,https://scryfall.com/card/soi/155/,Shadows over Innistrad,rare,0.05,2016-04-08T00:00:00Z,4,near_mint
+March of Wretched Sorrow,en,https://scryfall.com/card/neo/111/,Kamigawa: Neon Dynasty,rare,0.20,2022-02-18T00:00:00Z,4,near_mint
+Heartless Act,en,https://scryfall.com/card/iko/91/,Ikoria: Lair of Behemoths,uncommon,0.59,2020-04-24T00:00:00Z,4,near_mint
+Extinction Event,en,https://scryfall.com/card/iko/88/,Ikoria: Lair of Behemoths,rare,1.28,2020-04-24T00:00:00Z,4,near_mint
+Fulminator Mage,en,https://scryfall.com/card/uma/215/,Ultimate Masters,rare,1.00,2018-12-07T00:00:00Z,4,near_mint
 Lightning Axe,en,https://scryfall.com/card/2xm/135/,Double Masters,common,0.12,2020-08-07T00:00:00Z,4,near_mint
-Fiery Impulse,en,https://scryfall.com/card/ori/145/,Magic Origins,common,0.20,2015-07-17T00:00:00Z,4,near_mint
-Strangle,en,https://scryfall.com/card/snc/125/,Streets of New Capenna,common,0.07,2022-04-29T00:00:00Z,4,near_mint
-Dragon's Fire,en,https://scryfall.com/card/afr/139/,Adventures in the Forgotten Realms,common,0.10,2021-07-23T00:00:00Z,4,near_mint
-Pieces of the Puzzle,en,https://scryfall.com/card/soi/78/,Shadows over Innistrad,common,0.21,2016-04-08T00:00:00Z,4,near_mint
-Lofty Denial,en,https://scryfall.com/card/m21/56/,Core Set 2021,common,0.09,2020-07-03T00:00:00Z,4,near_mint
+Fiery Impulse,en,https://scryfall.com/card/ori/145/,Magic Origins,common,0.05,2015-07-17T00:00:00Z,4,near_mint
+Strangle,en,https://scryfall.com/card/snc/125/,Streets of New Capenna,common,0.12,2022-04-29T00:00:00Z,4,near_mint
+Dragon's Fire,en,https://scryfall.com/card/afr/139/,Adventures in the Forgotten Realms,common,0.13,2021-07-23T00:00:00Z,4,near_mint
+Pieces of the Puzzle,en,https://scryfall.com/card/soi/78/,Shadows over Innistrad,common,0.22,2016-04-08T00:00:00Z,4,near_mint
+Lofty Denial,en,https://scryfall.com/card/m21/56/,Core Set 2021,common,0.10,2020-07-03T00:00:00Z,4,near_mint
 Mulldrifter,en,https://scryfall.com/card/lrw/76/,Lorwyn,common,0.41,2007-10-12T00:00:00Z,4,near_mint
-Binding the Old Gods,en,https://scryfall.com/card/khm/206/,Kaldheim,uncommon,0.38,2021-02-05T00:00:00Z,4,near_mint
-Battle of Frost and Fire,en,https://scryfall.com/card/khm/204/,Kaldheim,rare,0.18,2021-02-05T00:00:00Z,4,near_mint
-Bloodtithe Harvester,en,https://scryfall.com/card/vow/232/,Innistrad: Crimson Vow,uncommon,0.09,2021-11-19T00:00:00Z,4,near_mint
-Mayhem Devil,en,https://scryfall.com/card/war/204/,War of the Spark,uncommon,1.73,2019-05-03T00:00:00Z,4,near_mint
-Woodland Cemetery,en,https://scryfall.com/card/isd/249/,Innistrad,rare,4.10,2011-09-30T00:00:00Z,4,near_mint
-Mystic Sanctuary,en,https://scryfall.com/card/eld/247/,Throne of Eldraine,common,0.41,2019-10-04T00:00:00Z,4,near_mint
+Binding the Old Gods,en,https://scryfall.com/card/khm/206/,Kaldheim,uncommon,0.26,2021-02-05T00:00:00Z,4,near_mint
+Battle of Frost and Fire,en,https://scryfall.com/card/khm/204/,Kaldheim,rare,0.09,2021-02-05T00:00:00Z,4,near_mint
+Bloodtithe Harvester,en,https://scryfall.com/card/vow/232/,Innistrad: Crimson Vow,uncommon,0.14,2021-11-19T00:00:00Z,4,near_mint
+Mayhem Devil,en,https://scryfall.com/card/war/204/,War of the Spark,uncommon,1.59,2019-05-03T00:00:00Z,4,near_mint
+Woodland Cemetery,en,https://scryfall.com/card/isd/249/,Innistrad,rare,3.75,2011-09-30T00:00:00Z,4,near_mint
+Mystic Sanctuary,en,https://scryfall.com/card/eld/247/,Throne of Eldraine,common,0.37,2019-10-04T00:00:00Z,4,near_mint
 Forest,en,https://scryfall.com/card/zen/247/,Zendikar,common,0.20,2009-10-02T00:00:00Z,2,near_mint
 Forest,en,https://scryfall.com/card/zen/248/,Zendikar,common,0.20,2009-10-02T00:00:00Z,2,near_mint
-Forest,en,https://scryfall.com/card/zen/249/,Zendikar,common,0.15,2009-10-02T00:00:00Z,2,near_mint
+Forest,en,https://scryfall.com/card/zen/249/,Zendikar,common,0.15,2009-10-02T00:00:00Z,4,near_mint
 Forest,en,https://scryfall.com/card/zen/246/,Zendikar,common,1.50,2009-10-02T00:00:00Z,2,near_mint
-Forest,en,https://scryfall.com/card/znr/278/,Zendikar Rising,common,0.21,2020-09-25T00:00:00Z,2,near_mint
+Forest,en,https://scryfall.com/card/znr/278/,Zendikar Rising,common,0.11,2020-09-25T00:00:00Z,2,near_mint
 Forest,en,https://scryfall.com/card/znr/279/,Zendikar Rising,common,0.11,2020-09-25T00:00:00Z,2,near_mint
-Forest,en,https://scryfall.com/card/znr/280/,Zendikar Rising,common,0.38,2020-09-25T00:00:00Z,2,near_mint
-Forest,en,https://scryfall.com/card/bfz/271/,Battle for Zendikar,common,0.07,2015-10-02T00:00:00Z,2,near_mint
+Forest,en,https://scryfall.com/card/znr/280/,Zendikar Rising,common,0.20,2020-09-25T00:00:00Z,2,near_mint
+Forest,en,https://scryfall.com/card/bfz/271/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,2,near_mint
 Forest,en,https://scryfall.com/card/bfz/270/,Battle for Zendikar,common,0.30,2015-10-02T00:00:00Z,2,near_mint
-Forest,en,https://scryfall.com/card/bfz/272/,Battle for Zendikar,common,0.29,2015-10-02T00:00:00Z,2,near_mint
-Forest,en,https://scryfall.com/card/bfz/273/,Battle for Zendikar,common,0.20,2015-10-02T00:00:00Z,2,near_mint
-Forest,en,https://scryfall.com/card/bfz/274/,Battle for Zendikar,common,0.25,2015-10-02T00:00:00Z,2,near_mint
+Forest,en,https://scryfall.com/card/bfz/272/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,2,near_mint
+Forest,en,https://scryfall.com/card/bfz/273/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,2,near_mint
+Forest,en,https://scryfall.com/card/bfz/274/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,2,near_mint
 Island,en,https://scryfall.com/card/zen/234/,Zendikar,common,0.09,2009-10-02T00:00:00Z,2,near_mint
 Island,en,https://scryfall.com/card/zen/235/,Zendikar,common,0.05,2009-10-02T00:00:00Z,2,near_mint
 Island,en,https://scryfall.com/card/zen/236/,Zendikar,common,1.00,2009-10-02T00:00:00Z,2,near_mint
-Island,en,https://scryfall.com/card/zen/237/,Zendikar,common,0.09,2009-10-02T00:00:00Z,2,near_mint
-Island,en,https://scryfall.com/card/bfz/255/,Battle for Zendikar,common,0.58,2015-10-02T00:00:00Z,2,near_mint
-Island,en,https://scryfall.com/card/bfz/256/,Battle for Zendikar,common,0.25,2015-10-02T00:00:00Z,2,near_mint
-Island,en,https://scryfall.com/card/bfz/257/,Battle for Zendikar,common,0.10,2015-10-02T00:00:00Z,2,near_mint
-Island,en,https://scryfall.com/card/bfz/258/,Battle for Zendikar,common,0.25,2015-10-02T00:00:00Z,2,near_mint
+Island,en,https://scryfall.com/card/zen/237/,Zendikar,common,0.09,2009-10-02T00:00:00Z,3,near_mint
+Island,en,https://scryfall.com/card/bfz/255/,Battle for Zendikar,common,0.07,2015-10-02T00:00:00Z,3,near_mint
+Island,en,https://scryfall.com/card/bfz/256/,Battle for Zendikar,common,0.25,2015-10-02T00:00:00Z,3,near_mint
+Island,en,https://scryfall.com/card/bfz/257/,Battle for Zendikar,common,0.10,2015-10-02T00:00:00Z,3,near_mint
+Island,en,https://scryfall.com/card/bfz/258/,Battle for Zendikar,common,0.15,2015-10-02T00:00:00Z,3,near_mint
 Island,en,https://scryfall.com/card/bfz/259/,Battle for Zendikar,common,0.31,2015-10-02T00:00:00Z,2,near_mint
-Island,en,https://scryfall.com/card/znr/269/,Zendikar Rising,common,0.10,2020-09-25T00:00:00Z,2,near_mint
-Island,en,https://scryfall.com/card/znr/270/,Zendikar Rising,common,0.16,2020-09-25T00:00:00Z,2,near_mint
-Island,en,https://scryfall.com/card/znr/271/,Zendikar Rising,common,0.37,2020-09-25T00:00:00Z,2,near_mint
+Island,en,https://scryfall.com/card/znr/269/,Zendikar Rising,common,0.05,2020-09-25T00:00:00Z,2,near_mint
+Island,en,https://scryfall.com/card/znr/270/,Zendikar Rising,common,0.05,2020-09-25T00:00:00Z,2,near_mint
+Island,en,https://scryfall.com/card/znr/271/,Zendikar Rising,common,0.12,2020-09-25T00:00:00Z,2,near_mint
 Mountain,en,https://scryfall.com/card/zen/242/,Zendikar,common,0.39,2009-10-02T00:00:00Z,2,near_mint
 Mountain,en,https://scryfall.com/card/zen/243/,Zendikar,common,0.04,2009-10-02T00:00:00Z,2,near_mint
-Mountain,en,https://scryfall.com/card/zen/244/,Zendikar,common,0.39,2009-10-02T00:00:00Z,2,near_mint
-Mountain,en,https://scryfall.com/card/zen/245/,Zendikar,common,0.49,2009-10-02T00:00:00Z,2,near_mint
+Mountain,en,https://scryfall.com/card/zen/244/,Zendikar,common,0.20,2009-10-02T00:00:00Z,4,near_mint
+Mountain,en,https://scryfall.com/card/zen/245/,Zendikar,common,0.49,2009-10-02T00:00:00Z,4,near_mint
 Mountain,en,https://scryfall.com/card/bfz/265/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,2,near_mint
 Mountain,en,https://scryfall.com/card/bfz/266/,Battle for Zendikar,common,0.20,2015-10-02T00:00:00Z,2,near_mint
 Mountain,en,https://scryfall.com/card/bfz/267/,Battle for Zendikar,common,0.10,2015-10-02T00:00:00Z,2,near_mint
 Mountain,en,https://scryfall.com/card/bfz/268/,Battle for Zendikar,common,0.25,2015-10-02T00:00:00Z,2,near_mint
-Mountain,en,https://scryfall.com/card/bfz/269/,Battle for Zendikar,common,0.20,2015-10-02T00:00:00Z,2,near_mint
-Mountain,en,https://scryfall.com/card/znr/275/,Zendikar Rising,common,0.20,2020-09-25T00:00:00Z,2,near_mint
-Mountain,en,https://scryfall.com/card/znr/276/,Zendikar Rising,common,0.14,2020-09-25T00:00:00Z,2,near_mint
-Mountain,en,https://scryfall.com/card/znr/277/,Zendikar Rising,common,0.13,2020-09-25T00:00:00Z,2,near_mint
+Mountain,en,https://scryfall.com/card/bfz/269/,Battle for Zendikar,common,0.29,2015-10-02T00:00:00Z,2,near_mint
+Mountain,en,https://scryfall.com/card/znr/275/,Zendikar Rising,common,0.11,2020-09-25T00:00:00Z,2,near_mint
+Mountain,en,https://scryfall.com/card/znr/276/,Zendikar Rising,common,0.09,2020-09-25T00:00:00Z,2,near_mint
+Mountain,en,https://scryfall.com/card/znr/277/,Zendikar Rising,common,0.10,2020-09-25T00:00:00Z,2,near_mint
 Plains,en,https://scryfall.com/card/zen/230/,Zendikar,common,0.30,2009-10-02T00:00:00Z,2,near_mint
 Plains,en,https://scryfall.com/card/zen/231/,Zendikar,common,0.20,2009-10-02T00:00:00Z,2,near_mint
 Plains,en,https://scryfall.com/card/zen/232/,Zendikar,common,0.20,2009-10-02T00:00:00Z,2,near_mint
 Plains,en,https://scryfall.com/card/zen/233/,Zendikar,common,0.10,2009-10-02T00:00:00Z,2,near_mint
-Plains,en,https://scryfall.com/card/bfz/250/,Battle for Zendikar,common,0.19,2015-10-02T00:00:00Z,2,near_mint
-Plains,en,https://scryfall.com/card/bfz/251/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,2,near_mint
-Plains,en,https://scryfall.com/card/bfz/252/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,2,near_mint
-Plains,en,https://scryfall.com/card/bfz/253/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,2,near_mint
-Plains,en,https://scryfall.com/card/bfz/254/,Battle for Zendikar,common,0.10,2015-10-02T00:00:00Z,2,near_mint
-Plains,en,https://scryfall.com/card/znr/266/,Zendikar Rising,common,0.12,2020-09-25T00:00:00Z,2,near_mint
-Plains,en,https://scryfall.com/card/znr/267/,Zendikar Rising,common,0.11,2020-09-25T00:00:00Z,2,near_mint
-Plains,en,https://scryfall.com/card/znr/268/,Zendikar Rising,common,0.13,2020-09-25T00:00:00Z,2,near_mint
+Plains,en,https://scryfall.com/card/bfz/250/,Battle for Zendikar,common,0.25,2015-10-02T00:00:00Z,3,near_mint
+Plains,en,https://scryfall.com/card/bfz/251/,Battle for Zendikar,common,0.14,2015-10-02T00:00:00Z,3,near_mint
+Plains,en,https://scryfall.com/card/bfz/252/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,3,near_mint
+Plains,en,https://scryfall.com/card/bfz/253/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,3,near_mint
+Plains,en,https://scryfall.com/card/bfz/254/,Battle for Zendikar,common,0.10,2015-10-02T00:00:00Z,3,near_mint
+Plains,en,https://scryfall.com/card/znr/266/,Zendikar Rising,common,0.10,2020-09-25T00:00:00Z,2,near_mint
+Plains,en,https://scryfall.com/card/znr/267/,Zendikar Rising,common,0.10,2020-09-25T00:00:00Z,2,near_mint
+Plains,en,https://scryfall.com/card/znr/268/,Zendikar Rising,common,0.10,2020-09-25T00:00:00Z,3,near_mint
 Swamp,en,https://scryfall.com/card/zen/238/,Zendikar,common,0.49,2009-10-02T00:00:00Z,2,near_mint
-Swamp,en,https://scryfall.com/card/zen/239/,Zendikar,common,0.25,2009-10-02T00:00:00Z,2,near_mint
+Swamp,en,https://scryfall.com/card/zen/239/,Zendikar,common,0.15,2009-10-02T00:00:00Z,2,near_mint
 Swamp,en,https://scryfall.com/card/zen/240/,Zendikar,common,0.29,2009-10-02T00:00:00Z,2,near_mint
-Swamp,en,https://scryfall.com/card/zen/241/,Zendikar,common,0.25,2009-10-02T00:00:00Z,2,near_mint
+Swamp,en,https://scryfall.com/card/zen/241/,Zendikar,common,0.25,2009-10-02T00:00:00Z,3,near_mint
 Swamp,en,https://scryfall.com/card/bfz/260/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,2,near_mint
 Swamp,en,https://scryfall.com/card/bfz/261/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,2,near_mint
-Swamp,en,https://scryfall.com/card/bfz/262/,Battle for Zendikar,common,0.08,2015-10-02T00:00:00Z,2,near_mint
-Swamp,en,https://scryfall.com/card/bfz/263/,Battle for Zendikar,common,0.05,2015-10-02T00:00:00Z,2,near_mint
-Swamp,en,https://scryfall.com/card/bfz/264/,Battle for Zendikar,common,0.06,2015-10-02T00:00:00Z,2,near_mint
-Swamp,en,https://scryfall.com/card/znr/272/,Zendikar Rising,common,0.14,2020-09-25T00:00:00Z,2,near_mint
-Swamp,en,https://scryfall.com/card/znr/273/,Zendikar Rising,common,0.18,2020-09-25T00:00:00Z,2,near_mint
-Swamp,en,https://scryfall.com/card/znr/274/,Zendikar Rising,common,0.12,2020-09-25T00:00:00Z,2,near_mint
-Plains,ja,https://scryfall.com/card/neo/293/ja/,Kamigawa: Neon Dynasty,common,1.13,2022-02-18T00:00:00Z,1,near_mint
-Plains,ja,https://scryfall.com/card/neo/294/ja/,Kamigawa: Neon Dynasty,common,0.99,2022-02-18T00:00:00Z,1,near_mint
-Island,ja,https://scryfall.com/card/neo/295/ja/,Kamigawa: Neon Dynasty,common,1.72,2022-02-18T00:00:00Z,1,near_mint
-Island,ja,https://scryfall.com/card/neo/296/ja/,Kamigawa: Neon Dynasty,common,1.91,2022-02-18T00:00:00Z,1,near_mint
-Swamp,ja,https://scryfall.com/card/neo/297/ja/,Kamigawa: Neon Dynasty,common,1.35,2022-02-18T00:00:00Z,1,near_mint
-Swamp,ja,https://scryfall.com/card/neo/298/ja/,Kamigawa: Neon Dynasty,common,1.83,2022-02-18T00:00:00Z,1,near_mint
-Mountain,ja,https://scryfall.com/card/neo/299/ja/,Kamigawa: Neon Dynasty,common,1.22,2022-02-18T00:00:00Z,1,near_mint
-Mountain,ja,https://scryfall.com/card/neo/300/ja/,Kamigawa: Neon Dynasty,common,0.87,2022-02-18T00:00:00Z,1,near_mint
-Forest,ja,https://scryfall.com/card/neo/301/ja/,Kamigawa: Neon Dynasty,common,0.96,2022-02-18T00:00:00Z,1,near_mint
-Forest,ja,https://scryfall.com/card/neo/302/ja/,Kamigawa: Neon Dynasty,common,0.97,2022-02-18T00:00:00Z,1,near_mint
-Plains,en,https://scryfall.com/card/usg/331/,Urza's Saga,common,0.74,1998-10-12T00:00:00Z,5,near_mint
-Plains,en,https://scryfall.com/card/usg/332/,Urza's Saga,common,0.39,1998-10-12T00:00:00Z,5,near_mint
-Plains,en,https://scryfall.com/card/usg/333/,Urza's Saga,common,0.35,1998-10-12T00:00:00Z,5,near_mint
+Swamp,en,https://scryfall.com/card/bfz/262/,Battle for Zendikar,common,0.08,2015-10-02T00:00:00Z,3,near_mint
+Swamp,en,https://scryfall.com/card/bfz/263/,Battle for Zendikar,common,0.09,2015-10-02T00:00:00Z,4,near_mint
+Swamp,en,https://scryfall.com/card/bfz/264/,Battle for Zendikar,common,0.16,2015-10-02T00:00:00Z,3,near_mint
+Swamp,en,https://scryfall.com/card/znr/272/,Zendikar Rising,common,0.14,2020-09-25T00:00:00Z,3,near_mint
+Swamp,en,https://scryfall.com/card/znr/273/,Zendikar Rising,common,0.10,2020-09-25T00:00:00Z,2,near_mint
+Swamp,en,https://scryfall.com/card/znr/274/,Zendikar Rising,common,0.10,2020-09-25T00:00:00Z,2,near_mint
+Plains,ja,https://scryfall.com/card/neo/293/ja/,Kamigawa: Neon Dynasty,common,1.10,2022-02-18T00:00:00Z,2,near_mint
+Plains,ja,https://scryfall.com/card/neo/294/ja/,Kamigawa: Neon Dynasty,common,0.68,2022-02-18T00:00:00Z,1,near_mint
+Island,ja,https://scryfall.com/card/neo/295/ja/,Kamigawa: Neon Dynasty,common,1.06,2022-02-18T00:00:00Z,2,near_mint
+Island,ja,https://scryfall.com/card/neo/296/ja/,Kamigawa: Neon Dynasty,common,1.62,2022-02-18T00:00:00Z,8,near_mint
+Swamp,ja,https://scryfall.com/card/neo/297/ja/,Kamigawa: Neon Dynasty,common,1.49,2022-02-18T00:00:00Z,3,near_mint
+Swamp,ja,https://scryfall.com/card/neo/298/ja/,Kamigawa: Neon Dynasty,common,1.73,2022-02-18T00:00:00Z,2,near_mint
+Mountain,ja,https://scryfall.com/card/neo/299/ja/,Kamigawa: Neon Dynasty,common,1.10,2022-02-18T00:00:00Z,3,near_mint
+Mountain,ja,https://scryfall.com/card/neo/300/ja/,Kamigawa: Neon Dynasty,common,0.89,2022-02-18T00:00:00Z,1,near_mint
+Forest,ja,https://scryfall.com/card/neo/301/ja/,Kamigawa: Neon Dynasty,common,0.85,2022-02-18T00:00:00Z,1,near_mint
+Forest,ja,https://scryfall.com/card/neo/302/ja/,Kamigawa: Neon Dynasty,common,0.93,2022-02-18T00:00:00Z,1,near_mint
+Plains,en,https://scryfall.com/card/usg/331/,Urza's Saga,common,0.21,1998-10-12T00:00:00Z,5,near_mint
+Plains,en,https://scryfall.com/card/usg/332/,Urza's Saga,common,0.18,1998-10-12T00:00:00Z,5,near_mint
+Plains,en,https://scryfall.com/card/usg/333/,Urza's Saga,common,0.10,1998-10-12T00:00:00Z,5,near_mint
 Plains,en,https://scryfall.com/card/usg/334/,Urza's Saga,common,0.09,1998-10-12T00:00:00Z,5,near_mint
-Swamp,en,https://scryfall.com/card/usg/339/,Urza's Saga,common,0.12,1998-10-12T00:00:00Z,5,near_mint
-Swamp,en,https://scryfall.com/card/usg/340/,Urza's Saga,common,0.15,1998-10-12T00:00:00Z,5,near_mint
+Swamp,en,https://scryfall.com/card/usg/339/,Urza's Saga,common,0.05,1998-10-12T00:00:00Z,5,near_mint
+Swamp,en,https://scryfall.com/card/usg/340/,Urza's Saga,common,0.48,1998-10-12T00:00:00Z,5,near_mint
 Swamp,en,https://scryfall.com/card/usg/341/,Urza's Saga,common,0.68,1998-10-12T00:00:00Z,5,near_mint
-Swamp,en,https://scryfall.com/card/usg/342/,Urza's Saga,common,0.30,1998-10-12T00:00:00Z,5,near_mint
-Mountain,en,https://scryfall.com/card/usg/343/,Urza's Saga,common,0.10,1998-10-12T00:00:00Z,5,near_mint
-Mountain,en,https://scryfall.com/card/usg/344/,Urza's Saga,common,0.45,1998-10-12T00:00:00Z,5,near_mint
+Swamp,en,https://scryfall.com/card/usg/342/,Urza's Saga,common,0.10,1998-10-12T00:00:00Z,5,near_mint
+Mountain,en,https://scryfall.com/card/usg/343/,Urza's Saga,common,0.05,1998-10-12T00:00:00Z,5,near_mint
+Mountain,en,https://scryfall.com/card/usg/344/,Urza's Saga,common,0.10,1998-10-12T00:00:00Z,5,near_mint
 Mountain,en,https://scryfall.com/card/usg/345/,Urza's Saga,common,0.15,1998-10-12T00:00:00Z,5,near_mint
-Mountain,en,https://scryfall.com/card/usg/346/,Urza's Saga,common,0.25,1998-10-12T00:00:00Z,5,near_mint
-Forest,en,https://scryfall.com/card/usg/347/,Urza's Saga,common,0.14,1998-10-12T00:00:00Z,5,near_mint
-Forest,en,https://scryfall.com/card/usg/348/,Urza's Saga,common,0.15,1998-10-12T00:00:00Z,5,near_mint
-Forest,en,https://scryfall.com/card/usg/349/,Urza's Saga,common,0.15,1998-10-12T00:00:00Z,5,near_mint
-Forest,en,https://scryfall.com/card/usg/350/,Urza's Saga,common,0.15,1998-10-12T00:00:00Z,5,near_mint
-Massacre Girl,en,https://scryfall.com/card/war/99/,War of the Spark,rare,0.19,2019-05-03T00:00:00Z,4,near_mint
-Murderous Rider // Swift End,en,https://scryfall.com/card/eld/97/,Throne of Eldraine,rare,1.48,2019-10-04T00:00:00Z,4,near_mint
-Underworld Connections,en,https://scryfall.com/card/rtr/83/,Return to Ravnica,rare,0.41,2012-10-05T00:00:00Z,4,near_mint
-"Davriel, Rogue Shadowmage",en,https://scryfall.com/card/war/83/,War of the Spark,uncommon,0.18,2019-05-03T00:00:00Z,4,near_mint
-Necromentia,en,https://scryfall.com/card/m21/116/,Core Set 2021,rare,0.25,2020-07-03T00:00:00Z,4,near_mint
-Shakedown Heavy,en,https://scryfall.com/card/snc/95/,Streets of New Capenna,rare,0.34,2022-04-29T00:00:00Z,4,near_mint
-Delirium Skeins,en,https://scryfall.com/card/dis/41/,Dissension,common,0.25,2006-05-05T00:00:00Z,4,near_mint
+Mountain,en,https://scryfall.com/card/usg/346/,Urza's Saga,common,0.16,1998-10-12T00:00:00Z,5,near_mint
+Forest,en,https://scryfall.com/card/usg/347/,Urza's Saga,common,0.05,1998-10-12T00:00:00Z,5,near_mint
+Forest,en,https://scryfall.com/card/usg/348/,Urza's Saga,common,0.10,1998-10-12T00:00:00Z,5,near_mint
+Forest,en,https://scryfall.com/card/usg/349/,Urza's Saga,common,0.10,1998-10-12T00:00:00Z,5,near_mint
+Forest,en,https://scryfall.com/card/usg/350/,Urza's Saga,common,0.05,1998-10-12T00:00:00Z,5,near_mint
+Massacre Girl,en,https://scryfall.com/card/war/99/,War of the Spark,rare,0.12,2019-05-03T00:00:00Z,4,near_mint
+Murderous Rider // Swift End,en,https://scryfall.com/card/eld/97/,Throne of Eldraine,rare,1.63,2019-10-04T00:00:00Z,4,near_mint
+Underworld Connections,en,https://scryfall.com/card/rtr/83/,Return to Ravnica,rare,0.15,2012-10-05T00:00:00Z,4,near_mint
+"Davriel, Rogue Shadowmage",en,https://scryfall.com/card/war/83/,War of the Spark,uncommon,0.25,2019-05-03T00:00:00Z,4,near_mint
+Necromentia,en,https://scryfall.com/card/m21/116/,Core Set 2021,rare,0.32,2020-07-03T00:00:00Z,4,near_mint
+Shakedown Heavy,en,https://scryfall.com/card/snc/95/,Streets of New Capenna,rare,0.40,2022-04-29T00:00:00Z,4,near_mint
+Delirium Skeins,en,https://scryfall.com/card/dis/41/,Dissension,common,0.35,2006-05-05T00:00:00Z,4,near_mint
 Mind Rake,en,https://scryfall.com/card/mh1/96/,Modern Horizons,common,0.15,2019-06-14T00:00:00Z,4,near_mint
-Bontu's Last Reckoning,en,https://scryfall.com/card/hou/60/,Hour of Devastation,rare,0.95,2017-07-14T00:00:00Z,4,near_mint
-Callous Bloodmage,en,https://scryfall.com/card/stx/66/,Strixhaven: School of Mages,rare,0.21,2021-04-23T00:00:00Z,4,near_mint
-Biting-Palm Ninja,en,https://scryfall.com/card/neo/88/,Kamigawa: Neon Dynasty,rare,0.25,2022-02-18T00:00:00Z,4,near_mint
-Nighthawk Scavenger,en,https://scryfall.com/card/znr/115/,Zendikar Rising,rare,2.33,2020-09-25T00:00:00Z,4,near_mint
-Logic Knot,en,https://scryfall.com/card/fut/52/,Future Sight,common,0.02,2007-05-04T00:00:00Z,4,near_mint
-The Reality Chip,en,https://scryfall.com/card/neo/74/,Kamigawa: Neon Dynasty,rare,1.55,2022-02-18T00:00:00Z,4,near_mint
-Mnemonic Sphere,en,https://scryfall.com/card/neo/64/,Kamigawa: Neon Dynasty,common,0.01,2022-02-18T00:00:00Z,4,near_mint
-Thought Scour,en,https://scryfall.com/card/dka/52/,Dark Ascension,common,0.29,2012-02-03T00:00:00Z,4,near_mint
-Consider,en,https://scryfall.com/card/mid/44/,Innistrad: Midnight Hunt,common,1.28,2021-09-24T00:00:00Z,4,near_mint
+Bontu's Last Reckoning,en,https://scryfall.com/card/hou/60/,Hour of Devastation,rare,0.79,2017-07-14T00:00:00Z,4,near_mint
+Callous Bloodmage,en,https://scryfall.com/card/stx/66/,Strixhaven: School of Mages,rare,0.28,2021-04-23T00:00:00Z,4,near_mint
+Biting-Palm Ninja,en,https://scryfall.com/card/neo/88/,Kamigawa: Neon Dynasty,rare,0.14,2022-02-18T00:00:00Z,4,near_mint
+Nighthawk Scavenger,en,https://scryfall.com/card/znr/115/,Zendikar Rising,rare,0.52,2020-09-25T00:00:00Z,4,near_mint
+Logic Knot,en,https://scryfall.com/card/fut/52/,Future Sight,common,0.12,2007-05-04T00:00:00Z,4,near_mint
+The Reality Chip,en,https://scryfall.com/card/neo/74/,Kamigawa: Neon Dynasty,rare,1.43,2022-02-18T00:00:00Z,4,near_mint
+Mnemonic Sphere,en,https://scryfall.com/card/neo/64/,Kamigawa: Neon Dynasty,common,0.11,2022-02-18T00:00:00Z,4,near_mint
+Thought Scour,en,https://scryfall.com/card/dka/52/,Dark Ascension,common,0.27,2012-02-03T00:00:00Z,4,near_mint
+Consider,en,https://scryfall.com/card/mid/44/,Innistrad: Midnight Hunt,common,1.26,2021-09-24T00:00:00Z,4,near_mint
 Ceremonious Rejection,en,https://scryfall.com/card/kld/40/,Kaladesh,uncommon,0.02,2016-09-30T00:00:00Z,4,near_mint
-Blue Elemental Blast,en,https://scryfall.com/card/a25/43/,Masters 25,uncommon,0.39,2018-03-16T00:00:00Z,4,near_mint
-Vapor Snag,en,https://scryfall.com/card/mm2/66/,Modern Masters 2015,common,0.02,2015-05-22T00:00:00Z,4,near_mint
+Blue Elemental Blast,en,https://scryfall.com/card/a25/43/,Masters 25,uncommon,0.22,2018-03-16T00:00:00Z,4,near_mint
+Vapor Snag,en,https://scryfall.com/card/mm2/66/,Modern Masters 2015,common,0.05,2015-05-22T00:00:00Z,4,near_mint
 Spell Pierce,en,https://scryfall.com/card/mm3/51/,Modern Masters 2017,common,0.29,2017-03-17T00:00:00Z,4,near_mint
-Serum Visions,en,https://scryfall.com/card/5dn/36/,Fifth Dawn,common,0.70,2004-06-04T00:00:00Z,4,near_mint
-Brainstorm,en,https://scryfall.com/card/mmq/61/,Mercadian Masques,common,2.61,1999-10-04T00:00:00Z,4,near_mint
-Preordain,en,https://scryfall.com/card/m11/70/,Magic 2011,common,0.35,2010-07-16T00:00:00Z,4,near_mint
-Ponder,en,https://scryfall.com/card/lrw/79/,Lorwyn,common,1.81,2007-10-12T00:00:00Z,4,near_mint
+Serum Visions,en,https://scryfall.com/card/5dn/36/,Fifth Dawn,common,0.62,2004-06-04T00:00:00Z,4,near_mint
+Brainstorm,en,https://scryfall.com/card/mmq/61/,Mercadian Masques,common,0.70,1999-10-04T00:00:00Z,4,near_mint
+Preordain,en,https://scryfall.com/card/m11/70/,Magic 2011,common,0.38,2010-07-16T00:00:00Z,4,near_mint
+Ponder,en,https://scryfall.com/card/lrw/79/,Lorwyn,common,1.22,2007-10-12T00:00:00Z,4,near_mint
 Opt,en,https://scryfall.com/card/xln/65/,Ixalan,common,0.14,2017-09-29T00:00:00Z,4,near_mint
-Aether Gust,en,https://scryfall.com/card/m20/42/,Core Set 2020,uncommon,0.26,2019-07-12T00:00:00Z,4,near_mint
-Discover the Impossible,en,https://scryfall.com/card/neo/50/,Kamigawa: Neon Dynasty,uncommon,0.05,2022-02-18T00:00:00Z,4,near_mint
-Mystical Dispute,en,https://scryfall.com/card/eld/58/,Throne of Eldraine,uncommon,2.07,2019-10-04T00:00:00Z,4,near_mint
-Even the Score,en,https://scryfall.com/card/snc/42/,Streets of New Capenna,mythic,0.97,2022-04-29T00:00:00Z,4,near_mint
-Counterspell,en,https://scryfall.com/card/mh2/267/,Modern Horizons 2,uncommon,1.13,2021-06-18T00:00:00Z,4,near_mint
-Negate,en,https://scryfall.com/card/znr/71/,Zendikar Rising,common,0.10,2020-09-25T00:00:00Z,4,near_mint
-Dress Down,en,https://scryfall.com/card/mh2/39/,Modern Horizons 2,rare,2.14,2021-06-18T00:00:00Z,4,near_mint
-Spreading Seas,en,https://scryfall.com/card/zen/70/,Zendikar,common,2.60,2009-10-02T00:00:00Z,4,near_mint
-Fae of Wishes // Granted,en,https://scryfall.com/card/eld/44/,Throne of Eldraine,rare,0.17,2019-10-04T00:00:00Z,4,near_mint
-"Narset, Parter of Veils",en,https://scryfall.com/card/war/61/,War of the Spark,uncommon,1.01,2019-05-03T00:00:00Z,4,near_mint
+Aether Gust,en,https://scryfall.com/card/m20/42/,Core Set 2020,uncommon,0.32,2019-07-12T00:00:00Z,4,near_mint
+Discover the Impossible,en,https://scryfall.com/card/neo/50/,Kamigawa: Neon Dynasty,uncommon,0.06,2022-02-18T00:00:00Z,4,near_mint
+Mystical Dispute,en,https://scryfall.com/card/eld/58/,Throne of Eldraine,uncommon,1.49,2019-10-04T00:00:00Z,4,near_mint
+Even the Score,en,https://scryfall.com/card/snc/42/,Streets of New Capenna,mythic,0.45,2022-04-29T00:00:00Z,4,near_mint
+Counterspell,en,https://scryfall.com/card/mh2/267/,Modern Horizons 2,uncommon,1.10,2021-06-18T00:00:00Z,4,near_mint
+Negate,en,https://scryfall.com/card/znr/71/,Zendikar Rising,common,0.07,2020-09-25T00:00:00Z,4,near_mint
+Dress Down,en,https://scryfall.com/card/mh2/39/,Modern Horizons 2,rare,2.15,2021-06-18T00:00:00Z,4,near_mint
+Spreading Seas,en,https://scryfall.com/card/zen/70/,Zendikar,common,2.54,2009-10-02T00:00:00Z,4,near_mint
+Fae of Wishes // Granted,en,https://scryfall.com/card/eld/44/,Throne of Eldraine,rare,0.14,2019-10-04T00:00:00Z,4,near_mint
+"Narset, Parter of Veils",en,https://scryfall.com/card/war/61/,War of the Spark,uncommon,1.11,2019-05-03T00:00:00Z,4,near_mint
 Wizard's Retort,en,https://scryfall.com/card/dom/75/,Dominaria,uncommon,0.24,2018-04-27T00:00:00Z,4,near_mint
-Gifts Ungiven,en,https://scryfall.com/card/mm3/40/,Modern Masters 2017,rare,0.75,2017-03-17T00:00:00Z,4,near_mint
-Memory Deluge,en,https://scryfall.com/card/mid/62/,Innistrad: Midnight Hunt,rare,1.34,2021-09-24T00:00:00Z,4,near_mint
-Stormwing Entity,en,https://scryfall.com/card/m21/73/,Core Set 2021,rare,1.72,2020-07-03T00:00:00Z,4,near_mint
-Into the Story,en,https://scryfall.com/card/eld/50/,Throne of Eldraine,uncommon,0.27,2019-10-04T00:00:00Z,4,near_mint
-Treasure Cruise,en,https://scryfall.com/card/ktk/59/,Khans of Tarkir,common,0.19,2014-09-26T00:00:00Z,4,near_mint
-Dig Through Time,en,https://scryfall.com/card/ktk/36/,Khans of Tarkir,rare,0.61,2014-09-26T00:00:00Z,4,near_mint
-Bloodchief's Thirst,en,https://scryfall.com/card/znr/94/,Zendikar Rising,uncommon,0.20,2020-09-25T00:00:00Z,4,near_mint
-Bone Shards,en,https://scryfall.com/card/mh2/76/,Modern Horizons 2,common,0.15,2021-06-18T00:00:00Z,4,near_mint
-Shrieking Affliction,en,https://scryfall.com/card/rtr/76/,Return to Ravnica,uncommon,0.50,2012-10-05T00:00:00Z,4,near_mint
+Gifts Ungiven,en,https://scryfall.com/card/mm3/40/,Modern Masters 2017,rare,0.98,2017-03-17T00:00:00Z,4,near_mint
+Memory Deluge,en,https://scryfall.com/card/mid/62/,Innistrad: Midnight Hunt,rare,1.45,2021-09-24T00:00:00Z,4,near_mint
+Stormwing Entity,en,https://scryfall.com/card/m21/73/,Core Set 2021,rare,1.99,2020-07-03T00:00:00Z,4,near_mint
+Into the Story,en,https://scryfall.com/card/eld/50/,Throne of Eldraine,uncommon,0.12,2019-10-04T00:00:00Z,4,near_mint
+Treasure Cruise,en,https://scryfall.com/card/ktk/59/,Khans of Tarkir,common,0.15,2014-09-26T00:00:00Z,4,near_mint
+Dig Through Time,en,https://scryfall.com/card/ktk/36/,Khans of Tarkir,rare,0.82,2014-09-26T00:00:00Z,4,near_mint
+Bloodchief's Thirst,en,https://scryfall.com/card/znr/94/,Zendikar Rising,uncommon,0.14,2020-09-25T00:00:00Z,4,near_mint
+Bone Shards,en,https://scryfall.com/card/mh2/76/,Modern Horizons 2,common,0.08,2021-06-18T00:00:00Z,4,near_mint
+Shrieking Affliction,en,https://scryfall.com/card/rtr/76/,Return to Ravnica,uncommon,0.56,2012-10-05T00:00:00Z,4,near_mint
+Raven's Crime,en,https://scryfall.com/card/mma/95/,Modern Masters,common,0.40,2013-06-07T00:00:00Z,4,near_mint
+Cabal Therapy,en,https://scryfall.com/card/jud/62/,Judgment,uncommon,1.19,2002-05-27T00:00:00Z,4,excellent
+Funeral Charm,en,https://scryfall.com/card/vis/61/,Visions,common,0.81,1997-02-03T00:00:00Z,4,excellent
+Thieves' Guild Enforcer,en,https://scryfall.com/card/m21/125/,Core Set 2021,rare,0.32,2020-07-03T00:00:00Z,4,near_mint
+Cling to Dust,en,https://scryfall.com/card/thb/87/,Theros Beyond Death,uncommon,0.17,2020-01-24T00:00:00Z,4,near_mint
+Gifted Aetherborn,en,https://scryfall.com/card/aer/61/,Aether Revolt,uncommon,0.63,2017-01-20T00:00:00Z,4,near_mint
+Virus Beetle,en,https://scryfall.com/card/neo/128/,Kamigawa: Neon Dynasty,common,0.11,2022-02-18T00:00:00Z,4,near_mint
+Night's Whisper,es,https://scryfall.com/card/5dn/55/es/,Fifth Dawn,uncommon,1.98,2004-06-04T00:00:00Z,2,near_mint
+Night's Whisper,es,https://scryfall.com/card/5dn/55/es/,Fifth Dawn,uncommon,1.98,2004-06-04T00:00:00Z,2,excellent
+Sign in Blood,en,https://scryfall.com/card/mm2/97/,Modern Masters 2015,common,0.26,2015-05-22T00:00:00Z,4,near_mint
+Profane Tutor,en,https://scryfall.com/card/mh2/97/,Modern Horizons 2,rare,1.45,2021-06-18T00:00:00Z,4,near_mint
+Smallpox,en,https://scryfall.com/card/tsr/139/,Time Spiral Remastered,uncommon,0.14,2021-03-19T00:00:00Z,4,near_mint
+Damn,en,https://scryfall.com/card/mh2/80/,Modern Horizons 2,rare,2.39,2021-06-18T00:00:00Z,4,near_mint
+Break the Ice,en,https://scryfall.com/card/mh2/77/,Modern Horizons 2,uncommon,0.02,2021-06-18T00:00:00Z,4,near_mint
+Wrench Mind,en,https://scryfall.com/card/mrd/84/,Mirrodin,common,0.18,2003-10-02T00:00:00Z,4,near_mint
+Feed the Swarm,en,https://scryfall.com/card/znr/102/,Zendikar Rising,common,0.18,2020-09-25T00:00:00Z,4,near_mint
+Tenacious Underdog,en,https://scryfall.com/card/snc/97/,Streets of New Capenna,rare,1.19,2022-04-29T00:00:00Z,4,near_mint
+Graveyard Trespasser // Graveyard Glutton,en,https://scryfall.com/card/mid/104/,Innistrad: Midnight Hunt,rare,1.10,2021-09-24T00:00:00Z,4,near_mint
+Plague Engineer,en,https://scryfall.com/card/mh1/100/,Modern Horizons,rare,1.89,2019-06-14T00:00:00Z,4,near_mint
+Unburial Rites,en,https://scryfall.com/card/isd/122/,Innistrad,uncommon,0.40,2011-09-30T00:00:00Z,4,near_mint
+Street Wraith,en,https://scryfall.com/card/a25/108/,Masters 25,uncommon,2.49,2018-03-16T00:00:00Z,4,near_mint
+Murderous Cut,en,https://scryfall.com/card/ktk/81/,Khans of Tarkir,uncommon,0.02,2014-09-26T00:00:00Z,4,near_mint
+Gurmag Angler,en,https://scryfall.com/card/uma/102/,Ultimate Masters,common,0.08,2018-12-07T00:00:00Z,1,near_mint
+Unholy Heat,en,https://scryfall.com/card/mh2/145/,Modern Horizons 2,common,0.08,2021-06-18T00:00:00Z,4,near_mint
+Chandra's Defeat,en,https://scryfall.com/card/hou/86/,Hour of Devastation,uncommon,0.10,2017-07-14T00:00:00Z,4,near_mint
+Flame-Blessed Bolt,en,https://scryfall.com/card/vow/158/,Innistrad: Crimson Vow,common,0.11,2021-11-19T00:00:00Z,4,near_mint
+Monastery Swiftspear,en,https://scryfall.com/card/ktk/118/,Khans of Tarkir,uncommon,1.09,2014-09-26T00:00:00Z,4,near_mint
+Soul-Scar Mage,en,https://scryfall.com/card/akh/148/,Amonkhet,rare,2.13,2017-04-28T00:00:00Z,4,near_mint
+Fervent Champion,en,https://scryfall.com/card/eld/124/,Throne of Eldraine,rare,0.29,2019-10-04T00:00:00Z,4,near_mint
+Lava Spike,en,https://scryfall.com/card/chk/178/,Champions of Kamigawa,common,1.25,2004-10-01T00:00:00Z,4,near_mint
+Dragonmaster Outcast,en,https://scryfall.com/card/bfz/144/,Battle for Zendikar,mythic,1.00,2015-10-02T00:00:00Z,4,near_mint
+Lava Dart,en,https://scryfall.com/card/mh1/134/,Modern Horizons,common,0.10,2019-06-14T00:00:00Z,4,near_mint
+Unlucky Witness,en,https://scryfall.com/card/snc/128/,Streets of New Capenna,uncommon,0.10,2022-04-29T00:00:00Z,4,near_mint
+Smoldering Egg // Ashmouth Dragon,en,https://scryfall.com/card/mid/159/,Innistrad: Midnight Hunt,rare,1.88,2021-09-24T00:00:00Z,4,near_mint
+Ogre-Head Helm,en,https://scryfall.com/card/neo/155/,Kamigawa: Neon Dynasty,rare,0.02,2022-02-18T00:00:00Z,4,near_mint
+Lava Coil,en,https://scryfall.com/card/grn/108/,Guilds of Ravnica,uncommon,0.12,2018-10-05T00:00:00Z,4,near_mint
+Goblin Bombardment,en,https://scryfall.com/card/mh2/279/,Modern Horizons 2,rare,0.50,2021-06-18T00:00:00Z,4,near_mint
+Runaway Steam-Kin,en,https://scryfall.com/card/grn/115/,Guilds of Ravnica,rare,0.18,2018-10-05T00:00:00Z,4,near_mint
+Fry,en,https://scryfall.com/card/m20/140/,Core Set 2020,uncommon,0.13,2019-07-12T00:00:00Z,4,near_mint
+Abrade,en,https://scryfall.com/card/2xm/114/,Double Masters,common,0.10,2020-08-07T00:00:00Z,4,near_mint
+Temur Battle Rage,en,https://scryfall.com/card/2xm/146/,Double Masters,common,0.16,2020-08-07T00:00:00Z,4,near_mint
+Light Up the Stage,en,https://scryfall.com/card/rna/107/,Ravnica Allegiance,uncommon,0.30,2019-01-25T00:00:00Z,4,near_mint
+Wizard's Lightning,en,https://scryfall.com/card/dom/152/,Dominaria,uncommon,0.15,2018-04-27T00:00:00Z,4,near_mint
+"Squee, Goblin Nabob",en,https://scryfall.com/card/uma/150/,Ultimate Masters,rare,0.49,2018-12-07T00:00:00Z,4,near_mint
+Goblin Dark-Dwellers,en,https://scryfall.com/card/ogw/110/,Oath of the Gatewatch,rare,0.22,2016-01-22T00:00:00Z,4,near_mint
+Obsidian Charmaw,en,https://scryfall.com/card/mh2/137/,Modern Horizons 2,rare,0.29,2021-06-18T00:00:00Z,4,near_mint
+Arbor Elf,en,https://scryfall.com/card/a25/160/,Masters 25,common,0.50,2018-03-16T00:00:00Z,4,near_mint
+Wild Nacatl,en,https://scryfall.com/card/mb1/1373/,Mystery Booster,common,0.49,2019-11-07T00:00:00Z,4,near_mint
+Traverse the Ulvenwald,en,https://scryfall.com/card/soi/234/,Shadows over Innistrad,rare,1.32,2016-04-08T00:00:00Z,4,near_mint
+Explore,en,https://scryfall.com/card/mm3/125/,Modern Masters 2017,common,0.06,2017-03-17T00:00:00Z,4,near_mint
+Scavenging Ooze,en,https://scryfall.com/card/m21/204/,Core Set 2021,rare,0.60,2020-07-03T00:00:00Z,4,near_mint
+Satyr Wayfinder,en,https://scryfall.com/card/bng/136/,Born of the Gods,common,0.22,2014-02-07T00:00:00Z,4,near_mint
+Courser of Kruphix,en,https://scryfall.com/card/bng/119/,Born of the Gods,rare,2.02,2014-02-07T00:00:00Z,4,near_mint
+Eternal Witness,en,https://scryfall.com/card/5dn/86/,Fifth Dawn,uncommon,1.31,2004-06-04T00:00:00Z,4,near_mint
+Wilderness Reclamation,en,https://scryfall.com/card/rna/149/,Ravnica Allegiance,uncommon,0.88,2019-01-25T00:00:00Z,4,near_mint
+Thragtusk,en,https://scryfall.com/card/2xm/183/,Double Masters,rare,0.20,2020-08-07T00:00:00Z,4,near_mint
+Giant Killer // Chop Down,en,https://scryfall.com/card/eld/14/,Throne of Eldraine,rare,0.23,2019-10-04T00:00:00Z,4,near_mint
+Blossoming Calm,en,https://scryfall.com/card/mh2/7/,Modern Horizons 2,uncommon,0.13,2021-06-18T00:00:00Z,4,near_mint
+Prismatic Ending,en,https://scryfall.com/card/mh2/25/,Modern Horizons 2,uncommon,0.90,2021-06-18T00:00:00Z,4,near_mint
+Path to Exile,en,https://scryfall.com/card/mma/25/,Modern Masters,uncommon,2.75,2013-06-07T00:00:00Z,4,near_mint
+Burrenton Forge-Tender,en,https://scryfall.com/card/lrw/7/,Lorwyn,uncommon,0.74,2007-10-12T00:00:00Z,4,near_mint
+Silence,en,https://scryfall.com/card/m11/30/,Magic 2011,rare,3.18,2010-07-16T00:00:00Z,4,near_mint
+Spirit of the Labyrinth,en,https://scryfall.com/card/bng/27/,Born of the Gods,rare,2.09,2014-02-07T00:00:00Z,4,near_mint
+"Thalia, Guardian of Thraben",en,https://scryfall.com/card/dka/24/,Dark Ascension,rare,2.50,2012-02-03T00:00:00Z,2,near_mint
+Wall of Omens,en,https://scryfall.com/card/ema/34/,Eternal Masters,uncommon,0.19,2016-06-10T00:00:00Z,4,near_mint
+Squadron Hawk,en,https://scryfall.com/card/m11/33/,Magic 2011,common,0.19,2010-07-16T00:00:00Z,4,near_mint
+Spirited Companion,en,https://scryfall.com/card/neo/38/,Kamigawa: Neon Dynasty,common,0.18,2022-02-18T00:00:00Z,4,near_mint
+Maul of the Skyclaves,en,https://scryfall.com/card/znr/27/,Zendikar Rising,rare,0.14,2020-09-25T00:00:00Z,4,near_mint
+Flickerwisp,en,https://scryfall.com/card/2xm/16/,Double Masters,uncommon,0.20,2020-08-07T00:00:00Z,4,near_mint
+Skyclave Apparition,en,https://scryfall.com/card/znr/39/,Zendikar Rising,rare,2.75,2020-09-25T00:00:00Z,4,near_mint
+Blade Splicer,en,https://scryfall.com/card/2xm/9/,Double Masters,rare,0.34,2020-08-07T00:00:00Z,4,near_mint
+Timeless Dragon,en,https://scryfall.com/card/mh2/35/,Modern Horizons 2,rare,0.13,2021-06-18T00:00:00Z,4,near_mint
+Tormod's Crypt,en,https://scryfall.com/card/m21/241/,Core Set 2021,uncommon,0.42,2020-07-03T00:00:00Z,3,near_mint
+Tormod's Crypt,en,https://scryfall.com/card/chr/109/,Chronicles,common,0.52,1995-07-01T00:00:00Z,1,near_mint
+Expedition Map,en,https://scryfall.com/card/2xm/255/,Double Masters,common,0.95,2020-08-07T00:00:00Z,4,near_mint
+Bomat Courier,en,https://scryfall.com/card/kld/199/,Kaladesh,rare,0.27,2016-09-30T00:00:00Z,4,near_mint
+The Rack,en,https://scryfall.com/card/3ed/278/,Revised Edition,uncommon,1.30,1994-04-01T00:00:00Z,3,near_mint
+The Rack,en,https://scryfall.com/card/4ed/352/,Fourth Edition,uncommon,1.12,1995-04-01T00:00:00Z,1,near_mint
+Pyrite Spellbomb,en,https://scryfall.com/card/2xm/283/,Double Masters,common,0.04,2020-08-07T00:00:00Z,4,near_mint
+Hex Parasite,en,https://scryfall.com/card/nph/137/,New Phyrexia,rare,1.38,2011-05-13T00:00:00Z,4,near_mint
+Nihil Spellbomb,en,https://scryfall.com/card/som/187/,Scars of Mirrodin,common,0.47,2010-10-01T00:00:00Z,4,near_mint
+Soul-Guide Lantern,en,https://scryfall.com/card/thb/237/,Theros Beyond Death,uncommon,2.13,2020-01-24T00:00:00Z,4,near_mint
+Relic of Progenitus,en,https://scryfall.com/card/ema/231/,Eternal Masters,uncommon,7.77,2016-06-10T00:00:00Z,4,near_mint
+Skullclamp,en,https://scryfall.com/card/dst/140/,Darksteel,uncommon,3.89,2004-02-06T00:00:00Z,4,near_mint
+Brainstone,en,https://scryfall.com/card/mh2/223/,Modern Horizons 2,uncommon,0.12,2021-06-18T00:00:00Z,1,near_mint
+Ratchet Bomb,en,https://scryfall.com/card/m14/215/,Magic 2014,rare,0.40,2013-07-19T00:00:00Z,2,near_mint
+Ratchet Bomb,en,https://scryfall.com/card/2xm/284/,Double Masters,rare,0.48,2020-08-07T00:00:00Z,1,near_mint
+Ratchet Bomb,en,https://scryfall.com/card/som/196/,Scars of Mirrodin,rare,0.25,2010-10-01T00:00:00Z,1,near_mint
+Damping Sphere,en,https://scryfall.com/card/dom/213/,Dominaria,uncommon,1.96,2018-04-27T00:00:00Z,4,near_mint
+Trepanation Blade,en,https://scryfall.com/card/isd/235/,Innistrad,uncommon,0.35,2011-09-30T00:00:00Z,4,near_mint
+Oblivion Stone,en,https://scryfall.com/card/mrd/222/,Mirrodin,rare,1.00,2003-10-02T00:00:00Z,4,excellent
+Solemn Simulacrum,en,https://scryfall.com/card/mrd/245/,Mirrodin,rare,1.24,2003-10-02T00:00:00Z,4,near_mint
+Bojuka Bog,en,https://scryfall.com/card/wwk/132/,Worldwake,common,0.93,2010-02-05T00:00:00Z,4,near_mint
+Lavaclaw Reaches,en,https://scryfall.com/card/wwk/139/,Worldwake,rare,0.41,2010-02-05T00:00:00Z,4,near_mint
+Raging Ravine,en,https://scryfall.com/card/wwk/141/,Worldwake,rare,0.85,2010-02-05T00:00:00Z,4,near_mint
+Creeping Tar Pit,en,https://scryfall.com/card/wwk/134/,Worldwake,rare,1.70,2010-02-05T00:00:00Z,4,near_mint
+Stirring Wildwood,en,https://scryfall.com/card/wwk/144/,Worldwake,rare,0.28,2010-02-05T00:00:00Z,4,near_mint
+Hissing Quagmire,en,https://scryfall.com/card/ogw/171/,Oath of the Gatewatch,rare,0.82,2016-01-22T00:00:00Z,4,near_mint
+Needle Spires,en,https://scryfall.com/card/ogw/175/,Oath of the Gatewatch,rare,0.22,2016-01-22T00:00:00Z,4,near_mint
+Wandering Fumarole,en,https://scryfall.com/card/ogw/182/,Oath of the Gatewatch,rare,0.20,2016-01-22T00:00:00Z,4,near_mint
+Shambling Vent,en,https://scryfall.com/card/bfz/244/,Battle for Zendikar,rare,0.66,2015-10-02T00:00:00Z,4,near_mint
+Lumbering Falls,en,https://scryfall.com/card/bfz/239/,Battle for Zendikar,rare,0.29,2015-10-02T00:00:00Z,4,near_mint
+Golgari Rot Farm,en,https://scryfall.com/card/rav/278/,Ravnica: City of Guilds,common,0.30,2005-10-07T00:00:00Z,1,near_mint
+Barren Moor,en,https://scryfall.com/card/mh1/236/,Modern Horizons,uncommon,0.13,2019-06-14T00:00:00Z,4,near_mint
+Forgotten Cave,en,https://scryfall.com/card/mh1/239/,Modern Horizons,uncommon,0.04,2019-06-14T00:00:00Z,4,near_mint
+Secluded Steppe,en,https://scryfall.com/card/mh1/245/,Modern Horizons,uncommon,0.07,2019-06-14T00:00:00Z,4,near_mint
+Lonely Sandbar,en,https://scryfall.com/card/mh1/242/,Modern Horizons,uncommon,0.09,2019-06-14T00:00:00Z,4,near_mint
+Tranquil Thicket,en,https://scryfall.com/card/mh1/248/,Modern Horizons,uncommon,0.13,2019-06-14T00:00:00Z,4,near_mint
+Shivan Reef,en,https://scryfall.com/card/c20/310/,Commander 2020,rare,1.46,2020-04-17T00:00:00Z,4,near_mint
+Treetop Village,en,https://scryfall.com/card/ulg/143/,Urza's Legacy,uncommon,1.29,1999-02-15T00:00:00Z,4,near_mint
+Absorb,en,https://scryfall.com/card/rna/151/,Ravnica Allegiance,rare,0.56,2019-01-25T00:00:00Z,4,near_mint
+Daze,en,https://scryfall.com/card/nem/30/,Nemesis,common,1.23,2000-02-14T00:00:00Z,4,excellent
+Mother of Runes,en,https://scryfall.com/card/ulg/14/,Urza's Legacy,uncommon,3.99,1999-02-15T00:00:00Z,4,near_mint
+Grim Lavamancer,en,https://scryfall.com/card/2xm/129/,Double Masters,rare,0.57,2020-08-07T00:00:00Z,4,near_mint
+Blastoderm,en,https://scryfall.com/card/nem/102/,Nemesis,common,0.25,2000-02-14T00:00:00Z,4,excellent
+Ball Lightning,es,https://scryfall.com/card/4ed/176/es/,Fourth Edition,rare,4.00,1995-04-01T00:00:00Z,2,excellent
+Ball Lightning,en,https://scryfall.com/card/5ed/210/,Fifth Edition,rare,0.40,1997-03-24T00:00:00Z,1,excellent
+Ball Lightning,pt,https://scryfall.com/card/4bb/176/pt/,Fourth Edition Foreign Black Border,rare,,1995-04-01T00:00:00Z,1,excellent
+Sol Ring,en,https://scryfall.com/card/3ed/274/,Revised Edition,uncommon,14.00,1994-04-01T00:00:00Z,1,near_mint
+Death Grasp,es,https://scryfall.com/card/apc/95/es/,Apocalypse,rare,0.29,2001-06-04T00:00:00Z,3,excellent
+Phyrexian Arena,en,https://scryfall.com/card/apc/47/,Apocalypse,rare,10.97,2001-06-04T00:00:00Z,1,near_mint
+Blue Elemental Blast,en,https://scryfall.com/card/3ed/49/,Revised Edition,common,0.27,1994-04-01T00:00:00Z,2,excellent
+Blue Elemental Blast,en,https://scryfall.com/card/4ed/63/,Fourth Edition,common,0.23,1995-04-01T00:00:00Z,2,near_mint
+Gaea's Blessing,en,https://scryfall.com/card/ema/168/,Eternal Masters,uncommon,0.10,2016-06-10T00:00:00Z,4,near_mint
+Wall of Roots,en,https://scryfall.com/card/tsb/89/,Time Spiral Timeshifted,special,0.60,2006-10-06T00:00:00Z,4,near_mint
+Yavimaya Elder,en,https://scryfall.com/card/uds/124/,Urza's Destiny,common,0.44,1999-06-07T00:00:00Z,4,near_mint
+Bottomless Pit,en,https://scryfall.com/card/sth/51/,Stronghold,uncommon,1.80,1998-03-02T00:00:00Z,4,near_mint
+Icy Manipulator,en,https://scryfall.com/card/mrd/186/,Mirrodin,uncommon,0.04,2003-10-02T00:00:00Z,1,near_mint
+Seal of Cleansing,en,https://scryfall.com/card/nem/18/,Nemesis,common,0.27,2000-02-14T00:00:00Z,1,near_mint
+Seal of Cleansing,en,https://scryfall.com/card/mh2/264/,Modern Horizons 2,uncommon,0.07,2021-06-18T00:00:00Z,4,near_mint
+Mesmeric Fiend,es,https://scryfall.com/card/tor/69/es/,Torment,common,0.02,2002-02-04T00:00:00Z,1,near_mint
+Coercion,es,https://scryfall.com/card/8ed/122/es/,Eighth Edition,common,0.02,2003-07-28T00:00:00Z,2,near_mint
+Coercion,es,https://scryfall.com/card/tmp/113/es/,Tempest,common,0.45,1997-10-14T00:00:00Z,2,near_mint
+Faceless Butcher,es,https://scryfall.com/card/tor/60/es/,Torment,common,0.05,2002-02-04T00:00:00Z,4,near_mint
+Terror,es,https://scryfall.com/card/mrd/79/es/,Mirrodin,common,0.25,2003-10-02T00:00:00Z,3,near_mint
+Terror,en,https://scryfall.com/card/mrd/79/,Mirrodin,common,0.25,2003-10-02T00:00:00Z,1,near_mint
+Corrupt,en,https://scryfall.com/card/m14/91/,Magic 2014,uncommon,0.02,2013-07-19T00:00:00Z,3,near_mint
+Corrupt,es,https://scryfall.com/card/7ed/124/es/,Seventh Edition,common,0.05,2001-04-11T00:00:00Z,2,played
+Knight of Stromgald,en,https://scryfall.com/card/ath/26/,Anthologies,uncommon,0.78,1998-11-01T00:00:00Z,1,excellent
+Knight of Stromgald,en,https://scryfall.com/card/ice/138/,Ice Age,uncommon,0.10,1995-06-03T00:00:00Z,1,good
+Black Knight,en,https://scryfall.com/card/3ed/95/,Revised Edition,uncommon,0.50,1994-04-01T00:00:00Z,1,near_mint
+Black Knight,en,https://scryfall.com/card/4ed/121/,Fourth Edition,uncommon,0.15,1995-04-01T00:00:00Z,3,near_mint
+Mind Sludge,es,https://scryfall.com/card/8ed/146/es/,Eighth Edition,uncommon,0.02,2003-07-28T00:00:00Z,1,light_played
+Mind Sludge,es,https://scryfall.com/card/tor/70/es/,Torment,uncommon,0.25,2002-02-04T00:00:00Z,1,excellent
+Phyrexian Scuta,en,https://scryfall.com/card/pls/51/,Planeshift,rare,0.42,2001-02-05T00:00:00Z,1,near_mint
+Phyrexian Scuta,es,https://scryfall.com/card/pls/51/es/,Planeshift,rare,0.42,2001-02-05T00:00:00Z,1,near_mint
+Phyrexian Scuta,ja,https://scryfall.com/card/pls/51/ja/,Planeshift,rare,0.42,2001-02-05T00:00:00Z,1,near_mint
+Phyrexian Scuta,zhs,https://scryfall.com/card/pls/51/zhs/,Planeshift,rare,0.42,2001-02-05T00:00:00Z,1,near_mint
+Grinning Demon,es,https://scryfall.com/card/ons/153/es/,Onslaught,rare,0.33,2002-10-07T00:00:00Z,1,played
+Grinning Demon,en,https://scryfall.com/card/ons/153/,Onslaught,rare,0.33,2002-10-07T00:00:00Z,3,near_mint
+Nether Spirit,en,https://scryfall.com/card/mmq/149/,Mercadian Masques,rare,1.00,1999-10-04T00:00:00Z,3,near_mint
+Nether Spirit,es,https://scryfall.com/card/mmq/149/es/,Mercadian Masques,rare,1.00,1999-10-04T00:00:00Z,1,excellent
+Nether Spirit,en,https://scryfall.com/card/mmq/149/,Mercadian Masques,rare,1.00,1999-10-04T00:00:00Z,1,good
+Plague Sliver,es,https://scryfall.com/card/tsp/124/es/,Time Spiral,rare,0.49,2006-10-06T00:00:00Z,4,near_mint
+Diabolic Tutor,es,https://scryfall.com/card/8ed/128/es/,Eighth Edition,uncommon,0.35,2003-07-28T00:00:00Z,4,near_mint
+Nightmare,en,https://scryfall.com/card/8ed/150/,Eighth Edition,rare,0.10,2003-07-28T00:00:00Z,3,near_mint
+Skeletal Scrying,es,https://scryfall.com/card/ody/161/es/,Odyssey,uncommon,0.38,2001-10-01T00:00:00Z,1,near_mint
+Skeletal Scrying,en,https://scryfall.com/card/ody/161/,Odyssey,uncommon,0.38,2001-10-01T00:00:00Z,2,near_mint
+Skeletal Scrying,zhs,https://scryfall.com/card/ody/161/zhs/,Odyssey,uncommon,0.38,2001-10-01T00:00:00Z,1,near_mint
+Ravenous Rats,es,https://scryfall.com/card/8ed/158/es/,Eighth Edition,common,0.02,2003-07-28T00:00:00Z,4,near_mint
+Mutilate,en,https://scryfall.com/card/tor/73/,Torment,rare,1.50,2002-02-04T00:00:00Z,1,excellent
+Mutilate,en,https://scryfall.com/card/tor/73/,Torment,rare,1.50,2002-02-04T00:00:00Z,1,light_played
+Mutilate,es,https://scryfall.com/card/tor/73/es/,Torment,rare,1.50,2002-02-04T00:00:00Z,1,excellent
+Mutilate,es,https://scryfall.com/card/tor/73/es/,Torment,rare,1.50,2002-02-04T00:00:00Z,1,near_mint
+Chainer's Edict,en,https://scryfall.com/card/tor/57/,Torment,uncommon,4.13,2002-02-04T00:00:00Z,1,good
+Chainer's Edict,es,https://scryfall.com/card/tor/57/es/,Torment,uncommon,4.13,2002-02-04T00:00:00Z,1,excellent
+Chainer's Edict,es,https://scryfall.com/card/tor/57/es/,Torment,uncommon,4.13,2002-02-04T00:00:00Z,2,good
+Forbid,en,https://scryfall.com/card/exo/35/,Exodus,uncommon,0.80,1998-06-15T00:00:00Z,3,near_mint
+Forbid,es,https://scryfall.com/card/exo/35/es/,Exodus,uncommon,0.80,1998-06-15T00:00:00Z,1,near_mint
+Seal of Fire,en,https://scryfall.com/card/dis/71/,Dissension,common,0.26,2006-05-05T00:00:00Z,2,near_mint
+Seal of Fire,en,https://scryfall.com/card/dis/71/,Dissension,common,0.26,2006-05-05T00:00:00Z,1,good
+Seal of Fire,es,https://scryfall.com/card/dis/71/es/,Dissension,common,0.26,2006-05-05T00:00:00Z,1,near_mint
+Firebolt,en,https://scryfall.com/card/mh1/122/,Modern Horizons,uncommon,0.20,2019-06-14T00:00:00Z,4,near_mint
+Chill,en,https://scryfall.com/card/tmp/56/,Tempest,uncommon,0.58,1997-10-14T00:00:00Z,4,near_mint
+Careful Study,en,https://scryfall.com/card/ody/70/,Odyssey,common,0.97,2001-10-01T00:00:00Z,4,near_mint
+Unsummon,en,https://scryfall.com/card/leb/87/,Limited Edition Beta,common,7.95,1993-10-04T00:00:00Z,2,excellent
+Unsummon,en,https://scryfall.com/card/leb/87/,Limited Edition Beta,common,7.95,1993-10-04T00:00:00Z,2,good
+Nevinyrral's Disk,en,https://scryfall.com/card/4ed/338/,Fourth Edition,rare,4.50,1995-04-01T00:00:00Z,3,near_mint
+Nevinyrral's Disk,en,https://scryfall.com/card/4ed/338/,Fourth Edition,rare,4.50,1995-04-01T00:00:00Z,1,excellent
+Avalanche Riders,en,https://scryfall.com/card/ulg/74/,Urza's Legacy,uncommon,0.57,1999-02-15T00:00:00Z,4,near_mint
+Consume Spirit,es,https://scryfall.com/card/mrd/60/es/,Mirrodin,common,0.05,2003-10-02T00:00:00Z,4,good
+Contagion,en,https://scryfall.com/card/all/45/,Alliances,uncommon,0.61,1996-06-10T00:00:00Z,4,near_mint
+Megrim,en,https://scryfall.com/card/sth/62/,Stronghold,uncommon,0.18,1998-03-02T00:00:00Z,1,near_mint
+Megrim,en,https://scryfall.com/card/sth/62/,Stronghold,uncommon,0.18,1998-03-02T00:00:00Z,1,excellent
+Megrim,es,https://scryfall.com/card/sth/62/es/,Stronghold,uncommon,0.18,1998-03-02T00:00:00Z,1,good
+Megrim,es,https://scryfall.com/card/sth/62/es/,Stronghold,uncommon,0.18,1998-03-02T00:00:00Z,1,light_played
+Wall of Souls,en,https://scryfall.com/card/sth/75/,Stronghold,uncommon,0.42,1998-03-02T00:00:00Z,4,near_mint
+Rancor,en,https://scryfall.com/card/ulg/110/,Urza's Legacy,common,0.85,1999-02-15T00:00:00Z,4,near_mint
+Silklash Spider,en,https://scryfall.com/card/ons/281/,Onslaught,rare,0.20,2002-10-07T00:00:00Z,1,near_mint
+Energy Flux,en,https://scryfall.com/card/mmq/78/,Mercadian Masques,uncommon,0.02,1999-10-04T00:00:00Z,3,near_mint
+Energy Flux,es,https://scryfall.com/card/mmq/78/es/,Mercadian Masques,uncommon,0.02,1999-10-04T00:00:00Z,1,excellent
+Pyroclasm,en,https://scryfall.com/card/a25/146/,Masters 25,uncommon,0.02,2018-03-16T00:00:00Z,4,near_mint

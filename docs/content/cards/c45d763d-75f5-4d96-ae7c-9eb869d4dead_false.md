@@ -2,7 +2,7 @@
 title = "c45d763d-75f5-4d96-ae7c-9eb869d4dead"
 name = "Flooded Grove"
 lang = ["en"]
-price = "3.75"
+price = "2.50"
 quantity = 4
 foil = false
 +++

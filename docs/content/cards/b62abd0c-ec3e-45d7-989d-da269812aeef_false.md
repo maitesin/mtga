@@ -2,7 +2,7 @@
 title = "b62abd0c-ec3e-45d7-989d-da269812aeef"
 name = "Unearth"
 lang = ["en"]
-price = "0.24"
+price = "0.16"
 quantity = 4
 foil = false
 +++

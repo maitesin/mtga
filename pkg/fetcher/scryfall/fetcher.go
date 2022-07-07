@@ -69,10 +69,27 @@ func (f *Fetcher) Fetch(number int, set string, lang string, opts ...fetcher.Opt
 		if err != nil {
 			return fetcher.Card{}, err
 		}
-	} else {
+	} else if len(cardInfoEn.Faces) > 0 {
 		image, err = f.doRequest(cardInfoEn.Faces[0].URIs.PngURI)
 		if err != nil {
 			return fetcher.Card{}, err
+		}
+	} else {
+		cardInfoEn, err = f.downloadCard(number, set, lang)
+		if err != nil {
+			return fetcher.Card{}, err
+		}
+
+		if cardInfoEn.URIs != nil {
+			image, err = f.doRequest(cardInfoEn.URIs.PngURI)
+			if err != nil {
+				return fetcher.Card{}, err
+			}
+		} else {
+			image, err = f.doRequest(cardInfoEn.Faces[0].URIs.PngURI)
+			if err != nil {
+				return fetcher.Card{}, err
+			}
 		}
 	}
 

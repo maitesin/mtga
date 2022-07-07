@@ -2,7 +2,7 @@
 title = "9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42"
 name = "Marsh Flats"
 lang = ["en"]
-price = "12.55"
+price = "13.12"
 quantity = 4
 foil = false
 +++
