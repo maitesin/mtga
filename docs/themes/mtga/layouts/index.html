@@ -5,7 +5,7 @@
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 row-cols-xl-8">
       {{ range where .Site.RegularPages "Section" "cards" }}
       <div class="col">
-        <img class="card-image" src="img/cards/{{.Title}}.png"/>
+        <img class="card-image" src="img/cards/{{ .Params.Id }}.png"/>
         <div>
           <p>{{ .Params.Name }} {{ if .Params.Foil }} <span title="foil"><img style="width: 1rem;" src="img/options/star.svg"/></span> {{ end }}</p>
           <p>Language:

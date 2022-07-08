@@ -4,15 +4,18 @@ import (
 	"github.com/google/uuid"
 	"github.com/maitesin/mtga/internal/domain"
 	"strings"
+	"time"
 )
 
 type Card struct {
-	ID        uuid.UUID
-	Name      string
-	Languages []string
-	Price     string
-	Quantity  int
-	Foil      bool
+	ID         uuid.UUID
+	Name       string
+	Languages  []string
+	Price      string
+	Quantity   int
+	Foil       bool
+	Set        string
+	ReleasedAt time.Time
 }
 
 type key struct {
@@ -48,6 +51,8 @@ func (cm *CardMerger) Merge(domainCards []domain.Card) []Card {
 				dcard.Price,
 				dcard.Quantity,
 				dcard.IsFoil(),
+				dcard.SetName,
+				dcard.ReleasedAt,
 			}
 		} else {
 			m[k].Quantity += dcard.Quantity

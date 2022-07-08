@@ -9,6 +9,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 )
 
 type InfoGenerator interface {
@@ -31,22 +32,35 @@ func (f *InfoCardGenerator) Generate(_ context.Context, card Card) error {
 		return err
 	}
 
+	title := strings.Replace(
+		fmt.Sprintf("%s_%s_%s_%s_%t", card.ReleasedAt.Format(time.RFC3339), card.Set, card.Name, card.Languages, card.Foil),
+		" ",
+		"_",
+		-1,
+	)
+
 	value := fmt.Sprintf(
 		`+++
 title = %q
+id = %q
+date = %q
 name = %q
 lang = ["%s"]
 price = %q
 quantity = %d
 foil = %t
+set = %q
 +++
 `,
+		title,
 		card.ID,
+		card.ReleasedAt.Format(time.RFC3339),
 		card.Name,
 		strings.Join(card.Languages, `","`),
 		card.Price,
 		card.Quantity,
 		card.Foil,
+		card.Set,
 	)
 
 	_, err = io.Copy(file, ioutil.NopCloser(strings.NewReader(value)))
