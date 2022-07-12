@@ -5,7 +5,7 @@ date = "2018-12-07T00:00:00Z"
 name = "Gurmag Angler"
 lang = ["en"]
 price = "0.08"
-quantity = 1
+quantity = 4
 foil = false
 set = "Ultimate Masters"
 +++
