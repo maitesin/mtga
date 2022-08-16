@@ -5,7 +5,7 @@ date = "2021-11-19T00:00:00Z"
 name = "Sorin the Mirthless"
 lang = ["en"]
 price = "11.00"
-quantity = 2
+quantity = 4
 foil = false
 set = "Innistrad: Crimson Vow"
 +++
