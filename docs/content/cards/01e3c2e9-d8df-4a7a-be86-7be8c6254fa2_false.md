@@ -5,7 +5,7 @@ date = "2002-02-04T00:00:00Z"
 name = "Deep Analysis"
 lang = ["en"]
 price = "0.20"
-quantity = 2
+quantity = 3
 foil = false
 set = "Torment"
 +++

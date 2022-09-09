@@ -5,7 +5,7 @@ date = "2019-05-03T00:00:00Z"
 name = "Blast Zone"
 lang = ["en"]
 price = "3.20"
-quantity = 2
+quantity = 4
 foil = false
 set = "War of the Spark"
 +++
