@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"github.com/maitesin/mtga/internal/domain"
 	"io"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
@@ -63,7 +62,7 @@ set = %q
 		card.Set,
 	)
 
-	_, err = io.Copy(file, ioutil.NopCloser(strings.NewReader(value)))
+	_, err = io.Copy(file, io.NopCloser(strings.NewReader(value)))
 
 	return err
 }

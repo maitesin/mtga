@@ -5,7 +5,7 @@ import (
 	"context"
 	"fmt"
 	"golang.org/x/time/rate"
-	"io/ioutil"
+	"io"
 	"net/http"
 	"strings"
 	"time"
@@ -65,7 +65,7 @@ func AddHandler(ctx context.Context, opts Add, repository app.CardsRepository, s
 		options,
 	)
 
-	err = storage.Store(ctx, card.ID, ioutil.NopCloser(bytes.NewReader(cardF.Image)))
+	err = storage.Store(ctx, card.ID, io.NopCloser(bytes.NewReader(cardF.Image)))
 	if err != nil {
 		return err
 	}

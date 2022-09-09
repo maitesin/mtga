@@ -3,7 +3,7 @@ package scryfall
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net/http"
 	"time"
 
@@ -149,7 +149,7 @@ func (f *Fetcher) doRequest(endpoint string) ([]byte, error) {
 	}
 	defer resp.Body.Close()
 
-	pngBody, err := ioutil.ReadAll(resp.Body)
+	pngBody, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return nil, err
 	}
