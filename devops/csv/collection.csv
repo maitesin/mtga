@@ -788,7 +788,7 @@ Deep Analysis,en,https://scryfall.com/card/tor/36/,Torment,common,0.20,2002-02-0
 Morphic Pool,en,https://scryfall.com/card/clb/357/,Commander Legends: Battle for Baldur's Gate,rare,8.47,2022-06-10T00:00:00Z,1,near_mint
 Luxury Suite,en,https://scryfall.com/card/clb/355/,Commander Legends: Battle for Baldur's Gate,rare,7.73,2022-06-10T00:00:00Z,1,near_mint
 Haunted Ridge,en,https://scryfall.com/card/mid/263/,Innistrad: Midnight Hunt,rare,13.36,2021-09-24T00:00:00Z,4,near_mint
-Exsanguinate,en,https://scryfall.com/card/som/61/,Scars of Mirrodin,uncommon,4.40,2010-10-01T00:00:00Z,2,excellent
+Exsanguinate,en,https://scryfall.com/card/som/61/,Scars of Mirrodin,uncommon,4.40,2010-10-01T00:00:00Z,4,excellent
 Torment of Hailfire,en,https://scryfall.com/card/hou/77/,Hour of Devastation,rare,10.21,2017-07-14T00:00:00Z,1,near_mint
 Blast Zone,en,https://scryfall.com/card/war/244/,War of the Spark,rare,3.20,2019-05-03T00:00:00Z,4,near_mint
 See the Truth,en,https://scryfall.com/card/m21/69/,Core Set 2021,rare,0.46,2020-07-03T00:00:00Z,4,near_mint
@@ -814,7 +814,7 @@ Atarka's Command,en,https://scryfall.com/card/2x2/176/,Double Masters 2022,rare,
 Greater Gargadon,en,https://scryfall.com/card/tsp/161/,Time Spiral,rare,0.95,2006-10-06T00:00:00Z,1,excellent
 Festering Goblin,es,https://scryfall.com/card/ons/148/es/,Onslaught,common,0.10,2002-10-07T00:00:00Z,2,good
 Festering Goblin,en,https://scryfall.com/card/ons/148/,Onslaught,common,0.10,2002-10-07T00:00:00Z,2,excellent
-Aether Vial,en,https://scryfall.com/card/2x2/298/,Double Masters 2022,rare,12.05,2022-07-08T00:00:00Z,2,near_mint
+Aether Vial,en,https://scryfall.com/card/2x2/298/,Double Masters 2022,rare,12.05,2022-07-08T00:00:00Z,4,near_mint
 Deep Analysis,pt,https://scryfall.com/card/tor/36/pt/,Torment,common,0.33,2002-02-04T00:00:00Z,1,excellent
 Selfless Spirit,en,https://scryfall.com/card/emn/40/,Eldritch Moon,rare,2.13,2016-07-22T00:00:00Z,3,near_mint
 Anguished Unmaking,en,https://scryfall.com/card/2x2/170/,Double Masters 2022,rare,2.17,2022-07-08T00:00:00Z,4,near_mint
@@ -826,3 +826,12 @@ Shivan Reef,en,https://scryfall.com/card/dmu/255/,Dominaria United,rare,1.07,202
 Caves of Koilos,en,https://scryfall.com/card/dmu/244/,Dominaria United,rare,0.67,2022-09-09T00:00:00Z,4,near_mint
 Battlewing Mystic,en,https://scryfall.com/card/dmu/43/,Dominaria United,uncommon,0.09,2022-09-09T00:00:00Z,4,near_mint
 Combat Research,en,https://scryfall.com/card/dmu/44/,Dominaria United,uncommon,0.25,2022-09-09T00:00:00Z,4,near_mint
+Ox of Agonas,en,https://scryfall.com/card/thb/147/,Theros Beyond Death,mythic,1.11,2020-01-24T00:00:00Z,4,excellent
+Chart a Course,en,https://scryfall.com/card/xln/48/,Ixalan,uncommon,0.29,2017-09-29T00:00:00Z,4,excellent
+Surgical Extraction,en,https://scryfall.com/card/nph/74/,New Phyrexia,rare,10.49,2011-05-13T00:00:00Z,4,near_mint
+Goblin Guide,en,https://scryfall.com/card/zen/126/,Zendikar,rare,2.00,2009-10-02T00:00:00Z,4,excellent
+Qasali Pridemage,en,https://scryfall.com/card/arb/75/,Alara Reborn,common,0.99,2009-04-30T00:00:00Z,4,excellent
+Mana Tithe,en,https://scryfall.com/card/plc/25/,Planar Chaos,common,0.25,2007-02-02T00:00:00Z,4,excellent
+Rift Bolt,en,https://scryfall.com/card/tsp/176/,Time Spiral,common,0.12,2006-10-06T00:00:00Z,4,excellent
+Rhystic Study,en,https://scryfall.com/card/pcy/45/,Prophecy,common,23.35,2000-06-05T00:00:00Z,1,excellent
+Vendetta,en,https://scryfall.com/card/mmq/170/,Mercadian Masques,common,0.25,1999-10-04T00:00:00Z,4,excellent
