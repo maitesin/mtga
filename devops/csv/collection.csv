@@ -696,7 +696,7 @@ Absolute Law,en,https://scryfall.com/card/usg/2/,Urza's Saga,uncommon,0.27,1998-
 Disenchant,en,https://scryfall.com/card/3ed/17/,Revised Edition,common,0.60,1994-04-01T00:00:00Z,4,near_mint
 Withered Wretch,es,https://scryfall.com/card/lgn/86/es/,Legions,uncommon,0.38,2003-02-03T00:00:00Z,4,good
 Diabolic Edict,en,https://scryfall.com/card/tmp/128/,Tempest,common,0.55,1997-10-14T00:00:00Z,4,good
-Engineered Plague,en,https://scryfall.com/card/ulg/51/,Urza's Legacy,uncommon,0.14,1999-02-15T00:00:00Z,1,excellent
+Engineered Plague,en,https://scryfall.com/card/ulg/51/,Urza's Legacy,uncommon,0.14,1999-02-15T00:00:00Z,4,excellent
 Engineered Plague,es,https://scryfall.com/card/7ed/133/es/,Seventh Edition,uncommon,0.77,2001-04-11T00:00:00Z,2,light_played
 Rain of Tears,en,https://scryfall.com/card/tmp/149/,Tempest,uncommon,0.32,1997-10-14T00:00:00Z,4,excellent
 Icequake,en,https://scryfall.com/card/ice/134/,Ice Age,uncommon,1.76,1995-06-03T00:00:00Z,4,light_played
@@ -811,7 +811,7 @@ Hydroid Krasis,en,https://scryfall.com/card/2x2/228/,Double Masters 2022,rare,3.
 Archon of Emeria,en,https://scryfall.com/card/znr/4/,Zendikar Rising,rare,1.40,2020-09-25T00:00:00Z,4,near_mint
 Extraction Specialist,en,https://scryfall.com/card/snc/12/,Streets of New Capenna,rare,1.16,2022-04-29T00:00:00Z,4,near_mint
 Atarka's Command,en,https://scryfall.com/card/2x2/176/,Double Masters 2022,rare,0.45,2022-07-08T00:00:00Z,1,near_mint
-Greater Gargadon,en,https://scryfall.com/card/tsp/161/,Time Spiral,rare,0.95,2006-10-06T00:00:00Z,1,excellent
+Greater Gargadon,en,https://scryfall.com/card/tsp/161/,Time Spiral,rare,0.95,2006-10-06T00:00:00Z,3,excellent
 Festering Goblin,es,https://scryfall.com/card/ons/148/es/,Onslaught,common,0.10,2002-10-07T00:00:00Z,2,good
 Festering Goblin,en,https://scryfall.com/card/ons/148/,Onslaught,common,0.10,2002-10-07T00:00:00Z,2,excellent
 Aether Vial,en,https://scryfall.com/card/2x2/298/,Double Masters 2022,rare,12.05,2022-07-08T00:00:00Z,4,near_mint
@@ -837,3 +837,12 @@ Rhystic Study,en,https://scryfall.com/card/pcy/45/,Prophecy,common,23.35,2000-06
 Vendetta,en,https://scryfall.com/card/mmq/170/,Mercadian Masques,common,0.25,1999-10-04T00:00:00Z,4,excellent
 Duress,en,https://scryfall.com/card/7ed/131/,Seventh Edition,common,0.17,2001-04-11T00:00:00Z,4,excellent
 City of Brass,en,https://scryfall.com/card/7ed/327/,Seventh Edition,rare,16.00,2001-04-11T00:00:00Z,4,excellent
+Engineered Plague,en,https://scryfall.com/card/ulg/51/,Urza's Legacy,uncommon,1.25,1999-02-15T00:00:00Z,4,light_played
+Wall of Blossoms,en,https://scryfall.com/card/sth/125/,Stronghold,uncommon,1.00,1998-03-02T00:00:00Z,4,light_played
+Ancestral Anger,en,https://scryfall.com/card/vow/142/,Innistrad: Crimson Vow,common,0.07,2021-11-19T00:00:00Z,1,near_mint
+Soul of Windgrace,en,https://scryfall.com/card/dmu/220/,Dominaria United,mythic,4.53,2022-09-09T00:00:00Z,3,near_mint
+Bloodthirsty Adversary,en,https://scryfall.com/card/mid/129/,Innistrad: Midnight Hunt,mythic,5.74,2021-09-24T00:00:00Z,1,near_mint
+Frantic Inventory,en,https://scryfall.com/card/m21/50/,Core Set 2021,common,0.19,2020-07-03T00:00:00Z,4,near_mint
+Mental Misstep,en,https://scryfall.com/card/nph/38/,New Phyrexia,uncommon,4.16,2011-05-13T00:00:00Z,4,near_mint
+Apostle's Blessing,en,https://scryfall.com/card/nph/2/,New Phyrexia,common,0.44,2011-05-13T00:00:00Z,4,near_mint
+Karplusan Forest,en,https://scryfall.com/card/dmu/250/,Dominaria United,rare,0.85,2022-09-09T00:00:00Z,4,near_mint
