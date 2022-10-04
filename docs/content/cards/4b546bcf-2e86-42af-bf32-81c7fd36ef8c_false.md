@@ -5,7 +5,7 @@ date = "2021-11-19T00:00:00Z"
 name = "Hullbreaker Horror"
 lang = ["en"]
 price = "2.82"
-quantity = 3
+quantity = 4
 foil = false
 set = "Innistrad: Crimson Vow"
 +++
