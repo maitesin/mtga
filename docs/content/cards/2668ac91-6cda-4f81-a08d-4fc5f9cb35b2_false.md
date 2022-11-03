@@ -5,7 +5,7 @@ date = "2020-09-25T00:00:00Z"
 name = "Riverglide Pathway // Lavaglide Pathway"
 lang = ["en"]
 price = "6.82"
-quantity = 1
+quantity = 2
 foil = false
 set = "Zendikar Rising"
 +++

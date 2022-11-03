@@ -5,7 +5,7 @@ date = "2021-11-19T00:00:00Z"
 name = "Sundown Pass"
 lang = ["en"]
 price = "5.48"
-quantity = 1
+quantity = 3
 foil = false
 set = "Innistrad: Crimson Vow"
 +++
