@@ -63,7 +63,7 @@ Verdant Catacombs,en,https://scryfall.com/card/mh2/260/,Modern Horizons 2,rare,1
 Arid Mesa,en,https://scryfall.com/card/mh2/244/,Modern Horizons 2,rare,14.42,2021-06-18T00:00:00Z,4,near_mint
 Misty Rainforest,en,https://scryfall.com/card/mh2/250/,Modern Horizons 2,rare,20.93,2021-06-18T00:00:00Z,4,near_mint
 Wooded Bastion,en,https://scryfall.com/card/2xm/332/,Double Masters,rare,3.97,2020-08-07T00:00:00Z,4,near_mint
-Sunken Ruins,en,https://scryfall.com/card/2xm/326/,Double Masters,rare,14.25,2020-08-07T00:00:00Z,2,near_mint
+Sunken Ruins,en,https://scryfall.com/card/2xm/326/,Double Masters,rare,14.25,2020-08-07T00:00:00Z,3,near_mint
 Twilight Mire,en,https://scryfall.com/card/2xm/328/,Double Masters,rare,5.33,2020-08-07T00:00:00Z,4,near_mint
 Flooded Grove,en,https://scryfall.com/card/2xm/318/,Double Masters,rare,4.90,2020-08-07T00:00:00Z,4,near_mint
 Graven Cairns,en,https://scryfall.com/card/2xm/320/,Double Masters,rare,4.99,2020-08-07T00:00:00Z,4,near_mint
@@ -74,7 +74,7 @@ Sunbaked Canyon,en,https://scryfall.com/card/mh1/247/,Modern Horizons,rare,20.07
 Silent Clearing,en,https://scryfall.com/card/mh1/246/,Modern Horizons,rare,8.27,2019-06-14T00:00:00Z,4,near_mint
 Blackcleave Cliffs,en,https://scryfall.com/card/som/224/,Scars of Mirrodin,rare,15.45,2010-10-01T00:00:00Z,4,near_mint
 Prismatic Vista,en,https://scryfall.com/card/mh1/244/,Modern Horizons,rare,28.19,2019-06-14T00:00:00Z,4,near_mint
-Mystic Gate,en,https://scryfall.com/card/2xm/324/,Double Masters,rare,35.11,2020-08-07T00:00:00Z,1,near_mint
+Mystic Gate,en,https://scryfall.com/card/2xm/324/,Double Masters,rare,35.11,2020-08-07T00:00:00Z,2,near_mint
 Wellwisher,es,https://scryfall.com/card/ons/300/es/,Onslaught,common,0.57,2002-10-07T00:00:00Z,1,near_mint
 Caller of the Claw,es,https://scryfall.com/card/lgn/121/es/,Legions,rare,0.79,2003-02-03T00:00:00Z,1,near_mint
 Wellwisher,es,https://scryfall.com/card/ons/300/es/,Onslaught,common,0.57,2002-10-07T00:00:00Z,4,played
@@ -916,8 +916,8 @@ Shattered Sanctum,en,https://scryfall.com/card/vow/264/,Innistrad: Crimson Vow,r
 "Chandra, Dressed to Kill",en,https://scryfall.com/card/vow/149/,Innistrad: Crimson Vow,mythic,20.37,2021-11-19T00:00:00Z,1,near_mint
 Dreamroot Cascade,en,https://scryfall.com/card/vow/262/,Innistrad: Crimson Vow,rare,5.27,2021-11-19T00:00:00Z,3,near_mint
 Deathcap Glade,en,https://scryfall.com/card/vow/261/,Innistrad: Crimson Vow,rare,6.88,2021-11-19T00:00:00Z,4,near_mint
-Sundown Pass,en,https://scryfall.com/card/vow/266/,Innistrad: Crimson Vow,rare,5.48,2021-11-19T00:00:00Z,3,near_mint
-Overgrown Farmland,en,https://scryfall.com/card/mid/265/,Innistrad: Midnight Hunt,rare,5.12,2021-09-24T00:00:00Z,3,near_mint
+Sundown Pass,en,https://scryfall.com/card/vow/266/,Innistrad: Crimson Vow,rare,5.48,2021-11-19T00:00:00Z,4,near_mint
+Overgrown Farmland,en,https://scryfall.com/card/mid/265/,Innistrad: Midnight Hunt,rare,5.12,2021-09-24T00:00:00Z,4,near_mint
 "Emeria's Call // Emeria, Shattered Skyclave",en,https://scryfall.com/card/znr/12/,Zendikar Rising,mythic,4.27,2020-09-25T00:00:00Z,1,near_mint
 Branchloft Pathway // Boulderloft Pathway,en,https://scryfall.com/card/znr/258/,Zendikar Rising,rare,5.57,2020-09-25T00:00:00Z,4,near_mint
 Darkbore Pathway // Slitherbore Pathway,en,https://scryfall.com/card/khm/254/,Kaldheim,rare,6.81,2021-02-05T00:00:00Z,2,near_mint
@@ -925,9 +925,14 @@ Cave of the Frost Dragon,en,https://scryfall.com/card/afr/253/,Adventures in the
 Portable Hole,en,https://scryfall.com/card/afr/33/,Adventures in the Forgotten Realms,uncommon,2.98,2021-07-23T00:00:00Z,2,near_mint
 Dead // Gone,en,https://scryfall.com/card/plc/113/,Planar Chaos,common,0.05,2007-02-02T00:00:00Z,4,excellent
 Ertai Resurrected,en,https://scryfall.com/card/dmu/199/,Dominaria United,rare,0.66,2022-09-09T00:00:00Z,4,near_mint
-Barkchannel Pathway // Tidechannel Pathway,en,https://scryfall.com/card/khm/251/,Kaldheim,rare,6.27,2021-02-05T00:00:00Z,1,near_mint
+Barkchannel Pathway // Tidechannel Pathway,en,https://scryfall.com/card/khm/251/,Kaldheim,rare,6.27,2021-02-05T00:00:00Z,2,near_mint
 "Vraska, Golgari Queen",en,https://scryfall.com/card/grn/213/,Guilds of Ravnica,mythic,2.40,2018-10-05T00:00:00Z,1,near_mint
 Gurmag Angler,en,https://scryfall.com/card/tsr/324/,Time Spiral Remastered,special,0.50,2021-03-19T00:00:00Z,1,near_mint
 Snuff Out,en,https://scryfall.com/card/mmq/162/,Mercadian Masques,common,10.23,1999-10-04T00:00:00Z,4,excellent
 Gut Shot,en,https://scryfall.com/card/nph/86/,New Phyrexia,uncommon,1.41,2011-05-13T00:00:00Z,4,near_mint
 Underworld Breach,en,https://scryfall.com/card/thb/161/,Theros Beyond Death,rare,8.13,2020-01-24T00:00:00Z,4,near_mint
+Hallowed Moonlight,en,https://scryfall.com/card/ori/16/,Magic Origins,rare,2.50,2015-07-17T00:00:00Z,4,near_mint
+Clearwater Pathway // Murkwater Pathway,en,https://scryfall.com/card/znr/260/,Zendikar Rising,rare,5.85,2020-09-25T00:00:00Z,3,near_mint
+Brightclimb Pathway // Grimclimb Pathway,en,https://scryfall.com/card/znr/259/,Zendikar Rising,rare,4.54,2020-09-25T00:00:00Z,1,near_mint
+Play with Fire,en,https://scryfall.com/card/mid/154/,Innistrad: Midnight Hunt,uncommon,1.30,2021-09-24T00:00:00Z,4,near_mint
+Bone Shredder,en,https://scryfall.com/card/ulg/49/,Urza's Legacy,uncommon,0.20,1999-02-15T00:00:00Z,3,excellent
