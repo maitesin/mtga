@@ -5,7 +5,7 @@ date = "2020-09-25T00:00:00Z"
 name = "Clearwater Pathway // Murkwater Pathway"
 lang = ["en"]
 price = "5.85"
-quantity = 3
+quantity = 4
 foil = false
 set = "Zendikar Rising"
 +++
