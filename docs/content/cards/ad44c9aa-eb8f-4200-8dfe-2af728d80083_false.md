@@ -5,7 +5,7 @@ date = "2021-11-19T00:00:00Z"
 name = "Shattered Sanctum"
 lang = ["en"]
 price = "7.93"
-quantity = 3
+quantity = 4
 foil = false
 set = "Innistrad: Crimson Vow"
 +++

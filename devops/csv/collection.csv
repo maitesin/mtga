@@ -63,7 +63,7 @@ Verdant Catacombs,en,https://scryfall.com/card/mh2/260/,Modern Horizons 2,rare,1
 Arid Mesa,en,https://scryfall.com/card/mh2/244/,Modern Horizons 2,rare,14.42,2021-06-18T00:00:00Z,4,near_mint
 Misty Rainforest,en,https://scryfall.com/card/mh2/250/,Modern Horizons 2,rare,20.93,2021-06-18T00:00:00Z,4,near_mint
 Wooded Bastion,en,https://scryfall.com/card/2xm/332/,Double Masters,rare,3.97,2020-08-07T00:00:00Z,4,near_mint
-Sunken Ruins,en,https://scryfall.com/card/2xm/326/,Double Masters,rare,14.25,2020-08-07T00:00:00Z,3,near_mint
+Sunken Ruins,en,https://scryfall.com/card/2xm/326/,Double Masters,rare,14.25,2020-08-07T00:00:00Z,4,near_mint
 Twilight Mire,en,https://scryfall.com/card/2xm/328/,Double Masters,rare,5.33,2020-08-07T00:00:00Z,4,near_mint
 Flooded Grove,en,https://scryfall.com/card/2xm/318/,Double Masters,rare,4.90,2020-08-07T00:00:00Z,4,near_mint
 Graven Cairns,en,https://scryfall.com/card/2xm/320/,Double Masters,rare,4.99,2020-08-07T00:00:00Z,4,near_mint
@@ -866,7 +866,7 @@ Gush,en,https://scryfall.com/card/mmq/82/,Mercadian Masques,common,0.89,1999-10-
 Weathered Wayfarer,en,https://scryfall.com/card/2x2/34/,Double Masters 2022,rare,1.44,2022-07-08T00:00:00Z,4,near_mint
 Birds of Paradise,es,https://scryfall.com/card/7ed/231/es/,Seventh Edition,rare,6.00,2001-04-11T00:00:00Z,2,excellent
 Hullbreaker Horror,en,https://scryfall.com/card/vow/63/,Innistrad: Crimson Vow,rare,2.72,2021-11-19T00:00:00Z,4,near_mint
-Naturalize,en,https://scryfall.com/card/ons/275/,Onslaught,common,0.22,2002-10-07T00:00:00Z,3,excellent
+Naturalize,en,https://scryfall.com/card/ons/275/,Onslaught,common,0.22,2002-10-07T00:00:00Z,4,excellent
 "Squee, Dubious Monarch",en,https://scryfall.com/card/dmu/146/,Dominaria United,rare,0.75,2022-09-09T00:00:00Z,4,near_mint
 Cut Down,en,https://scryfall.com/card/dmu/89/,Dominaria United,uncommon,0.73,2022-09-09T00:00:00Z,4,near_mint
 Twinferno,en,https://scryfall.com/card/dmu/149/,Dominaria United,uncommon,0.19,2022-09-09T00:00:00Z,4,near_mint
@@ -912,9 +912,9 @@ Contaminated Aquifer,en,https://scryfall.com/card/dmu/245/,Dominaria United,comm
 Day's Undoing,en,https://scryfall.com/card/ori/51/,Magic Origins,mythic,9.63,2015-07-17T00:00:00Z,4,near_mint
 "Keruga, the Macrosage",en,https://scryfall.com/card/iko/225/,Ikoria: Lair of Behemoths,rare,0.31,2020-04-24T00:00:00Z,1,near_mint
 Deserted Beach,en,https://scryfall.com/card/mid/260/,Innistrad: Midnight Hunt,rare,9.29,2021-09-24T00:00:00Z,4,near_mint
-Shattered Sanctum,en,https://scryfall.com/card/vow/264/,Innistrad: Crimson Vow,rare,7.93,2021-11-19T00:00:00Z,3,near_mint
+Shattered Sanctum,en,https://scryfall.com/card/vow/264/,Innistrad: Crimson Vow,rare,7.93,2021-11-19T00:00:00Z,4,near_mint
 "Chandra, Dressed to Kill",en,https://scryfall.com/card/vow/149/,Innistrad: Crimson Vow,mythic,20.37,2021-11-19T00:00:00Z,1,near_mint
-Dreamroot Cascade,en,https://scryfall.com/card/vow/262/,Innistrad: Crimson Vow,rare,5.27,2021-11-19T00:00:00Z,3,near_mint
+Dreamroot Cascade,en,https://scryfall.com/card/vow/262/,Innistrad: Crimson Vow,rare,5.27,2021-11-19T00:00:00Z,4,near_mint
 Deathcap Glade,en,https://scryfall.com/card/vow/261/,Innistrad: Crimson Vow,rare,6.88,2021-11-19T00:00:00Z,4,near_mint
 Sundown Pass,en,https://scryfall.com/card/vow/266/,Innistrad: Crimson Vow,rare,5.48,2021-11-19T00:00:00Z,4,near_mint
 Overgrown Farmland,en,https://scryfall.com/card/mid/265/,Innistrad: Midnight Hunt,rare,5.12,2021-09-24T00:00:00Z,4,near_mint
@@ -962,3 +962,16 @@ Censor,en,https://scryfall.com/card/akh/46/,Amonkhet,uncommon,0.27,2017-04-28T00
 Raffine's Informant,en,https://scryfall.com/card/snc/26/,Streets of New Capenna,common,0.18,2022-04-29T00:00:00Z,4,near_mint
 Dromoka's Command,en,https://scryfall.com/card/2x2/206/,Double Masters 2022,rare,0.45,2022-07-08T00:00:00Z,4,near_mint
 Goblin Blast-Runner,en,https://scryfall.com/card/bro/137/,The Brothers' War,common,0.05,2022-11-18T00:00:00Z,4,near_mint
+Drain Life,en,https://scryfall.com/card/3ed/106/,Revised Edition,common,0.05,1994-04-01T00:00:00Z,4,excellent
+Naturalize,es,https://scryfall.com/card/ons/275/es/,Onslaught,common,0.18,2002-10-07T00:00:00Z,1,excellent
+Spike Feeder,en,https://scryfall.com/card/sth/118/,Stronghold,uncommon,1.13,1998-03-02T00:00:00Z,4,excellent
+Uktabi Orangutan,en,https://scryfall.com/card/vis/123/,Visions,uncommon,0.46,1997-02-03T00:00:00Z,3,excellent
+Elvish Mystic,en,https://scryfall.com/card/m14/169/,Magic 2014,common,0.57,2013-07-19T00:00:00Z,8,near_mint
+Brotherhood's End,en,https://scryfall.com/card/bro/128/,The Brothers' War,rare,3.21,2022-11-18T00:00:00Z,4,near_mint
+Teething Wurmlet,en,https://scryfall.com/card/bro/192/,The Brothers' War,rare,0.66,2022-11-18T00:00:00Z,4,near_mint
+Parhelion II,en,https://scryfall.com/card/war/24/,War of the Spark,rare,0.54,2019-05-03T00:00:00Z,4,near_mint
+"Tasigur, the Golden Fang",en,https://scryfall.com/card/frf/87/,Fate Reforged,rare,0.22,2015-01-23T00:00:00Z,4,near_mint
+Llanowar Elves,en,https://scryfall.com/card/dom/168/,Dominaria,common,0.21,2018-04-27T00:00:00Z,4,near_mint
+Cauldron Familiar,en,https://scryfall.com/card/eld/81/,Throne of Eldraine,uncommon,1.05,2019-10-04T00:00:00Z,4,near_mint
+Rending Volley,en,https://scryfall.com/card/dtk/150/,Dragons of Tarkir,uncommon,4.49,2015-03-27T00:00:00Z,4,near_mint
+Glorybringer,en,https://scryfall.com/card/akh/134/,Amonkhet,rare,1.60,2017-04-28T00:00:00Z,4,excellent
