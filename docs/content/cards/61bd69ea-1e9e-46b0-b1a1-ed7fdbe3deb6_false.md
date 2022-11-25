@@ -5,7 +5,7 @@ date = "2020-09-25T00:00:00Z"
 name = "Turntimber Symbiosis // Turntimber, Serpentine Wood"
 lang = ["en"]
 price = "4.34"
-quantity = 2
+quantity = 3
 foil = false
 set = "Zendikar Rising"
 +++
