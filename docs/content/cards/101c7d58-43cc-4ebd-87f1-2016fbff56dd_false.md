@@ -5,7 +5,7 @@ date = "1997-02-03T00:00:00Z"
 name = "Uktabi Orangutan"
 lang = ["en"]
 price = "0.34"
-quantity = 3
+quantity = 4
 foil = false
 set = "Visions"
 +++
