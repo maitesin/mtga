@@ -5,7 +5,7 @@ date = "2021-09-24T00:00:00Z"
 name = "Can't Stay Away"
 lang = ["en"]
 price = "0.42"
-quantity = 3
+quantity = 4
 foil = false
 set = "Innistrad: Midnight Hunt"
 +++
