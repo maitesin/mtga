@@ -5,7 +5,7 @@ date = "2011-09-30T00:00:00Z"
 name = "Isolated Chapel"
 lang = ["en"]
 price = "2.64"
-quantity = 2
+quantity = 4
 foil = false
 set = "Innistrad"
 +++
