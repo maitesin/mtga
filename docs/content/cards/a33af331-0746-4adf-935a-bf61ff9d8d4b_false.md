@@ -5,7 +5,7 @@ date = "2021-09-24T00:00:00Z"
 name = "Reckless Stormseeker // Storm-Charged Slasher"
 lang = ["en"]
 price = "4.60"
-quantity = 3
+quantity = 4
 foil = false
 set = "Innistrad: Midnight Hunt"
 +++
