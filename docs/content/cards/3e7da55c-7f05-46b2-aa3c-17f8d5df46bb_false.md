@@ -5,7 +5,7 @@ date = "2021-06-18T00:00:00Z"
 name = "Scion of Draco"
 lang = ["en"]
 price = "4.22"
-quantity = 3
+quantity = 4
 foil = false
 set = "Modern Horizons 2"
 +++
