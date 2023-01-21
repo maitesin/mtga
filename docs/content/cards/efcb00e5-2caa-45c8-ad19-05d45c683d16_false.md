@@ -5,7 +5,7 @@ date = "2016-07-22T00:00:00Z"
 name = "Eldritch Evolution"
 lang = ["en"]
 price = "8.32"
-quantity = 3
+quantity = 4
 foil = false
 set = "Eldritch Moon"
 +++
