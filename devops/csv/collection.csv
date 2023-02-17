@@ -132,7 +132,7 @@ Elvish Reclaimer,en,https://scryfall.com/card/m20/169/,Core Set 2020,rare,7.95,2
 Tireless Tracker,en,https://scryfall.com/card/soi/233/,Shadows over Innistrad,rare,4.22,2016-04-08T00:00:00Z,4,near_mint
 Cemetery Prowler,en,https://scryfall.com/card/vow/191/,Innistrad: Crimson Vow,mythic,4.77,2021-11-19T00:00:00Z,4,near_mint
 Endurance,en,https://scryfall.com/card/mh2/157/,Modern Horizons 2,mythic,39.55,2021-06-18T00:00:00Z,4,near_mint
-Force of Vigor,en,https://scryfall.com/card/mh1/164/,Modern Horizons,rare,31.99,2019-06-14T00:00:00Z,2,near_mint
+Force of Vigor,en,https://scryfall.com/card/mh1/164/,Modern Horizons,rare,31.99,2019-06-14T00:00:00Z,4,near_mint
 "Toski, Bearer of Secrets",en,https://scryfall.com/card/khm/197/,Kaldheim,rare,9.18,2021-02-05T00:00:00Z,4,near_mint
 Esika's Chariot,en,https://scryfall.com/card/khm/169/,Kaldheim,rare,10.73,2021-02-05T00:00:00Z,4,near_mint
 Flusterstorm,en,https://scryfall.com/card/mh1/255/,Modern Horizons,rare,12.12,2019-06-14T00:00:00Z,4,near_mint
@@ -1067,3 +1067,32 @@ Ranger Class,en,https://scryfall.com/card/afr/202/,Adventures in the Forgotten R
 Oni-Cult Anvil,en,https://scryfall.com/card/neo/230/,Kamigawa: Neon Dynasty,uncommon,0.12,2022-02-18T00:00:00Z,4,near_mint
 Loran of the Third Path,en,https://scryfall.com/card/bro/12/,The Brothers' War,rare,3.57,2022-11-18T00:00:00Z,4,near_mint
 Farewell,en,https://scryfall.com/card/neo/13/,Kamigawa: Neon Dynasty,rare,7.69,2022-02-18T00:00:00Z,4,near_mint
+Bitter Reunion,en,https://scryfall.com/card/bro/127/,The Brothers' War,common,0.14,2022-11-18T00:00:00Z,4,near_mint
+Lyra Dawnbringer,en,https://scryfall.com/card/dmr/13/,Dominaria Remastered,mythic,3.33,2023-01-13T00:00:00Z,4,near_mint
+"Gix, Yawgmoth Praetor",en,https://scryfall.com/card/bro/95/,The Brothers' War,mythic,11.52,2022-11-18T00:00:00Z,4,near_mint
+Cindervines,en,https://scryfall.com/card/rna/161/,Ravnica Allegiance,rare,0.39,2019-01-25T00:00:00Z,4,near_mint
+Thirst for Discovery,en,https://scryfall.com/card/vow/85/,Innistrad: Crimson Vow,uncommon,0.16,2021-11-19T00:00:00Z,4,near_mint
+Chained to the Rocks,en,https://scryfall.com/card/ths/4/,Theros,rare,0.66,2013-09-27T00:00:00Z,4,near_mint
+Hazoret the Fervent,en,https://scryfall.com/card/akh/136/,Amonkhet,mythic,1.63,2017-04-28T00:00:00Z,4,near_mint
+Shardless Agent,en,https://scryfall.com/card/mh2/292/,Modern Horizons 2,rare,0.31,2021-06-18T00:00:00Z,4,near_mint
+Path of Peril,en,https://scryfall.com/card/vow/124/,Innistrad: Crimson Vow,rare,0.43,2021-11-19T00:00:00Z,4,near_mint
+True-Name Nemesis,en,https://scryfall.com/card/tsr/321/,Time Spiral Remastered,special,5.84,2021-03-19T00:00:00Z,4,near_mint
+"Kari Zev, Skyship Raider",en,https://scryfall.com/card/aer/87/,Aether Revolt,rare,0.18,2017-01-20T00:00:00Z,4,near_mint
+Regal Caracal,en,https://scryfall.com/card/akh/24/,Amonkhet,rare,0.67,2017-04-28T00:00:00Z,4,near_mint
+Tribal Flames,en,https://scryfall.com/card/inv/176/,Invasion,common,0.15,2000-10-02T00:00:00Z,4,excellent
+Spell Snare,en,https://scryfall.com/card/dis/33/,Dissension,uncommon,0.71,2006-05-05T00:00:00Z,4,excellent
+Glissa Sunslayer,en,https://scryfall.com/card/one/202/,Phyrexia: All Will Be One,rare,1.60,2023-02-03T00:00:00Z,4,near_mint
+Sheoldred's Edict,en,https://scryfall.com/card/one/108/,Phyrexia: All Will Be One,uncommon,0.86,2023-02-03T00:00:00Z,4,near_mint
+Minor Misstep,en,https://scryfall.com/card/one/64/,Phyrexia: All Will Be One,uncommon,1.44,2023-02-03T00:00:00Z,4,near_mint
+"Thrun, Breaker of Silence",en,https://scryfall.com/card/one/186/,Phyrexia: All Will Be One,rare,0.47,2023-02-03T00:00:00Z,4,near_mint
+Vindictive Flamestoker,en,https://scryfall.com/card/one/154/,Phyrexia: All Will Be One,rare,0.45,2023-02-03T00:00:00Z,4,near_mint
+Cankerbloom,en,https://scryfall.com/card/one/161/,Phyrexia: All Will Be One,uncommon,0.14,2023-02-03T00:00:00Z,4,near_mint
+Conduit of Worlds,en,https://scryfall.com/card/one/163/,Phyrexia: All Will Be One,rare,2.63,2023-02-03T00:00:00Z,4,near_mint
+Sword of Forge and Frontier,en,https://scryfall.com/card/one/244/,Phyrexia: All Will Be One,mythic,14.50,2023-02-03T00:00:00Z,4,near_mint
+"Nahiri, the Unforgiving",en,https://scryfall.com/card/one/211/,Phyrexia: All Will Be One,mythic,4.03,2023-02-03T00:00:00Z,4,near_mint
+Phyrexian Vindicator,en,https://scryfall.com/card/one/27/,Phyrexia: All Will Be One,mythic,8.08,2023-02-03T00:00:00Z,4,near_mint
+The Eternal Wanderer,en,https://scryfall.com/card/one/11/,Phyrexia: All Will Be One,rare,3.70,2023-02-03T00:00:00Z,4,near_mint
+"Skrelv, Defector Mite",en,https://scryfall.com/card/one/33/,Phyrexia: All Will Be One,rare,6.43,2023-02-03T00:00:00Z,4,near_mint
+"Mondrak, Glory Dominus",en,https://scryfall.com/card/one/23/,Phyrexia: All Will Be One,mythic,26.32,2023-02-03T00:00:00Z,4,near_mint
+"Elesh Norn, Mother of Machines",en,https://scryfall.com/card/one/10/,Phyrexia: All Will Be One,mythic,30.94,2023-02-03T00:00:00Z,4,near_mint
+Skrelv's Hive,en,https://scryfall.com/card/one/34/,Phyrexia: All Will Be One,rare,10.02,2023-02-03T00:00:00Z,4,near_mint
