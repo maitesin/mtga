@@ -446,7 +446,7 @@ Logic Knot,en,https://scryfall.com/card/fut/52/,Future Sight,common,0.15,2007-05
 The Reality Chip,en,https://scryfall.com/card/neo/74/,Kamigawa: Neon Dynasty,rare,1.53,2022-02-18T00:00:00Z,4,near_mint
 Mnemonic Sphere,en,https://scryfall.com/card/neo/64/,Kamigawa: Neon Dynasty,common,0.11,2022-02-18T00:00:00Z,4,near_mint
 Thought Scour,en,https://scryfall.com/card/dka/52/,Dark Ascension,common,0.23,2012-02-03T00:00:00Z,4,near_mint
-Consider,en,https://scryfall.com/card/mid/44/,Innistrad: Midnight Hunt,common,1.91,2021-09-24T00:00:00Z,9,near_mint
+Consider,en,https://scryfall.com/card/mid/44/,Innistrad: Midnight Hunt,common,1.91,2021-09-24T00:00:00Z,13,near_mint
 Ceremonious Rejection,en,https://scryfall.com/card/kld/40/,Kaladesh,uncommon,0.05,2016-09-30T00:00:00Z,4,near_mint
 Blue Elemental Blast,en,https://scryfall.com/card/a25/43/,Masters 25,uncommon,0.83,2018-03-16T00:00:00Z,4,near_mint
 Vapor Snag,en,https://scryfall.com/card/mm2/66/,Modern Masters 2015,common,0.99,2015-05-22T00:00:00Z,4,near_mint
@@ -890,7 +890,7 @@ Selfless Spirit,en,https://scryfall.com/card/emn/40/,Eldritch Moon,rare,2.31,201
 Hurkyl's Recall,en,https://scryfall.com/card/3ed/60/,Revised Edition,rare,4.20,1994-04-01T00:00:00Z,4,near_mint
 Spellstutter Sprite,en,https://scryfall.com/card/lrw/89/,Lorwyn,common,4.57,2007-10-12T00:00:00Z,3,near_mint
 Wall of Roots,en,https://scryfall.com/card/mir/253/,Mirage,common,0.41,1996-10-08T00:00:00Z,4,excellent
-"Skysovereign, Consul Flagship",en,https://scryfall.com/card/kld/234/,Kaladesh,mythic,2.03,2016-09-30T00:00:00Z,2,near_mint
+"Skysovereign, Consul Flagship",en,https://scryfall.com/card/kld/234/,Kaladesh,mythic,2.03,2016-09-30T00:00:00Z,4,near_mint
 Llanowar Wastes,en,https://scryfall.com/card/apc/141/,Apocalypse,rare,8.53,2001-06-04T00:00:00Z,4,excellent
 Plague Spitter,en,https://scryfall.com/card/inv/119/,Invasion,uncommon,1.16,2000-10-02T00:00:00Z,1,excellent
 Riverglide Pathway // Lavaglide Pathway,en,https://scryfall.com/card/znr/264/,Zendikar Rising,rare,6.61,2020-09-25T00:00:00Z,2,near_mint
@@ -1101,7 +1101,7 @@ Mercurial Spelldancer,en,https://scryfall.com/card/one/61/,Phyrexia: All Will Be
 Bloated Contaminator,en,https://scryfall.com/card/one/159/,Phyrexia: All Will Be One,rare,2.81,2023-02-03T00:00:00Z,4,near_mint
 Phyrexian Obliterator,en,https://scryfall.com/card/one/105/,Phyrexia: All Will Be One,mythic,9.34,2023-02-03T00:00:00Z,4,near_mint
 Phyrexian Arena,en,https://scryfall.com/card/one/104/,Phyrexia: All Will Be One,rare,2.81,2023-02-03T00:00:00Z,4,near_mint
-"Tyvar, Jubilant Brawler",en,https://scryfall.com/card/one/218/,Phyrexia: All Will Be One,rare,4.62,2023-02-03T00:00:00Z,1,near_mint
+"Tyvar, Jubilant Brawler",en,https://scryfall.com/card/one/218/,Phyrexia: All Will Be One,rare,4.62,2023-02-03T00:00:00Z,4,near_mint
 Capricious Hellraiser,en,https://scryfall.com/card/one/125/,Phyrexia: All Will Be One,mythic,3.03,2023-02-03T00:00:00Z,2,near_mint
 Mutavault,en,https://scryfall.com/card/mor/148/,Morningtide,rare,7.39,2008-02-01T00:00:00Z,4,near_mint
 Tail Swipe,en,https://scryfall.com/card/dmu/182/,Dominaria United,uncommon,0.21,2022-09-09T00:00:00Z,4,near_mint
@@ -1118,3 +1118,24 @@ Anointed Peacekeeper,en,https://scryfall.com/card/dmu/2/,Dominaria United,rare,0
 Thalia's Lieutenant,en,https://scryfall.com/card/soi/43/,Shadows over Innistrad,rare,0.91,2016-04-08T00:00:00Z,4,excellent
 "Reidane, God of the Worthy // Valkmira, Protector's Shield",en,https://scryfall.com/card/khm/21/,Kaldheim,rare,0.72,2021-02-05T00:00:00Z,4,near_mint
 Guardian of Faith,en,https://scryfall.com/card/afr/18/,Adventures in the Forgotten Realms,rare,2.89,2021-07-23T00:00:00Z,4,near_mint
+Ifnir Deadlands,en,https://scryfall.com/card/hou/179/,Hour of Devastation,uncommon,0.31,2017-07-14T00:00:00Z,4,excellent
+Ray of Enfeeblement,en,https://scryfall.com/card/afr/116/,Adventures in the Forgotten Realms,uncommon,0.14,2021-07-23T00:00:00Z,4,near_mint
+Dauntless Bodyguard,en,https://scryfall.com/card/dom/14/,Dominaria,uncommon,0.25,2018-04-27T00:00:00Z,4,near_mint
+Hopeful Initiate,en,https://scryfall.com/card/vow/20/,Innistrad: Crimson Vow,rare,5.94,2021-11-19T00:00:00Z,4,near_mint
+"Adeline, Resplendent Cathar",en,https://scryfall.com/card/mid/1/,Innistrad: Midnight Hunt,rare,7.59,2021-09-24T00:00:00Z,4,near_mint
+"Kytheon, Hero of Akros // Gideon, Battle-Forged",en,https://scryfall.com/card/ori/23/,Magic Origins,mythic,4.75,2015-07-17T00:00:00Z,4,near_mint
+Baneslayer Angel,en,https://scryfall.com/card/m21/6/,Core Set 2021,mythic,1.50,2020-07-03T00:00:00Z,2,near_mint
+Opt,en,https://scryfall.com/card/inv/64/,Invasion,common,0.61,2000-10-02T00:00:00Z,5,excellent
+"Atraxa, Grand Unifier",en,https://scryfall.com/card/one/196/,Phyrexia: All Will Be One,mythic,22.30,2023-02-03T00:00:00Z,4,near_mint
+"Golos, Tireless Pilgrim",en,https://scryfall.com/card/m20/226/,Core Set 2020,rare,2.80,2019-07-12T00:00:00Z,4,near_mint
+Phyrexian Fleshgorger,en,https://scryfall.com/card/bro/121/,The Brothers' War,mythic,8.39,2022-11-18T00:00:00Z,4,near_mint
+Unmoored Ego,en,https://scryfall.com/card/grn/212/,Guilds of Ravnica,rare,0.26,2018-10-05T00:00:00Z,4,near_mint
+Starnheim Unleashed,en,https://scryfall.com/card/khm/33/,Kaldheim,mythic,2.49,2021-02-05T00:00:00Z,4,near_mint
+Eladamri's Call,en,https://scryfall.com/card/mh1/197/,Modern Horizons,rare,8.30,2019-06-14T00:00:00Z,4,near_mint
+Narset's Reversal,en,https://scryfall.com/card/war/62/,War of the Spark,rare,3.29,2019-05-03T00:00:00Z,4,near_mint
+Vessel of Nascency,en,https://scryfall.com/card/soi/237/,Shadows over Innistrad,common,0.16,2016-04-08T00:00:00Z,4,near_mint
+Unchained Berserker,en,https://scryfall.com/card/m20/164/,Core Set 2020,uncommon,0.13,2019-07-12T00:00:00Z,4,near_mint
+Destructive Revelry,en,https://scryfall.com/card/ths/192/,Theros,uncommon,0.20,2013-09-27T00:00:00Z,4,near_mint
+Kari Zev's Expertise,en,https://scryfall.com/card/aer/88/,Aether Revolt,rare,0.48,2017-01-20T00:00:00Z,4,excellent
+Rite of Oblivion,en,https://scryfall.com/card/mid/237/,Innistrad: Midnight Hunt,uncommon,0.11,2021-09-24T00:00:00Z,4,near_mint
+Audacity,en,https://scryfall.com/card/bro/169/,The Brothers' War,uncommon,0.17,2022-11-18T00:00:00Z,4,near_mint
