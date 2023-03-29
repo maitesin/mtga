@@ -5,7 +5,7 @@ date = "2023-02-03T00:00:00Z"
 name = "Capricious Hellraiser"
 lang = ["en"]
 price = "3.03"
-quantity = 2
+quantity = 4
 foil = false
 set = "Phyrexia: All Will Be One"
 +++
