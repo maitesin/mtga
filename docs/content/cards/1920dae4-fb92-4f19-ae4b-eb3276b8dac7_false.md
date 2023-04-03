@@ -5,7 +5,7 @@ date = "2021-06-18T00:00:00Z"
 name = "Counterspell"
 lang = ["en"]
 price = "1.73"
-quantity = 4
+quantity = 9
 foil = false
 set = "Modern Horizons 2"
 +++
