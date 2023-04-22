@@ -5,7 +5,7 @@ date = "2020-07-03T00:00:00Z"
 name = "Baneslayer Angel"
 lang = ["en"]
 price = "1.50"
-quantity = 2
+quantity = 4
 foil = false
 set = "Core Set 2021"
 +++

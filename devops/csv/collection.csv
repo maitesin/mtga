@@ -450,7 +450,7 @@ Consider,en,https://scryfall.com/card/mid/44/,Innistrad: Midnight Hunt,common,1.
 Ceremonious Rejection,en,https://scryfall.com/card/kld/40/,Kaladesh,uncommon,0.05,2016-09-30T00:00:00Z,4,near_mint
 Blue Elemental Blast,en,https://scryfall.com/card/a25/43/,Masters 25,uncommon,0.83,2018-03-16T00:00:00Z,4,near_mint
 Vapor Snag,en,https://scryfall.com/card/mm2/66/,Modern Masters 2015,common,0.99,2015-05-22T00:00:00Z,4,near_mint
-Spell Pierce,en,https://scryfall.com/card/mm3/51/,Modern Masters 2017,common,0.20,2017-03-17T00:00:00Z,4,near_mint
+Spell Pierce,en,https://scryfall.com/card/mm3/51/,Modern Masters 2017,common,0.20,2017-03-17T00:00:00Z,12,near_mint
 Serum Visions,en,https://scryfall.com/card/5dn/36/,Fifth Dawn,common,0.29,2004-06-04T00:00:00Z,4,near_mint
 Brainstorm,en,https://scryfall.com/card/mmq/61/,Mercadian Masques,common,1.16,1999-10-04T00:00:00Z,4,near_mint
 Preordain,en,https://scryfall.com/card/m11/70/,Magic 2011,common,0.38,2010-07-16T00:00:00Z,4,near_mint
@@ -1124,7 +1124,7 @@ Dauntless Bodyguard,en,https://scryfall.com/card/dom/14/,Dominaria,uncommon,0.25
 Hopeful Initiate,en,https://scryfall.com/card/vow/20/,Innistrad: Crimson Vow,rare,5.94,2021-11-19T00:00:00Z,4,near_mint
 "Adeline, Resplendent Cathar",en,https://scryfall.com/card/mid/1/,Innistrad: Midnight Hunt,rare,7.59,2021-09-24T00:00:00Z,4,near_mint
 "Kytheon, Hero of Akros // Gideon, Battle-Forged",en,https://scryfall.com/card/ori/23/,Magic Origins,mythic,4.75,2015-07-17T00:00:00Z,4,near_mint
-Baneslayer Angel,en,https://scryfall.com/card/m21/6/,Core Set 2021,mythic,1.50,2020-07-03T00:00:00Z,2,near_mint
+Baneslayer Angel,en,https://scryfall.com/card/m21/6/,Core Set 2021,mythic,1.50,2020-07-03T00:00:00Z,4,near_mint
 Opt,en,https://scryfall.com/card/inv/64/,Invasion,common,0.61,2000-10-02T00:00:00Z,5,excellent
 "Atraxa, Grand Unifier",en,https://scryfall.com/card/one/196/,Phyrexia: All Will Be One,mythic,22.30,2023-02-03T00:00:00Z,4,near_mint
 "Golos, Tireless Pilgrim",en,https://scryfall.com/card/m20/226/,Core Set 2020,rare,2.80,2019-07-12T00:00:00Z,4,near_mint
@@ -1217,7 +1217,7 @@ Impulse,es,https://scryfall.com/card/vis/34/es/,Visions,common,0.51,1997-02-03T0
 The Modern Age // Vector Glider,en,https://scryfall.com/card/neo/66/,Kamigawa: Neon Dynasty,common,0.06,2022-02-18T00:00:00Z,4,near_mint
 Galvanic Blast,en,https://scryfall.com/card/2xm/125/,Double Masters,uncommon,2.12,2020-08-07T00:00:00Z,8,near_mint
 Reckless Impulse,en,https://scryfall.com/card/vow/174/,Innistrad: Crimson Vow,common,1.84,2021-11-19T00:00:00Z,4,near_mint
-Great Furnace,en,https://scryfall.com/card/mrd/282/,Mirrodin,common,0.95,2003-10-02T00:00:00Z,6,excellent
+Great Furnace,en,https://scryfall.com/card/mrd/282/,Mirrodin,common,0.95,2003-10-02T00:00:00Z,8,excellent
 Seat of the Synod,en,https://scryfall.com/card/mrd/283/,Mirrodin,common,0.73,2003-10-02T00:00:00Z,4,excellent
 Gleeful Demolition,en,https://scryfall.com/card/one/134/,Phyrexia: All Will Be One,uncommon,0.17,2023-02-03T00:00:00Z,4,near_mint
 Kuldotha Rebirth,en,https://scryfall.com/card/som/96/,Scars of Mirrodin,common,3.40,2010-10-01T00:00:00Z,4,near_mint
@@ -1234,3 +1234,15 @@ Brave the Elements,en,https://scryfall.com/card/zen/4/,Zendikar,uncommon,0.50,20
 Deflecting Palm,en,https://scryfall.com/card/ktk/173/,Khans of Tarkir,rare,1.29,2014-09-26T00:00:00Z,4,near_mint
 Rage Forger,en,https://scryfall.com/card/mor/97/,Morningtide,uncommon,0.15,2008-02-01T00:00:00Z,4,near_mint
 Soldier of the Pantheon,en,https://scryfall.com/card/ths/32/,Theros,rare,0.28,2013-09-27T00:00:00Z,4,near_mint
+Krark-Clan Shaman,en,https://scryfall.com/card/mrd/98/,Mirrodin,common,3.13,2003-10-02T00:00:00Z,4,excellent
+Dwarven Mine,en,https://scryfall.com/card/eld/243/,Throne of Eldraine,common,0.19,2019-10-04T00:00:00Z,4,near_mint
+Indomitable Creativity,en,https://scryfall.com/card/aer/85/,Aether Revolt,mythic,24.94,2017-01-20T00:00:00Z,4,near_mint
+Drannith Magistrate,en,https://scryfall.com/card/iko/11/,Ikoria: Lair of Behemoths,rare,14.14,2020-04-24T00:00:00Z,4,near_mint
+Corpse Appraiser,en,https://scryfall.com/card/snc/178/,Streets of New Capenna,uncommon,0.01,2022-04-29T00:00:00Z,4,near_mint
+Lay Down Arms,en,https://scryfall.com/card/bro/11/,The Brothers' War,uncommon,0.29,2022-11-18T00:00:00Z,4,near_mint
+Recommission,en,https://scryfall.com/card/bro/22/,The Brothers' War,common,0.09,2022-11-18T00:00:00Z,4,near_mint
+The Stone Brain,en,https://scryfall.com/card/bro/247/,The Brothers' War,rare,1.50,2022-11-18T00:00:00Z,4,near_mint
+Footsteps of the Goryo,en,https://scryfall.com/card/sok/68/,Saviors of Kamigawa,uncommon,2.55,2005-06-03T00:00:00Z,4,near_mint
+Prairie Stream,en,https://scryfall.com/card/bfz/241/,Battle for Zendikar,rare,0.22,2015-10-02T00:00:00Z,4,near_mint
+Chainer's Edict,en,https://scryfall.com/card/dmr/78/,Dominaria Remastered,uncommon,1.09,2023-01-13T00:00:00Z,4,near_mint
+Test of Talents,en,https://scryfall.com/card/stx/59/,Strixhaven: School of Mages,uncommon,0.54,2021-04-23T00:00:00Z,4,near_mint
