@@ -5,7 +5,7 @@ date = "2017-04-28T00:00:00Z"
 name = "Scattered Groves"
 lang = ["en"]
 price = "1.70"
-quantity = 3
+quantity = 4
 foil = false
 set = "Amonkhet"
 +++
