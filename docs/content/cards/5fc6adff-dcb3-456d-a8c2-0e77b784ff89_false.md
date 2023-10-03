@@ -5,7 +5,7 @@ date = "2018-10-05T00:00:00Z"
 name = "Murmuring Mystic"
 lang = ["en"]
 price = "0.15"
-quantity = 1
+quantity = 4
 foil = false
 set = "Guilds of Ravnica"
 +++

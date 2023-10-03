@@ -724,7 +724,7 @@ Double Vision,en,https://scryfall.com/card/m21/142/,Core Set 2021,rare,0.32,2020
 Crackling Drake,en,https://scryfall.com/card/grn/163/,Guilds of Ravnica,uncommon,0.11,2018-10-05T00:00:00Z,4,near_mint
 Aria of Flame,en,https://scryfall.com/card/mh1/118/,Modern Horizons,rare,0.50,2019-06-14T00:00:00Z,1,near_mint
 Blasphemous Act,en,https://scryfall.com/card/2xm/117/,Double Masters,rare,1.99,2020-08-07T00:00:00Z,1,near_mint
-Murmuring Mystic,en,https://scryfall.com/card/grn/45/,Guilds of Ravnica,uncommon,0.15,2018-10-05T00:00:00Z,1,near_mint
+Murmuring Mystic,en,https://scryfall.com/card/grn/45/,Guilds of Ravnica,uncommon,0.15,2018-10-05T00:00:00Z,4,near_mint
 Field of Ruin,en,https://scryfall.com/card/xln/254/,Ixalan,uncommon,0.20,2017-09-29T00:00:00Z,4,near_mint
 Notion Thief,en,https://scryfall.com/card/dgm/88/,Dragon's Maze,rare,1.72,2013-05-03T00:00:00Z,1,near_mint
 Guttersnipe,en,https://scryfall.com/card/rtr/98/,Return to Ravnica,uncommon,0.11,2012-10-05T00:00:00Z,1,near_mint
@@ -1510,3 +1510,21 @@ Werefox Bodyguard,en,https://scryfall.com/card/woe/39/,Wilds of Eldraine,rare,1.
 Up the Beanstalk,en,https://scryfall.com/card/woe/195/,Wilds of Eldraine,uncommon,1.85,2023-09-08T00:00:00Z,4,near_mint
 Dwarven Forge-Chanter,en,https://scryfall.com/card/bro/131/,The Brothers' War,common,0.14,2022-11-18T00:00:00Z,4,near_mint
 Faerie Harbinger,en,https://scryfall.com/card/lrw/61/,Lorwyn,uncommon,2.54,2007-10-12T00:00:00Z,1,near_mint
+Mistbind Clique,en,https://scryfall.com/card/lrw/75/,Lorwyn,rare,7.11,2007-10-12T00:00:00Z,1,near_mint
+Mosswood Dreadknight // Dread Whispers,en,https://scryfall.com/card/woe/231/,Wilds of Eldraine,rare,2.50,2023-09-08T00:00:00Z,4,near_mint
+Barbed Batterfist,en,https://scryfall.com/card/one/121/,Phyrexia: All Will Be One,common,0.03,2023-02-03T00:00:00Z,4,near_mint
+Foundry Helix,en,https://scryfall.com/card/mh2/196/,Modern Horizons 2,common,0.02,2021-06-18T00:00:00Z,4,near_mint
+Lose Focus,en,https://scryfall.com/card/mh2/49/,Modern Horizons 2,common,0.07,2021-06-18T00:00:00Z,4,near_mint
+Echoing Truth,en,https://scryfall.com/card/dst/21/,Darksteel,common,0.08,2004-02-06T00:00:00Z,4,near_mint
+Faerie Macabre,en,https://scryfall.com/card/shm/66/,Shadowmoor,common,1.61,2008-05-02T00:00:00Z,1,near_mint
+Soul Shatter,en,https://scryfall.com/card/znr/127/,Zendikar Rising,rare,1.04,2020-09-25T00:00:00Z,4,near_mint
+The Magic Mirror,en,https://scryfall.com/card/eld/51/,Throne of Eldraine,mythic,2.12,2019-10-04T00:00:00Z,1,near_mint
+Bala Ged Recovery // Bala Ged Sanctuary,en,https://scryfall.com/card/znr/180/,Zendikar Rising,uncommon,2.99,2020-09-25T00:00:00Z,1,near_mint
+Dimir Signet,es,https://scryfall.com/card/rav/260/es/,Ravnica: City of Guilds,common,0.44,2005-10-07T00:00:00Z,1,excellent
+Golgari Signet,es,https://scryfall.com/card/rav/262/es/,Ravnica: City of Guilds,common,0.13,2005-10-07T00:00:00Z,1,excellent
+Selesnya Signet,es,https://scryfall.com/card/rav/270/es/,Ravnica: City of Guilds,common,0.31,2005-10-07T00:00:00Z,1,excellent
+Talisman of Indulgence,en,https://scryfall.com/card/mrd/255/,Mirrodin,uncommon,1.24,2003-10-02T00:00:00Z,1,excellent
+Talisman of Dominance,en,https://scryfall.com/card/mrd/253/,Mirrodin,uncommon,0.47,2003-10-02T00:00:00Z,2,excellent
+Talisman of Hierarchy,en,https://scryfall.com/card/mh1/233/,Modern Horizons,uncommon,0.79,2019-06-14T00:00:00Z,1,near_mint
+Talisman of Curiosity,en,https://scryfall.com/card/mh1/232/,Modern Horizons,uncommon,0.39,2019-06-14T00:00:00Z,1,near_mint
+Talisman of Resilience,en,https://scryfall.com/card/mh1/234/,Modern Horizons,uncommon,0.40,2019-06-14T00:00:00Z,1,near_mint
