@@ -5,7 +5,7 @@ date = "2023-09-08T00:00:00Z"
 name = "Blossoming Tortoise"
 lang = ["en"]
 price = "5.10"
-quantity = 1
+quantity = 4
 foil = false
 set = "Wilds of Eldraine"
 +++
