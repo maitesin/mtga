@@ -5,7 +5,7 @@ date = "2012-02-03T00:00:00Z"
 name = "Young Wolf"
 lang = ["en"]
 price = "1.11"
-quantity = 4
+quantity = 5
 foil = false
 set = "Dark Ascension"
 +++
