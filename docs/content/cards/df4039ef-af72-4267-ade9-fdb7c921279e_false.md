@@ -5,7 +5,7 @@ date = "2000-10-02T00:00:00Z"
 name = "Aura Shards"
 lang = ["en"]
 price = "10.65"
-quantity = 1
+quantity = 2
 foil = false
 set = "Invasion"
 +++

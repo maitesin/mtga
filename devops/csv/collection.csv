@@ -1801,7 +1801,7 @@ Sorcerous Squall,en,https://scryfall.com/card/ltc/504/,Tales of Middle-earth Com
 Great Intelligence's Plan,en,https://scryfall.com/card/who/133/,Doctor Who,uncommon,0.31,2023-10-13T00:00:00Z,1,near_mint
 This Is How It Ends,en,https://scryfall.com/card/who/70/,Doctor Who,rare,0.24,2023-10-13T00:00:00Z,1,near_mint
 Training Grounds,en,https://scryfall.com/card/mat/9/,March of the Machine: The Aftermath,rare,4.31,2023-05-12T00:00:00Z,1,near_mint
-Nature's Lore,en,https://scryfall.com/card/dmr/346/,Dominaria Remastered,uncommon,,2023-01-13T00:00:00Z,1,near_mint
+Nature's Lore,en,https://scryfall.com/card/dmr/346/,Dominaria Remastered,uncommon,,2023-01-13T00:00:00Z,2,near_mint
 "Ghyrson Starn, Kelermorph",en,https://scryfall.com/card/40k/124/,"Warhammer 40,000 Commander",rare,9.21,2022-10-07T00:00:00Z,1,near_mint
 "Vadrik, Astral Archmage",en,https://scryfall.com/card/mid/248/,Innistrad: Midnight Hunt,rare,0.19,2021-09-24T00:00:00Z,1,near_mint
 You Find Some Prisoners,en,https://scryfall.com/card/afr/169/,Adventures in the Forgotten Realms,uncommon,0.15,2021-07-23T00:00:00Z,1,near_mint
@@ -2200,7 +2200,7 @@ Centaur Garden,en,https://scryfall.com/card/ody/316/,Odyssey,uncommon,0.52,2001-
 Strangleroot Geist,en,https://scryfall.com/card/dka/127/,Dark Ascension,uncommon,0.26,2012-02-03T00:00:00Z,1,near_mint
 Gavony Township,en,https://scryfall.com/card/isd/239/,Innistrad,rare,1.22,2011-09-30T00:00:00Z,1,near_mint
 Grim Haruspex,en,https://scryfall.com/card/ktk/73/,Khans of Tarkir,rare,0.84,2014-09-26T00:00:00Z,1,near_mint
-Aura Shards,en,https://scryfall.com/card/inv/233/,Invasion,uncommon,10.65,2000-10-02T00:00:00Z,1,excellent
+Aura Shards,en,https://scryfall.com/card/inv/233/,Invasion,uncommon,10.65,2000-10-02T00:00:00Z,2,excellent
 Goblin Welder,en,https://scryfall.com/card/c14/177/,Commander 2014,rare,12.44,2014-11-07T00:00:00Z,1,excellent
 The Enigma Jewel // Locus of Enlightenment,en,https://scryfall.com/card/lci/55/,The Lost Caverns of Ixalan,mythic,0.81,2023-11-17T00:00:00Z,1,near_mint
 Spellskite,en,https://scryfall.com/card/2xm/289/,Double Masters,rare,3.55,2020-08-07T00:00:00Z,1,near_mint
@@ -2290,9 +2290,9 @@ Sphinx of Forgotten Lore,en,https://scryfall.com/card/fdn/51/,Foundations,mythic
 Verdant Catacombs,en,https://scryfall.com/card/zen/229/,Zendikar,rare,16.57,2009-10-02T00:00:00Z,2,good
 Scalding Tarn,en,https://scryfall.com/card/zen/223/,Zendikar,rare,22.20,2009-10-02T00:00:00Z,1,excellent
 Arid Mesa,en,https://scryfall.com/card/zen/211/,Zendikar,rare,19.84,2009-10-02T00:00:00Z,1,good
-Marsh Flats,en,https://scryfall.com/card/zen/219/,Zendikar,rare,15.05,2009-10-02T00:00:00Z,1,played
+Marsh Flats,en,https://scryfall.com/card/zen/219/,Zendikar,rare,15.05,2009-10-02T00:00:00Z,2,played
 Sacred Foundry,en,https://scryfall.com/card/rav/280/,Ravnica: City of Guilds,rare,14.04,2005-10-07T00:00:00Z,1,good
-Godless Shrine,en,https://scryfall.com/card/gpt/157/,Guildpact,rare,9.67,2006-02-03T00:00:00Z,1,good
+Godless Shrine,en,https://scryfall.com/card/gpt/157/,Guildpact,rare,9.67,2006-02-03T00:00:00Z,2,good
 Animate Dead,en,https://scryfall.com/card/3ed/93/,Revised Edition,uncommon,5.51,1994-04-11T00:00:00Z,1,excellent
 "Birgi, God of Storytelling // Harnfel, Horn of Bounty",en,https://scryfall.com/card/khm/123/,Kaldheim,rare,13.42,2021-02-05T00:00:00Z,1,near_mint
 Shifting Woodland,en,https://scryfall.com/card/mh3/228/,Modern Horizons 3,rare,4.36,2024-06-14T00:00:00Z,1,near_mint
@@ -2346,3 +2346,15 @@ Mandate of Peace,en,https://scryfall.com/card/c19/4/,Commander 2019,rare,0.95,20
 Pearl Medallion,en,https://scryfall.com/card/mh3/294/,Modern Horizons 3,rare,1.93,2024-06-14T00:00:00Z,1,near_mint
 Myriad Landscape,en,https://scryfall.com/card/ncc/416/,New Capenna Commander,uncommon,0.10,2022-04-29T00:00:00Z,4,near_mint
 Boros Garrison,en,https://scryfall.com/card/rav/275/,Ravnica: City of Guilds,common,0.18,2005-10-07T00:00:00Z,4,excellent
+Edge of Autumn,en,https://scryfall.com/card/fut/144/,Future Sight,common,0.20,2007-05-04T00:00:00Z,1,excellent
+Rite of Harmony,en,https://scryfall.com/card/mid/236/,Innistrad: Midnight Hunt,rare,0.98,2021-09-24T00:00:00Z,4,near_mint
+Talon Gates of Madara,en,https://scryfall.com/card/m3c/134/,Modern Horizons 3 Commander,rare,12.31,2024-06-14T00:00:00Z,1,near_mint
+Sylvan Safekeeper,en,https://scryfall.com/card/jud/133/,Judgment,rare,9.61,2002-05-27T00:00:00Z,1,excellent
+Squandered Resources,en,https://scryfall.com/card/vis/137/,Visions,rare,18.36,1997-02-03T00:00:00Z,1,excellent
+Horizon Canopy,en,https://scryfall.com/card/fut/177/,Future Sight,rare,4.01,2007-05-04T00:00:00Z,1,excellent
+Phyrexian Tower,en,https://scryfall.com/card/mh3/303/,Modern Horizons 3,mythic,16.57,2024-06-14T00:00:00Z,1,near_mint
+Three Visits,en,https://scryfall.com/card/otc/209/,Outlaws of Thunder Junction Commander,uncommon,5.99,2024-04-19T00:00:00Z,2,near_mint
+Scapeshift,en,https://scryfall.com/card/m19/201/,Core Set 2019,mythic,16.40,2018-07-13T00:00:00Z,1,near_mint
+Glacial Chasm,en,https://scryfall.com/card/ice/353/,Ice Age,uncommon,12.50,1995-06-03T00:00:00Z,1,good
+Dread Return,en,https://scryfall.com/card/tsp/104/,Time Spiral,uncommon,0.28,2006-10-06T00:00:00Z,1,excellent
+Overgrown Tomb,en,https://scryfall.com/card/rav/279/,Ravnica: City of Guilds,rare,9.85,2005-10-07T00:00:00Z,1,near_mint

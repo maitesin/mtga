@@ -5,7 +5,7 @@ date = "2023-01-13T00:00:00Z"
 name = "Nature's Lore"
 lang = ["en"]
 price = ""
-quantity = 1
+quantity = 2
 foil = false
 set = "Dominaria Remastered"
 +++
