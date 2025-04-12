@@ -5,7 +5,7 @@ date = "2005-10-07T00:00:00Z"
 name = "Dimir Signet"
 lang = ["es"]
 price = "0.44"
-quantity = 1
+quantity = 2
 foil = false
 set = "Ravnica: City of Guilds"
 +++

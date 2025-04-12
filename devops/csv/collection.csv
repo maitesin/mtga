@@ -1391,7 +1391,7 @@ Exploration,en,https://scryfall.com/card/2xm/167/,Double Masters,rare,7.50,2020-
 Crop Rotation,en,https://scryfall.com/card/2xm/161/,Double Masters,uncommon,1.01,2020-08-07T00:00:00Z,1,near_mint
 Harmonize,en,https://scryfall.com/card/ema/170/,Eternal Masters,uncommon,0.10,2016-06-10T00:00:00Z,1,near_mint
 Deathsprout,en,https://scryfall.com/card/war/189/,War of the Spark,uncommon,0.11,2019-05-03T00:00:00Z,1,near_mint
-Kodama's Reach,en,https://scryfall.com/card/chk/225/,Champions of Kamigawa,common,0.45,2004-10-01T00:00:00Z,1,near_mint
+Kodama's Reach,en,https://scryfall.com/card/chk/225/,Champions of Kamigawa,common,0.45,2004-10-01T00:00:00Z,2,near_mint
 Tireless Provisioner,en,https://scryfall.com/card/mh2/180/,Modern Horizons 2,uncommon,0.71,2021-06-18T00:00:00Z,1,near_mint
 "Danitha Capashen, Paragon",en,https://scryfall.com/card/dom/12/,Dominaria,uncommon,0.20,2018-04-27T00:00:00Z,1,near_mint
 Staggering Insight,en,https://scryfall.com/card/thb/228/,Theros Beyond Death,uncommon,0.10,2020-01-24T00:00:00Z,1,near_mint
@@ -1520,7 +1520,7 @@ Faerie Macabre,en,https://scryfall.com/card/shm/66/,Shadowmoor,common,1.61,2008-
 Soul Shatter,en,https://scryfall.com/card/znr/127/,Zendikar Rising,rare,1.04,2020-09-25T00:00:00Z,4,near_mint
 The Magic Mirror,en,https://scryfall.com/card/eld/51/,Throne of Eldraine,mythic,2.12,2019-10-04T00:00:00Z,1,near_mint
 Bala Ged Recovery // Bala Ged Sanctuary,en,https://scryfall.com/card/znr/180/,Zendikar Rising,uncommon,2.99,2020-09-25T00:00:00Z,1,near_mint
-Dimir Signet,es,https://scryfall.com/card/rav/260/es/,Ravnica: City of Guilds,common,0.44,2005-10-07T00:00:00Z,1,excellent
+Dimir Signet,es,https://scryfall.com/card/rav/260/es/,Ravnica: City of Guilds,common,0.44,2005-10-07T00:00:00Z,2,excellent
 Golgari Signet,es,https://scryfall.com/card/rav/262/es/,Ravnica: City of Guilds,common,0.13,2005-10-07T00:00:00Z,1,excellent
 Selesnya Signet,es,https://scryfall.com/card/rav/270/es/,Ravnica: City of Guilds,common,0.31,2005-10-07T00:00:00Z,1,excellent
 Talisman of Indulgence,en,https://scryfall.com/card/mrd/255/,Mirrodin,uncommon,1.24,2003-10-02T00:00:00Z,1,excellent
@@ -2358,3 +2358,22 @@ Scapeshift,en,https://scryfall.com/card/m19/201/,Core Set 2019,mythic,16.40,2018
 Glacial Chasm,en,https://scryfall.com/card/ice/353/,Ice Age,uncommon,12.50,1995-06-03T00:00:00Z,1,good
 Dread Return,en,https://scryfall.com/card/tsp/104/,Time Spiral,uncommon,0.28,2006-10-06T00:00:00Z,1,excellent
 Overgrown Tomb,en,https://scryfall.com/card/rav/279/,Ravnica: City of Guilds,rare,9.85,2005-10-07T00:00:00Z,1,near_mint
+Lim-Dûl's Vault,en,https://scryfall.com/card/all/107/,Alliances,uncommon,3.52,1996-06-10T00:00:00Z,1,excellent
+Izzet Signet,en,https://scryfall.com/card/gpt/152/,Guildpact,common,0.60,2006-02-03T00:00:00Z,1,excellent
+Professor Onyx,en,https://scryfall.com/card/dsc/153/,Duskmourn: House of Horror Commander,mythic,1.13,2024-09-27T00:00:00Z,1,near_mint
+Arcane Denial,en,https://scryfall.com/card/drc/70/,Aetherdrift Commander,common,1.66,2025-02-14T00:00:00Z,5,near_mint
+Increasing Vengeance,en,https://scryfall.com/card/dka/95/,Dark Ascension,rare,0.73,2012-02-03T00:00:00Z,1,excellent
+Chaos Warp,en,https://scryfall.com/card/mkc/149/,Murders at Karlov Manor Commander,rare,0.55,2024-02-09T00:00:00Z,3,near_mint
+Endless Detour,en,https://scryfall.com/card/snc/183/,Streets of New Capenna,rare,0.16,2022-04-29T00:00:00Z,1,near_mint
+Dusk // Dawn,en,https://scryfall.com/card/mkc/61/,Murders at Karlov Manor Commander,rare,0.17,2024-02-09T00:00:00Z,1,near_mint
+Enduring Courage,en,https://scryfall.com/card/dsk/133/,Duskmourn: House of Horror,rare,1.19,2024-09-27T00:00:00Z,1,near_mint
+Lotus Field,en,https://scryfall.com/card/m20/249/,Core Set 2020,rare,5.39,2019-07-12T00:00:00Z,1,near_mint
+Conjurer's Closet,en,https://scryfall.com/card/inr/441/,Innistrad Remastered,rare,,2025-01-24T00:00:00Z,1,near_mint
+Dramatic Reversal,en,https://scryfall.com/card/kld/44/,Kaladesh,common,0.70,2016-09-30T00:00:00Z,1,near_mint
+Moonsnare Specialist,en,https://scryfall.com/card/neo/335/,Kamigawa: Neon Dynasty,common,0.09,2022-02-18T00:00:00Z,1,near_mint
+Enter the Enigma,en,https://scryfall.com/card/dsk/52/,Duskmourn: House of Horror,common,0.13,2024-09-27T00:00:00Z,1,near_mint
+Silent-Blade Oni,en,https://scryfall.com/card/otc/241/,Outlaws of Thunder Junction Commander,rare,0.49,2024-04-19T00:00:00Z,1,near_mint
+An Offer You Can't Refuse,en,https://scryfall.com/card/fdn/160/,Foundations,uncommon,1.22,2024-11-15T00:00:00Z,2,near_mint
+Wonder,en,https://scryfall.com/card/jud/54/,Judgment,uncommon,1.30,2002-05-27T00:00:00Z,1,near_mint
+High Fae Trickster,es,https://scryfall.com/card/fdn/40/es/,Foundations,rare,1.46,2024-11-15T00:00:00Z,1,near_mint
+Rite of the Dragoncaller,es,https://scryfall.com/card/fdn/92/es/,Foundations,mythic,4.50,2024-11-15T00:00:00Z,1,near_mint
