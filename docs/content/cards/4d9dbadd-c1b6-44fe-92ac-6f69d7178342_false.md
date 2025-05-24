@@ -5,7 +5,7 @@ date = "2019-06-14T00:00:00Z"
 name = "Talisman of Creativity"
 lang = ["en"]
 price = "0.45"
-quantity = 1
+quantity = 2
 foil = false
 set = "Modern Horizons"
 +++

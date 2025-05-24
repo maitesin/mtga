@@ -5,7 +5,7 @@ date = "2023-11-17T00:00:00Z"
 name = "Roaming Throne"
 lang = ["en"]
 price = "14.57"
-quantity = 1
+quantity = 2
 foil = false
 set = "The Lost Caverns of Ixalan"
 +++

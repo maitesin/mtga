@@ -5,7 +5,7 @@ date = "2022-04-29T00:00:00Z"
 name = "Rumor Gatherer"
 lang = ["en"]
 price = "0.15"
-quantity = 1
+quantity = 2
 foil = false
 set = "Streets of New Capenna"
 +++

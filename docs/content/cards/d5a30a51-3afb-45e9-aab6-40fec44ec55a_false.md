@@ -5,7 +5,7 @@ date = "2022-11-18T00:00:00Z"
 name = "Arcane Signet"
 lang = ["en"]
 price = "1.46"
-quantity = 3
+quantity = 7
 foil = false
 set = "The Brothers' War Commander"
 +++

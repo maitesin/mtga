@@ -5,7 +5,7 @@ date = "2019-10-04T00:00:00Z"
 name = "Murderous Rider // Swift End"
 lang = ["en"]
 price = "1.41"
-quantity = 4
+quantity = 5
 foil = false
 set = "Throne of Eldraine"
 +++

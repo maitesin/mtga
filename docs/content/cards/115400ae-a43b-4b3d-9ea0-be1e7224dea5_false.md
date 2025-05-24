@@ -5,7 +5,7 @@ date = "2024-06-14T00:00:00Z"
 name = "Bloodstained Mire"
 lang = ["en"]
 price = ""
-quantity = 1
+quantity = 2
 foil = false
 set = "Modern Horizons 3"
 +++
