@@ -5,7 +5,7 @@ date = "2021-03-19T00:00:00Z"
 name = "Beast Within"
 lang = ["en"]
 price = "1.50"
-quantity = 1
+quantity = 2
 foil = false
 set = "Time Spiral Remastered"
 +++
