@@ -5,7 +5,7 @@ date = "2019-06-14T00:00:00Z"
 name = "Ephemerate"
 lang = ["en"]
 price = "0.86"
-quantity = 4
+quantity = 8
 foil = false
 set = "Modern Horizons"
 +++
