@@ -58,7 +58,7 @@ func NewFetcher(c *http.Client, limiter *rate.Limiter) *Fetcher {
 func (f *Fetcher) Fetch(number int, set string, lang string, opts ...fetcher.Opt) (fetcher.Card, error) {
 	foil := containsFoil(opts...)
 
-	cardInfoEn, err := f.downloadCard(number, set, "en")
+	cardInfoEn, err := f.downloadCard(number, set)
 	if err != nil {
 		return fetcher.Card{}, err
 	}
@@ -75,7 +75,7 @@ func (f *Fetcher) Fetch(number int, set string, lang string, opts ...fetcher.Opt
 			return fetcher.Card{}, err
 		}
 	} else {
-		cardInfoEn, err = f.downloadCard(number, set, lang)
+		cardInfoEn, err = f.downloadCard(number, set, func(s string) string { return s + "/" + lang })
 		if err != nil {
 			return fetcher.Card{}, err
 		}
@@ -103,7 +103,7 @@ func (f *Fetcher) Fetch(number int, set string, lang string, opts ...fetcher.Opt
 		price = cardInfoEn.Prices.Foil
 	}
 
-	cardInfoLang, err := f.downloadCard(number, set, lang)
+	cardInfoLang, err := f.downloadCard(number, set, func(s string) string { return s + "/" + lang })
 	if err != nil {
 		return fetcher.Card{}, err
 	}
@@ -123,8 +123,14 @@ func (f *Fetcher) Fetch(number int, set string, lang string, opts ...fetcher.Opt
 	}, nil
 }
 
-func (f *Fetcher) downloadCard(number int, set string, lang string) (card, error) {
-	body, err := f.doRequest(fmt.Sprintf("%s/cards/%s/%d/%s", scryfallUrl, set, number, lang))
+type URLOption func(string) string
+
+func (f *Fetcher) downloadCard(number int, set string, opts ...URLOption) (card, error) {
+	fetchURL := fmt.Sprintf("%s/cards/%s/%d", scryfallUrl, set, number)
+	for _, opt := range opts {
+		fetchURL = opt(fetchURL)
+	}
+	body, err := f.doRequest(fetchURL)
 	if err != nil {
 		return card{}, err
 	}
@@ -143,6 +149,8 @@ func (f *Fetcher) doRequest(endpoint string) ([]byte, error) {
 	if err != nil {
 		return nil, err
 	}
+	req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0")
+	req.Header.Set("Accept", "*/*")
 	resp, err := f.client.Do(req)
 	if err != nil {
 		return nil, err
