@@ -5,7 +5,7 @@ date = "2023-11-17T00:00:00Z"
 name = "Amalia Benavides Aguirre"
 lang = ["en"]
 price = "0.89"
-quantity = 1
+quantity = 2
 foil = false
 set = "The Lost Caverns of Ixalan"
 +++

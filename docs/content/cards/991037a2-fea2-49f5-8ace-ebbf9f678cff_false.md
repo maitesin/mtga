@@ -5,7 +5,7 @@ date = "2003-10-02T00:00:00Z"
 name = "Talisman of Dominance"
 lang = ["en","es"]
 price = "0.47"
-quantity = 4
+quantity = 5
 foil = false
 set = "Mirrodin"
 +++

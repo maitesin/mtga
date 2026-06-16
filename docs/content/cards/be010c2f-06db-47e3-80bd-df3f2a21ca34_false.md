@@ -5,7 +5,7 @@ date = "2006-02-03T00:00:00Z"
 name = "Godless Shrine"
 lang = ["en"]
 price = "9.67"
-quantity = 2
+quantity = 5
 foil = false
 set = "Guildpact"
 +++

@@ -5,7 +5,7 @@ date = "2009-07-17T00:00:00Z"
 name = "Drowned Catacomb"
 lang = ["en"]
 price = "4.48"
-quantity = 4
+quantity = 5
 foil = false
 set = "Magic 2010"
 +++

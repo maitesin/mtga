@@ -5,7 +5,7 @@ date = "2023-08-04T00:00:00Z"
 name = "Fierce Guardianship"
 lang = ["en"]
 price = "33.71"
-quantity = 1
+quantity = 2
 foil = false
 set = "Commander Masters"
 +++

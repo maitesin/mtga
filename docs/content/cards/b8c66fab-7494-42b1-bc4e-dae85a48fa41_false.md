@@ -5,7 +5,7 @@ date = "2023-11-17T00:00:00Z"
 name = "Black Market Connections"
 lang = ["en"]
 price = "16.14"
-quantity = 1
+quantity = 2
 foil = false
 set = "The Lost Caverns of Ixalan Commander"
 +++

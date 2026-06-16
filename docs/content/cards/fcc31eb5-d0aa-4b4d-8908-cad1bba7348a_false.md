@@ -5,7 +5,7 @@ date = "2022-11-18T00:00:00Z"
 name = "Reliquary Tower"
 lang = ["en"]
 price = "2.61"
-quantity = 2
+quantity = 3
 foil = false
 set = "The Brothers' War Commander"
 +++

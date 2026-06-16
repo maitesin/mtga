@@ -5,7 +5,7 @@ date = "2024-06-14T00:00:00Z"
 name = "Polluted Delta"
 lang = ["en"]
 price = "14.65"
-quantity = 1
+quantity = 4
 foil = false
 set = "Modern Horizons 3"
 +++
